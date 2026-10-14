@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part7",
+  "description": "Partie 7 — entraînement : 3 documents doubles et 4 documents triples (35 questions).",
+  "groups": [
+    {
+      "id": "toeic-p7-g0053",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "double-passage",
+      "difficulty": 3,
+      "tags": [
+        "cours de langue"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Lingua Bridge Language Center — Evening Courses (10 weeks, starting September 8)",
+          "body": "Free placement test for all intermediate and advanced courses. Register before August 25 and save 10%.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Course",
+              "Schedule",
+              "Price"
+            ],
+            "rows": [
+              [
+                "Spanish for Beginners",
+                "Mon & Wed, 6:00–7:30 P.M.",
+                "$280"
+              ],
+              [
+                "Business English",
+                "Tue & Thu, 6:00–7:30 P.M.",
+                "$320"
+              ],
+              [
+                "Japanese Conversation (intermediate)",
+                "Wed, 7:00–9:00 P.M.",
+                "$300"
+              ],
+              [
+                "French for Travelers",
+                "Sat, 10:00 A.M.–12:00 P.M.",
+                "$250"
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "info@linguabridge.com",
+            "From": "Hiro Tanaka",
+            "Date": "August 20"
+          },
+          "body": "Hello,\n\nI'm interested in improving my Japanese. I studied it at university and lived in Osaka for a year, but I haven't used it much since then.\n\nI work late on Mondays and Tuesdays, so I'd need a class on another weekday evening. Could I take the placement test this week?\n\nThank you,\nHiro Tanaka"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0054",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "double-passage",
+      "difficulty": 4,
+      "tags": [
+        "salon",
+        "programme"
+      ],
+      "passages": [
+        {
+          "kind": "schedule",
+          "title": "Green Building Expo — Day 2 Program, Hall B",
+          "body": "Lunch break: 12:00–13:00 in the Atrium. All sessions are recorded and made available to registered attendees after the event.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Time",
+              "Session",
+              "Speaker"
+            ],
+            "rows": [
+              [
+                "9:00",
+                "Solar Roofs Today",
+                "Dr. Ana Ferraz"
+              ],
+              [
+                "10:30",
+                "Water-Saving Design",
+                "Mark Ellison"
+              ],
+              [
+                "13:00",
+                "Insulation Materials",
+                "Priya Desai"
+              ],
+              [
+                "14:30",
+                "Panel: Financing Green Projects",
+                "Various"
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Expo Organizers",
+            "From": "Mark Ellison",
+            "Subject": "Day 2"
+          },
+          "body": "Hello,\n\nUnfortunately, my flight from Chicago arrives later than I expected, at 11:15 on Day 2. Would it be possible to swap my session with Ms. Desai's? I've already spoken with her, and she's happy to present earlier.\n\nAlso, I'll need a microphone that I can wear, as I like to walk around while I speak.\n\nThank you,\nMark Ellison"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0055",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "double-passage",
+      "difficulty": 4,
+      "tags": [
+        "urbanisme",
+        "courrier des lecteurs"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Plans for Riverside Apartments Approved",
+          "body": "The Clayton City Council voted 5–2 on Tuesday to approve a 12-story apartment building on the site of the former Riverside textile mill. The project, developed by Northgate Properties, will include 180 apartments, 40 of which will be offered at below-market rents. Construction is expected to begin in the spring and to take two years.\n\nSupporters say the project will help address the city's housing shortage. Opponents argue that the building's height will block views of the river and increase traffic on Mill Street."
+        },
+        {
+          "kind": "letter",
+          "title": "To the Editor",
+          "body": "I was disappointed to read about the council's decision on the Riverside Apartments. As a resident of Mill Street for over 20 years, I have seen traffic grow steadily, and this project will only make it worse.\n\nI am not against new housing; our city clearly needs it. But a building half the height would provide much-needed apartments without overwhelming the neighborhood. I urge the council to work with Northgate Properties on a revised design.\n\nGloria Mendez, Clayton"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0056",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "triple-passage",
+      "difficulty": 4,
+      "tags": [
+        "hôtel",
+        "réservation"
+      ],
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Alpine Crest Hotel — Rooms & Rates (per night)",
+          "body": "All rates include breakfast. Free cancellation up to 72 hours before arrival. Guests staying three nights or more receive a complimentary spa pass.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Room",
+              "Weekday",
+              "Weekend"
+            ],
+            "rows": [
+              [
+                "Standard (1 queen bed)",
+                "$140",
+                "$170"
+              ],
+              [
+                "Deluxe (1 king bed, mountain view)",
+                "$190",
+                "$230"
+              ],
+              [
+                "Family Suite (2 queen beds, kitchenette)",
+                "$260",
+                "$300"
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "reservations@alpinecrest.com",
+            "From": "Renata Silva",
+            "Date": "January 10"
+          },
+          "body": "Hello,\n\nI'd like to book a room for my family (two adults and two children) from Friday, February 13, to Monday, February 16. We'll be cooking some of our own meals, so a kitchen would be very helpful.\n\nCould you also tell me whether the hotel offers ski equipment rental?\n\nThank you,\nRenata Silva"
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Renata Silva",
+            "From": "Tom Becker, Reservations",
+            "Date": "January 11"
+          },
+          "body": "Dear Ms. Silva,\n\nThank you for your inquiry. I have reserved the room you need for the dates requested. As you are staying three nights, a spa pass will be included.\n\nRegarding your question, we do not rent ski equipment ourselves, but Summit Sports, located next to our lobby, offers a 15% discount to our guests.\n\nI look forward to welcoming you.\n\nTom Becker"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0057",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "triple-passage",
+      "difficulty": 4,
+      "tags": [
+        "stationnement",
+        "covoiturage"
+      ],
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Torrance Medical Center — Staff Parking Update",
+          "body": "Due to construction of the new outpatient wing, Lot B will close permanently on March 1. Staff currently parking in Lot B have two options:\n\n1. Park in the new West Garage for $35 per month (a $15 increase).\n2. Join our carpool program: registered carpools of three or more employees park free in reserved spaces in Lot A.\n\nSubmit the carpool registration form to the Transportation Office by February 20."
+        },
+        {
+          "kind": "form",
+          "title": "Carpool Registration Form",
+          "meta": {
+            "Driver": "Nadia Rahman, Radiology, ext. 4471",
+            "Passengers": "Felix Ortega (Radiology), Grace Kim (Pharmacy)",
+            "Usual schedule": "Mon–Fri, arrive 7:00 A.M., depart 3:30 P.M.",
+            "Vehicle": "Blue sedan, license 7KPT219",
+            "Date submitted": "February 18"
+          },
+          "body": "All members must work at Torrance Medical Center."
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Nadia Rahman",
+            "From": "Transportation Office",
+            "Date": "February 24"
+          },
+          "body": "Dear Ms. Rahman,\n\nThank you for registering your carpool. Your group has been assigned space 12 in Lot A. Please display the attached permit on your dashboard at all times.\n\nNote that if any member leaves your carpool, you must inform us within one week, as carpools with fewer than three members are not eligible for free parking.\n\nTransportation Office"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0058",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "triple-passage",
+      "difficulty": 5,
+      "tags": [
+        "traiteur",
+        "facture"
+      ],
+      "passages": [
+        {
+          "kind": "invoice",
+          "title": "Golden Fork Catering — Invoice #GF-3381",
+          "meta": {
+            "Client": "Arlo Design Studio",
+            "Event": "Product launch reception, April 24"
+          },
+          "body": "Payment due within 14 days of the event.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Item",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Hot appetizers (80 guests × $12)",
+                "$960"
+              ],
+              [
+                "Dessert platter (80 guests × $5)",
+                "$400"
+              ],
+              [
+                "Beverage service (4 hours × $90)",
+                "$360"
+              ],
+              [
+                "Staff (3 servers × 4 hours × $30)",
+                "$360"
+              ],
+              [
+                "Subtotal",
+                "$2,080"
+              ],
+              [
+                "Deposit paid (March 30)",
+                "−$500"
+              ],
+              [
+                "Balance due",
+                "$1,580"
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "billing@goldenfork.com",
+            "From": "Yasmin Clarke, Arlo Design Studio",
+            "Date": "April 28",
+            "Subject": "Invoice GF-3381"
+          },
+          "body": "Hello,\n\nThank you for the wonderful food at our launch event; our guests loved it.\n\nI have one question about the invoice. We agreed in advance that there would be 70 guests, not 80, and only 65 people actually attended. Could you check the guest count and send a revised invoice? Everything else looks correct.\n\nBest regards,\nYasmin Clarke"
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Yasmin Clarke",
+            "From": "Victor Lam, Golden Fork Catering",
+            "Date": "April 29"
+          },
+          "body": "Dear Ms. Clarke,\n\nThank you for your kind words. You are correct: our contract states 70 guests, and the invoice should reflect that number. As per our policy, we charge for the confirmed guest count rather than for actual attendance.\n\nA revised invoice is attached; the balance due is now $1,410. We look forward to working with you again.\n\nVictor Lam"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0059",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "triple-passage",
+      "difficulty": 5,
+      "tags": [
+        "musée",
+        "sortie"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Museum Launches Late-Night Fridays",
+          "body": "Beginning in June, the Halvorsen Art Museum will stay open until 10 P.M. every Friday. The program, called “After Hours,” will feature live music, guided tours, and a bar in the sculpture garden.\n\nAdmission after 6 P.M. will be $12, compared with the regular $18, and museum members will continue to enter free. Museum director Ingrid Solberg said the goal is to attract younger visitors who work during the day. “Many people tell us they'd love to visit but can't come before closing time,” she said."
+        },
+        {
+          "kind": "schedule",
+          "title": "After Hours — June Program",
+          "body": "Tours are limited to 25 people; sign up at the information desk on arrival.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Date",
+              "Live music",
+              "Guided tour (7:30 P.M.)"
+            ],
+            "rows": [
+              [
+                "June 6",
+                "Jazz trio",
+                "Impressionist Gallery"
+              ],
+              [
+                "June 13",
+                "Classical guitar",
+                "Modern Sculpture"
+              ],
+              [
+                "June 20",
+                "No music (private event in the garden)",
+                "Photography Wing"
+              ],
+              [
+                "June 27",
+                "Folk duo",
+                "Impressionist Gallery"
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Leon Brandt",
+            "From": "Olga Petersen",
+            "Date": "June 2"
+          },
+          "body": "Hi Leon,\n\nI saw that the art museum is now open late on Fridays. Want to go together? I'd especially like to join the tour of the sculpture collection, and it would be nice to have live music too.\n\nI'm not a member, but you are, right? Let me know which Friday works for you.\n\nOlga"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p7-0172","exam":"toeic","section":"part7","groupId":"toeic-p7-g0053","skill":"p7-details","difficulty":2,"prompt":"How long do the courses last?","options":["Eight weeks","Six months","One year","Ten weeks"],"answer":3,"explanation":"« Evening Courses (10 weeks, starting September 8) ».","trap":"« a year » concerne le séjour de M. Tanaka à Osaka.","recommendedSeconds":40,"tags":["durée"]},
+    {"id":"toeic-p7-0173","exam":"toeic","section":"part7","groupId":"toeic-p7-g0053","skill":"p7-synthese","difficulty":4,"prompt":"Which course is Mr. Tanaka most likely interested in?","options":["Japanese Conversation","Spanish for Beginners","Business English","French for Travelers"],"answer":0,"explanation":"Il veut progresser en japonais, a déjà un niveau et doit éviter lundi et mardi : le cours de conversation japonaise (intermédiaire), le mercredi.","trap":"Le cours d'espagnol a lieu le lundi, son soir de travail tardif.","recommendedSeconds":70,"tags":["croisement"]},
+    {"id":"toeic-p7-0174","exam":"toeic","section":"part7","groupId":"toeic-p7-g0053","skill":"p7-synthese","difficulty":4,"prompt":"How much will Mr. Tanaka most likely pay if he registers this week?","options":["$250","$270","$280","$300"],"answer":1,"explanation":"Cours de japonais à 300 $ ; inscription avant le 25 août (on est le 20) donc 10 % de remise : 270 $.","trap":"Oublier la remise d'inscription anticipée.","recommendedSeconds":80,"tags":["croisement","calcul"]},
+    {"id":"toeic-p7-0175","exam":"toeic","section":"part7","groupId":"toeic-p7-g0053","skill":"p7-details","difficulty":3,"prompt":"What is indicated about Mr. Tanaka?","options":["He works late on Wednesdays.","He has lived in Japan.","He teaches at a university.","He is a beginner in Japanese."],"answer":1,"explanation":"« lived in Osaka for a year ».","trap":"Il travaille tard le lundi et le mardi, pas le mercredi.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0176","exam":"toeic","section":"part7","groupId":"toeic-p7-g0053","skill":"p7-inference","difficulty":3,"prompt":"What does Mr. Tanaka want to do this week?","options":["Start his classes","Take a test","Travel to Osaka","Meet a teacher"],"answer":1,"explanation":"« Could I take the placement test this week? »","trap":"Les cours ne commencent que le 8 septembre.","recommendedSeconds":40,"tags":["demande"]},
+    {"id":"toeic-p7-0177","exam":"toeic","section":"part7","groupId":"toeic-p7-g0054","skill":"p7-details","difficulty":2,"prompt":"What is indicated about the sessions?","options":["They are held in different halls.","They include lunch.","They require separate registration.","They will be recorded."],"answer":3,"explanation":"« All sessions are recorded and made available to registered attendees ».","trap":"Toutes les séances ont lieu dans le hall B.","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0178","exam":"toeic","section":"part7","groupId":"toeic-p7-g0054","skill":"p7-idee-principale","difficulty":2,"prompt":"Why did Mr. Ellison write the e-mail?","options":["To cancel his session","To ask about flight options","To request a change to the schedule","To register for the expo"],"answer":2,"explanation":"Il demande d'échanger son créneau avec celui de Mme Desai.","trap":"Il parle de son vol, mais pour justifier sa demande.","recommendedSeconds":40,"tags":["but"]},
+    {"id":"toeic-p7-0179","exam":"toeic","section":"part7","groupId":"toeic-p7-g0054","skill":"p7-synthese","difficulty":4,"prompt":"If his request is accepted, when will Mr. Ellison speak?","options":["At 9:00","At 10:30","At 13:00","At 14:30"],"answer":2,"explanation":"Il prendrait le créneau de Mme Desai : 13 h 00.","trap":"10 h 30 est son créneau actuel, impossible à cause de son arrivée à 11 h 15.","recommendedSeconds":60,"tags":["croisement"]},
+    {"id":"toeic-p7-0180","exam":"toeic","section":"part7","groupId":"toeic-p7-g0054","skill":"p7-synthese","difficulty":4,"prompt":"Who will speak at 10:30 if the change is made?","options":["Priya Desai","Ana Ferraz","Mark Ellison","A panel of speakers"],"answer":0,"explanation":"En cas d'échange, Mme Desai, qui accepte de présenter plus tôt, prend le créneau de 10 h 30.","trap":"Dr Ferraz garde son créneau de 9 h.","recommendedSeconds":60,"tags":["croisement"]},
+    {"id":"toeic-p7-0181","exam":"toeic","section":"part7","groupId":"toeic-p7-g0054","skill":"p7-details","difficulty":3,"prompt":"What equipment does Mr. Ellison request?","options":["A wearable microphone","A projector","A larger room","A copy of the recording"],"answer":0,"explanation":"« a microphone that I can wear » : un micro-cravate ou serre-tête.","trap":"L'enregistrement est prévu pour toutes les séances ; il ne le demande pas.","recommendedSeconds":40,"tags":["paraphrase"]},
+    {"id":"toeic-p7-0182","exam":"toeic","section":"part7","groupId":"toeic-p7-g0055","skill":"p7-details","difficulty":2,"prompt":"What will the new building replace?","options":["A park","A parking garage","An apartment complex","A former factory"],"answer":3,"explanation":"« on the site of the former Riverside textile mill » : une ancienne usine textile.","trap":"« mill » doit être compris comme « usine ».","recommendedSeconds":40,"tags":["vocabulaire"]},
+    {"id":"toeic-p7-0183","exam":"toeic","section":"part7","groupId":"toeic-p7-g0055","skill":"p7-details","difficulty":3,"prompt":"How many apartments will be offered at reduced rents?","options":["5","12","40","180"],"answer":2,"explanation":"« 180 apartments, 40 of which will be offered at below-market rents ».","trap":"180 est le total ; 12 le nombre d'étages ; 5 le nombre de voix pour.","recommendedSeconds":40,"tags":["chiffres"]},
+    {"id":"toeic-p7-0184","exam":"toeic","section":"part7","groupId":"toeic-p7-g0055","skill":"p7-synthese","difficulty":4,"prompt":"Which concern raised by opponents does Ms. Mendez share?","options":["Lost views of the river","Construction noise","Higher rents","Increased traffic"],"answer":3,"explanation":"Les opposants citent la vue et la circulation (article) ; Mme Mendez insiste sur la circulation de Mill Street (lettre).","trap":"Elle critique la hauteur, mais ne parle pas de la vue sur la rivière.","recommendedSeconds":70,"tags":["croisement"]},
+    {"id":"toeic-p7-0185","exam":"toeic","section":"part7","groupId":"toeic-p7-g0055","skill":"p7-inference","difficulty":4,"prompt":"What does Ms. Mendez suggest?","options":["Canceling the project","Moving the project elsewhere","Building a shorter structure","Holding a new vote"],"answer":2,"explanation":"« a building half the height would provide much-needed apartments ».","trap":"Elle n'est pas contre le projet : « I am not against new housing ».","recommendedSeconds":50,"tags":["suggestion"]},
+    {"id":"toeic-p7-0186","exam":"toeic","section":"part7","groupId":"toeic-p7-g0055","skill":"p7-vocabulaire","difficulty":4,"prompt":"In the letter, the word “overwhelming” is closest in meaning to","options":["surprising","overpowering","confusing","flooding"],"answer":1,"explanation":"« without overwhelming the neighborhood » : sans écraser le quartier par sa taille.","trap":"« flooding » est un sens littéral proche (submerger) qui ne convient pas ici.","recommendedSeconds":50,"tags":["vocabulaire en contexte"]},
+    {"id":"toeic-p7-0187","exam":"toeic","section":"part7","groupId":"toeic-p7-g0056","skill":"p7-details","difficulty":2,"prompt":"What is included in all room rates?","options":["A spa pass","Parking","Ski rental","Breakfast"],"answer":3,"explanation":"« All rates include breakfast. »","trap":"Le pass spa est réservé aux séjours de trois nuits ou plus.","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0188","exam":"toeic","section":"part7","groupId":"toeic-p7-g0056","skill":"p7-synthese","difficulty":4,"prompt":"Which room did Mr. Becker most likely reserve?","options":["A Deluxe room","A Standard room","A Family Suite","Two Standard rooms"],"answer":2,"explanation":"Quatre personnes et besoin d'une cuisine : seule la Family Suite (2 lits queen, kitchenette) convient, et il réserve « the room you need ».","trap":"La chambre Deluxe offre une vue, pas de cuisine.","recommendedSeconds":70,"tags":["croisement"]},
+    {"id":"toeic-p7-0189","exam":"toeic","section":"part7","groupId":"toeic-p7-g0056","skill":"p7-synthese","difficulty":5,"prompt":"What will Ms. Silva receive because of the length of her stay?","options":["A free night","A discount on ski rental","Free cancellation","A spa pass"],"answer":3,"explanation":"Du vendredi 13 au lundi 16 : trois nuits, donc un pass spa offert (document 1, confirmé dans le document 3).","trap":"La remise de 15 % chez Summit Sports concerne tous les clients, quelle que soit la durée.","recommendedSeconds":80,"tags":["croisement","dates"]},
+    {"id":"toeic-p7-0190","exam":"toeic","section":"part7","groupId":"toeic-p7-g0056","skill":"p7-details","difficulty":3,"prompt":"What does Ms. Silva ask about?","options":["Airport transportation","Room service","Activities for children","Equipment rental"],"answer":3,"explanation":"« whether the hotel offers ski equipment rental ».","trap":"Elle voyage avec des enfants, mais ne demande pas d'activités pour eux.","recommendedSeconds":40,"tags":["demande"]},
+    {"id":"toeic-p7-0191","exam":"toeic","section":"part7","groupId":"toeic-p7-g0056","skill":"p7-inference","difficulty":4,"prompt":"What is suggested about Summit Sports?","options":["It is close to the hotel.","It is owned by the hotel.","It offers free ski lessons.","It is closed in February."],"answer":0,"explanation":"« located next to our lobby ».","trap":"« we do not rent ski equipment ourselves » : le magasin n'appartient pas à l'hôtel.","recommendedSeconds":50,"tags":["inférence"]},
+    {"id":"toeic-p7-0192","exam":"toeic","section":"part7","groupId":"toeic-p7-g0057","skill":"p7-idee-principale","difficulty":2,"prompt":"Why is Lot B closing?","options":["It is being repaved.","It is too small.","It is unsafe.","A new building is being constructed."],"answer":3,"explanation":"« Due to construction of the new outpatient wing ».","trap":"La fermeture est définitive : il ne s'agit pas de simples travaux de revêtement.","recommendedSeconds":40,"tags":["cause"]},
+    {"id":"toeic-p7-0193","exam":"toeic","section":"part7","groupId":"toeic-p7-g0057","skill":"p7-details","difficulty":3,"prompt":"What is indicated about the West Garage?","options":["It is free for carpools.","It will close in March.","It costs more per month than Lot B.","It is next to the radiology department."],"answer":2,"explanation":"35 $ par mois, « a $15 increase » : plus cher que le parking B.","trap":"Les covoitureurs se garent gratuitement dans le parking A, pas au West Garage.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0194","exam":"toeic","section":"part7","groupId":"toeic-p7-g0057","skill":"p7-synthese","difficulty":4,"prompt":"What is suggested about Ms. Rahman's form?","options":["It was rejected.","It listed four members.","It included a payment.","It was submitted before the deadline."],"answer":3,"explanation":"Formulaire déposé le 18 février, avant la date limite du 20 février.","trap":"Le groupe compte trois membres : la conductrice et deux passagers.","recommendedSeconds":60,"tags":["croisement","dates"]},
+    {"id":"toeic-p7-0195","exam":"toeic","section":"part7","groupId":"toeic-p7-g0057","skill":"p7-synthese","difficulty":4,"prompt":"Why will Ms. Rahman's group be able to park for free?","options":["Its members work in radiology.","They arrive early in the morning.","It has at least three members.","They drive a small car."],"answer":2,"explanation":"Les covoiturages de trois personnes ou plus se garent gratuitement ; le formulaire liste trois personnes.","trap":"Mme Kim travaille à la pharmacie : tous ne sont pas en radiologie.","recommendedSeconds":60,"tags":["croisement"]},
+    {"id":"toeic-p7-0196","exam":"toeic","section":"part7","groupId":"toeic-p7-g0057","skill":"p7-inference","difficulty":4,"prompt":"What must Ms. Rahman do if Mr. Ortega leaves the carpool?","options":["Move her car to Lot B","Pay a fine","Notify the Transportation Office","Find a new driver"],"answer":2,"explanation":"« if any member leaves your carpool, you must inform us within one week ».","trap":"Le parking B sera définitivement fermé.","recommendedSeconds":50,"tags":["condition"]},
+    {"id":"toeic-p7-0197","exam":"toeic","section":"part7","groupId":"toeic-p7-g0058","skill":"p7-details","difficulty":2,"prompt":"What was the purpose of the event?","options":["To celebrate an anniversary","To welcome new staff","To thank clients","To launch a product"],"answer":3,"explanation":"« Product launch reception, April 24 ».","trap":"Les autres motifs sont plausibles mais absents des documents.","recommendedSeconds":40,"tags":["but"]},
+    {"id":"toeic-p7-0198","exam":"toeic","section":"part7","groupId":"toeic-p7-g0058","skill":"p7-details","difficulty":3,"prompt":"What does Ms. Clarke say about the event?","options":["It lasted more than four hours.","Some food was missing.","The servers arrived late.","The guests enjoyed the food."],"answer":3,"explanation":"« our guests loved it ».","trap":"Elle conteste seulement le nombre d'invités, pas le service.","recommendedSeconds":40,"tags":["opinion"]},
+    {"id":"toeic-p7-0199","exam":"toeic","section":"part7","groupId":"toeic-p7-g0058","skill":"p7-synthese","difficulty":5,"prompt":"What is the revised total before the deposit is deducted?","options":["$1,410","$1,800","$1,910","$2,080"],"answer":2,"explanation":"Le solde révisé est de 1 410 $, après déduction de l'acompte de 500 $ : le total révisé est donc 1 910 $. Vérification : 70 × 12 + 70 × 5 + 360 + 360 = 1 910 $.","trap":"1 410 $ est le solde restant dû, après déduction de l'acompte.","recommendedSeconds":90,"tags":["croisement","calcul"]},
+    {"id":"toeic-p7-0200","exam":"toeic","section":"part7","groupId":"toeic-p7-g0058","skill":"p7-synthese","difficulty":4,"prompt":"For how many guests was Arlo Design Studio finally charged?","options":["65","70","75","80"],"answer":1,"explanation":"L'entreprise facture le nombre d'invités confirmé (70), pas la fréquentation réelle (65).","trap":"65 est le nombre de personnes présentes ; 80 était l'erreur de la première facture.","recommendedSeconds":60,"tags":["croisement"]},
+    {"id":"toeic-p7-0201","exam":"toeic","section":"part7","groupId":"toeic-p7-g0058","skill":"p7-details","difficulty":3,"prompt":"According to Mr. Lam, what is the company's policy?","options":["It charges for the number of guests confirmed in advance.","It charges for actual attendance.","It requires a 50% deposit.","It does not charge for staff."],"answer":0,"explanation":"« we charge for the confirmed guest count rather than for actual attendance ».","trap":"L'option B dit exactement l'inverse de la politique.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0202","exam":"toeic","section":"part7","groupId":"toeic-p7-g0059","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the purpose of the article?","options":["To review an exhibition","To announce extended museum hours","To introduce a new director","To report on a concert"],"answer":1,"explanation":"Le musée restera ouvert jusqu'à 22 h tous les vendredis.","trap":"La musique fait partie du programme, ce n'est pas le sujet de l'article.","recommendedSeconds":40,"tags":["but"]},
+    {"id":"toeic-p7-0203","exam":"toeic","section":"part7","groupId":"toeic-p7-g0059","skill":"p7-details","difficulty":3,"prompt":"Why is the museum starting the program?","options":["To raise money for a new wing","To celebrate an anniversary","To reduce crowding on weekends","To attract visitors who work during the day"],"answer":3,"explanation":"« the goal is to attract younger visitors who work during the day ».","trap":"Le prix réduit n'a pas pour but de financer une nouvelle aile.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0204","exam":"toeic","section":"part7","groupId":"toeic-p7-g0059","skill":"p7-synthese","difficulty":4,"prompt":"On which date will Ms. Petersen most likely want to visit?","options":["June 6","June 20","June 27","June 13"],"answer":3,"explanation":"Elle veut la visite de la sculpture et de la musique live : le 13 juin (Modern Sculpture, guitare classique).","trap":"Le 20 juin n'a pas de musique ; les 6 et 27 juin proposent la galerie impressionniste.","recommendedSeconds":70,"tags":["croisement"]},
+    {"id":"toeic-p7-0205","exam":"toeic","section":"part7","groupId":"toeic-p7-g0059","skill":"p7-synthese","difficulty":5,"prompt":"How much will Ms. Petersen most likely pay for admission?","options":["Nothing","$18","$12","$25"],"answer":2,"explanation":"Elle n'est pas membre et viendra pour la visite de 19 h 30, donc après 18 h : 12 $.","trap":"18 $ est le tarif normal en journée ; la gratuité est réservée aux membres comme M. Brandt.","recommendedSeconds":80,"tags":["croisement"]},
+    {"id":"toeic-p7-0206","exam":"toeic","section":"part7","groupId":"toeic-p7-g0059","skill":"p7-inference","difficulty":4,"prompt":"What is suggested about Mr. Brandt?","options":["He works at the museum.","He plays in a jazz trio.","He can enter the museum for free.","He has visited the sculpture garden before."],"answer":2,"explanation":"Mme Petersen pense qu'il est membre (« you are, right? ») ; les membres entrent gratuitement.","trap":"Rien n'indique qu'il travaille au musée.","recommendedSeconds":50,"tags":["croisement","inférence"]}
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part6",
+  "description": "Partie 6 — g0001-g0004 : blanc n°1 ; g0005-g0008 : blanc n°2 ; g0009-g0017 : entraînement. Chaque texte : 4 blancs dont 1 phrase à insérer.",
+  "groups": [
+    {
+      "id": "toeic-p6-g0001",
+      "exam": "toeic",
+      "section": "part6",
+      "pool": "mock1",
+      "kind": "text-completion",
+      "difficulty": 2,
+      "tags": [
+        "e-mail",
+        "parking"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "All staff",
+            "From": "Mark Delaney, Facilities Manager",
+            "Subject": "Parking garage maintenance"
+          },
+          "body": "Dear colleagues,\n\nPlease be advised that the underground parking garage will be closed {{1}} the weekend of May 18–19 for annual maintenance. During this time, crews will repaint the lines and repair the lighting system.\n\nEmployees who need to come in that weekend may park at the Fairview Shopping Center lot, {{2}} is located two blocks east of our building. {{3}}\n\nWe apologize for any inconvenience and thank you for your {{4}}.\n\nMark Delaney"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0002",
+      "exam": "toeic",
+      "section": "part6",
+      "pool": "mock1",
+      "kind": "text-completion",
+      "difficulty": 3,
+      "tags": [
+        "publicité",
+        "cours"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Grand Opening — Bella Cucina Cooking School",
+          "body": "Have you always wanted to cook like a professional chef? Bella Cucina, Riverton's newest cooking school, {{1}} its doors on Saturday, June 7. Our courses are taught by experienced chefs and are suitable for beginners as well as {{2}} home cooks.\n\nClasses are held in small groups of no more than eight students. {{3}}, every participant receives personal attention from the instructor.\n\nTo celebrate our opening, all students who register before June 30 will receive a 20 percent discount on their first course. {{4}} Visit www.bellacucina-riverton.com to see the full schedule."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0003",
+      "exam": "toeic",
+      "section": "part6",
+      "pool": "mock1",
+      "kind": "text-completion",
+      "difficulty": 3,
+      "tags": [
+        "note de service",
+        "ventes"
+      ],
+      "passages": [
+        {
+          "kind": "memo",
+          "meta": {
+            "To": "Sales Team",
+            "From": "Andrea Novak, Sales Director",
+            "Date": "March 3",
+            "Re": "Next quarter"
+          },
+          "body": "I am pleased to report that our team exceeded its sales target for the last quarter by 12 percent. This is the {{1}} result we have achieved in three years.\n\n{{2}}, we cannot afford to relax. Two new competitors have entered the regional market, and both are offering lower prices. To remain competitive, we will focus on customer service, an area in which we have always {{3}}.\n\n{{4}} I look forward to hearing your ideas.\n\nAndrea"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0004",
+      "exam": "toeic",
+      "section": "part6",
+      "pool": "mock1",
+      "kind": "text-completion",
+      "difficulty": 4,
+      "tags": [
+        "article",
+        "architecture"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Local Firm Wins Design Award",
+          "body": "HALIFAX — Greenway Architects has won this year's National Sustainable Design Award for its work on the new Seabright Public Library. The building, which opened last fall, uses 60 percent less energy than a {{1}} library of the same size.\n\nThe judges praised the library's rooftop garden and its use of natural light. {{2}}\n\n“We wanted to create a space that the community would be proud of,” said Lena Fraser, the firm's founder. “{{3}} this award is wonderful, the best reward has been seeing how many people use the library every day.”\n\nGreenway Architects is currently designing a new community center in Dartmouth, which is {{4}} to open in 2028."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0005",
+      "exam": "toeic",
+      "section": "part6",
+      "pool": "mock2",
+      "kind": "text-completion",
+      "difficulty": 2,
+      "tags": [
+        "e-mail",
+        "commande"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Karen Liu",
+            "From": "Simply Office Supplies — Customer Service",
+            "Subject": "Your order #48213"
+          },
+          "body": "Dear Ms. Liu,\n\nThank you for your recent order. Unfortunately, the ergonomic chair you selected is currently out of stock. We expect to receive more units {{1}} two weeks.\n\n{{2}} You may wait for the chair to become available, or we can send you a similar model, the ComfortPro 300, at no additional cost. This model has received excellent {{3}} from our customers.\n\nPlease let us know which option you prefer by replying to this e-mail. {{4}} you have any questions, our customer service team is available Monday to Friday, 8 A.M. to 6 P.M.\n\nSincerely,\nPaul Fischer"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0006",
+      "exam": "toeic",
+      "section": "part6",
+      "pool": "mock2",
+      "kind": "text-completion",
+      "difficulty": 3,
+      "tags": [
+        "avis",
+        "immeuble"
+      ],
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Notice to Residents of Maple Court Apartments",
+          "body": "Beginning on Monday, October 6, the building's main entrance will be closed for renovation. The work is expected to {{1}} approximately three weeks.\n\nDuring this period, residents should use the side entrance on Birch Street. {{2}}\n\nThe renovation will include a new automatic door, improved lighting, and a {{3}} lobby with seating for visitors.\n\nThe management office apologizes for the noise and inconvenience. Questions may be {{4}} to the office at 555-0147."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0007",
+      "exam": "toeic",
+      "section": "part6",
+      "pool": "mock2",
+      "kind": "text-completion",
+      "difficulty": 3,
+      "tags": [
+        "page web",
+        "entreprise"
+      ],
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "About Us — Trailhead Outdoor Gear",
+          "body": "Trailhead Outdoor Gear was founded in 2004 by two friends who {{1}} each other on a hiking trip in the Rocky Mountains several years earlier. What began as a small shop in Boulder has grown into a company with twelve stores across Colorado and Utah.\n\nOur mission is simple: to provide high-quality equipment at fair prices. {{2}}, every product we sell is tested by our staff before it reaches our shelves.\n\nWe also believe in protecting the places where our customers love to explore. {{3}}\n\nWhether you are planning a weekend camping trip or a two-week expedition, our {{4}} staff will help you find exactly what you need."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0008",
+      "exam": "toeic",
+      "section": "part6",
+      "pool": "mock2",
+      "kind": "text-completion",
+      "difficulty": 4,
+      "tags": [
+        "lettre",
+        "conférence"
+      ],
+      "passages": [
+        {
+          "kind": "letter",
+          "meta": {
+            "To": "Dr. Kwame Mensah",
+            "From": "Thomas Baumann, Program Director"
+          },
+          "body": "Dear Dr. Mensah,\n\nOn behalf of the organizing committee, I am delighted to confirm your participation as a speaker at the Global Health Innovation Summit, which will be held in Geneva from 14 to 16 April.\n\nYour presentation is scheduled for the morning of 15 April. Each speaker will have 30 minutes, {{1}} 10 minutes for questions from the audience. {{2}}\n\nThe committee will cover your travel and accommodation expenses. Our travel coordinator, Ms. Inès Morel, will contact you shortly to {{3}} your flight and hotel arrangements.\n\nWe are {{4}} that your expertise will make a valuable contribution to the summit.\n\nYours sincerely,\nThomas Baumann"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0009",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 1,
+      "tags": [
+        "e-mail",
+        "déjeuner d'équipe"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Product Team",
+            "From": "Jordan Blake",
+            "Subject": "Team lunch"
+          },
+          "body": "Hi everyone,\n\nTo celebrate the successful launch of our new app, I'd like to invite the whole team to lunch next Friday at noon. We {{1}} a table at Rosemary's Bistro on Main Street. {{2}}\n\nPlease let me know by Wednesday {{3}} you have any dietary restrictions. The company will {{4}} the cost of the meal.\n\nBest,\nJordan"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0010",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 2,
+      "tags": [
+        "avis",
+        "bibliothèque"
+      ],
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Riverside Public Library — Holiday Hours",
+          "body": "The library will be closed on Thursday, November 27, and Friday, November 28, for the Thanksgiving holiday. Regular hours will {{1}} on Saturday, November 29.\n\nDuring the closure, books may be returned using the drop box {{2}} next to the main entrance. Online services, including e-book loans, will remain available. {{3}}\n\nWe wish all our patrons a {{4}} holiday."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0011",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 3,
+      "tags": [
+        "publicité",
+        "événementiel"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Need a Space for Your Next Event?",
+          "body": "The Harborview Conference Center offers flexible meeting rooms for groups of 10 to 500 people. All rooms are equipped with high-speed Internet and the {{1}} audiovisual technology.\n\nOur on-site catering team can prepare anything from a simple coffee break to a formal {{2}} dinner. {{3}}\n\nBook before December 31 and receive free parking for all your guests. {{4}} availability is limited, we recommend reserving early."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0012",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 3,
+      "tags": [
+        "note de service",
+        "informatique"
+      ],
+      "passages": [
+        {
+          "kind": "memo",
+          "meta": {
+            "To": "All employees",
+            "From": "IT Department",
+            "Subject": "Password update"
+          },
+          "body": "As part of our ongoing efforts to improve security, all employees must change their network passwords by Friday, September 12. {{1}}, your account will be temporarily locked.\n\nNew passwords must contain at least twelve characters, {{2}} one number and one symbol. {{3}}\n\nIf you experience any difficulties, please contact the help desk at extension 4400. We appreciate your prompt {{4}}."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0013",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 4,
+      "tags": [
+        "lettre",
+        "hôtel"
+      ],
+      "passages": [
+        {
+          "kind": "letter",
+          "meta": {
+            "To": "Mr. Gerald Abbott",
+            "From": "Helen Park, Guest Relations Manager, Linden Hotel"
+          },
+          "body": "Dear Mr. Abbott,\n\nThank you for your letter regarding your recent stay at the Linden Hotel. We were sorry to learn that the air-conditioning in your room was not working properly. {{1}}\n\nOur maintenance team has since {{2}} the unit, and we have arranged for all air-conditioning systems in the hotel to be inspected.\n\nAs a gesture of goodwill, we have refunded the cost of one night to your credit card. We have also enclosed a voucher for a complimentary dinner for two at our restaurant, valid {{3}} the end of the year.\n\nWe hope to have the opportunity to welcome you back and to provide the {{4}} of service you deserve.\n\nSincerely,\nHelen Park"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0014",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 4,
+      "tags": [
+        "article",
+        "transports"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Downtown Bus Route Changes Begin Next Month",
+          "body": "Starting March 1, the city's Route 12 bus will no longer stop at the Central Market. {{1}}, the route will now travel along Elm Avenue, serving the new hospital and the university campus.\n\nCity officials say the change {{2}} by a recent survey, which showed that most riders on Route 12 travel to the hospital or the university. {{3}}\n\nRiders who wish to reach the Central Market can take Route 7, which runs every fifteen minutes. Updated maps are {{4}} at all bus stops and on the city's website."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0015",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 3,
+      "tags": [
+        "e-mail",
+        "recrutement"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Adaeze Okafor",
+            "From": "Simon Reyes, Human Resources, Lumen Media",
+            "Subject": "Your application"
+          },
+          "body": "Dear Ms. Okafor,\n\nThank you for applying for the position of Marketing Coordinator at Lumen Media. We were impressed by your experience in digital advertising, and we {{1}} like to invite you for an interview.\n\nThe interview will take place at our office on Tuesday, May 6, at 10:00 A.M. You will meet with our marketing director and two members of her team. {{2}}\n\nPlease bring a copy of your portfolio, {{3}} examples of recent campaigns you have worked on.\n\nKindly confirm your {{4}} by replying to this e-mail by Friday.\n\nBest regards,\nSimon Reyes"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0016",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 5,
+      "tags": [
+        "FAQ",
+        "retours"
+      ],
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Frequently Asked Questions — Returns",
+          "body": "Can I return an item I bought online?\nYes. Items purchased on our website may be returned within 30 days of delivery, {{1}} they are unused and in their original packaging.\n\nHow do I start a return?\nLog in to your account and select the order that contains the item. {{2}} A prepaid shipping label will then be e-mailed to you.\n\nWhen will I receive my refund?\nRefunds are processed within five business days of our receiving the item. Please note that the original shipping charges are non-{{3}}.\n\nCan I exchange an item instead?\nYes, but exchanges are {{4}} to availability. If the item you want is out of stock, we will issue a full refund."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p6-g0017",
+      "exam": "toeic",
+      "section": "part6",
+      "kind": "text-completion",
+      "difficulty": 5,
+      "tags": [
+        "article",
+        "PME"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Local Bakery Expands Into Wholesale",
+          "body": "PORTLAND — Crumb & Co., the popular bakery known for its sourdough bread, will begin selling its products to restaurants and grocery stores this summer.\n\nThe move follows a sharp increase in {{1}} from local businesses. “We were receiving several calls a week from restaurants asking whether they could buy our bread,” said owner Maya Lindgren. {{2}}\n\nTo meet the demand, Crumb & Co. has leased a 900-square-meter production facility in the city's industrial district. The facility will allow the bakery to triple its {{3}}.\n\nMs. Lindgren says the bakery's original shop on Hawthorne Street will remain open. “Our retail customers are the reason we exist,” she said. “We would never {{4}} them.”"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p6-0001","exam":"toeic","section":"part6","groupId":"toeic-p6-g0001","skill":"p6-grammaire","difficulty":1,"prompt":"Which choice best fills blank 1?","options":["while","among","during","until"],"answer":2,"explanation":"Devant un groupe nominal de temps (« the weekend of May 18–19 »), « during » (pendant) convient.","trap":"« while » est une conjonction et exige une proposition ; « until » indiquerait une fermeture jusqu'au week-end.","recommendedSeconds":25,"tags":["préposition"]},
+    {"id":"toeic-p6-0002","exam":"toeic","section":"part6","groupId":"toeic-p6-g0001","skill":"p6-grammaire","difficulty":2,"prompt":"Which choice best fills blank 2?","options":["who","what","which","where"],"answer":2,"explanation":"Relative sujet de « is located », antécédent « the Fairview Shopping Center lot » (une chose) : « which ».","trap":"« where » ne peut pas être sujet du verbe ; il faudrait « where it is located » ou « which is located ».","recommendedSeconds":25,"tags":["relatif"]},
+    {"id":"toeic-p6-0003","exam":"toeic","section":"part6","groupId":"toeic-p6-g0001","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 3?","options":["The new lighting system was installed last year.","The shopping center has more than fifty stores.","Our company was founded more than twenty years ago.","Please display the temporary permit, available at the front desk, on your dashboard."],"answer":3,"explanation":"Le paragraphe explique où se garer pendant les travaux ; la consigne sur le permis temporaire complète logiquement cette information.","trap":"La phrase sur l'éclairage contredit le texte (l'éclairage est justement en réparation) ; les autres sont hors sujet.","recommendedSeconds":40,"tags":["phrase à insérer","cohérence"]},
+    {"id":"toeic-p6-0004","exam":"toeic","section":"part6","groupId":"toeic-p6-g0001","skill":"p6-vocabulaire","difficulty":2,"prompt":"Which choice best fills blank 4?","options":["understanding","agreement","attendance","permission"],"answer":0,"explanation":"La formule de politesse consacrée après des excuses est « thank you for your understanding » (merci de votre compréhension).","trap":"« attendance » (présence) et « permission » ne correspondent pas à une formule de remerciement après un désagrément.","recommendedSeconds":25,"tags":["formule de politesse"]},
+    {"id":"toeic-p6-0005","exam":"toeic","section":"part6","groupId":"toeic-p6-g0002","skill":"p6-grammaire","difficulty":2,"prompt":"Which choice best fills blank 1?","options":["will open","opened","has opened","had opened"],"answer":0,"explanation":"Il s'agit d'une inauguration à venir (« Grand Opening », réduction pour les inscriptions avant le 30 juin) : futur, « will open ».","trap":"Les temps du passé contredisent le contexte de l'annonce, rédigée avant l'ouverture.","recommendedSeconds":25,"tags":["temps","contexte"]},
+    {"id":"toeic-p6-0006","exam":"toeic","section":"part6","groupId":"toeic-p6-g0002","skill":"p6-vocabulaire","difficulty":3,"prompt":"Which choice best fills blank 2?","options":["early","former","advanced","delayed"],"answer":2,"explanation":"« beginners as well as advanced home cooks » oppose les débutants aux cuisiniers confirmés.","trap":"« former » (ancien) n'a pas de sens ici ; l'opposition à « beginners » appelle « advanced ».","recommendedSeconds":25,"tags":["antonyme"]},
+    {"id":"toeic-p6-0007","exam":"toeic","section":"part6","groupId":"toeic-p6-g0002","skill":"p6-connecteurs","difficulty":3,"prompt":"Which choice best fills blank 3?","options":["However","Nevertheless","As a result","In contrast"],"answer":2,"explanation":"Les petits groupes ont pour conséquence une attention personnalisée : « As a result ».","trap":"« However » et « Nevertheless » introduiraient une opposition qui n'existe pas.","recommendedSeconds":25,"tags":["conséquence"]},
+    {"id":"toeic-p6-0008","exam":"toeic","section":"part6","groupId":"toeic-p6-g0002","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 4?","options":["Space is limited, so early registration is recommended.","The school was closed for renovations last month.","Cooking at home can help you save money.","The discount does not apply to beginners."],"answer":0,"explanation":"Après l'offre d'inscription anticipée, la phrase sur le nombre de places limité est une suite logique et incite à s'inscrire vite.","trap":"La réduction s'applique à « all students » : la phrase sur les débutants contredit le texte.","recommendedSeconds":40,"tags":["phrase à insérer"]},
+    {"id":"toeic-p6-0009","exam":"toeic","section":"part6","groupId":"toeic-p6-g0003","skill":"p6-grammaire","difficulty":2,"prompt":"Which choice best fills blank 1?","options":["better","good","well","best"],"answer":3,"explanation":"« the … result we have achieved in three years » : superlatif, « the best ».","trap":"« better » appellerait « than ».","recommendedSeconds":25,"tags":["superlatif"]},
+    {"id":"toeic-p6-0010","exam":"toeic","section":"part6","groupId":"toeic-p6-g0003","skill":"p6-connecteurs","difficulty":3,"prompt":"Which choice best fills blank 2?","options":["Therefore","For example","However","Similarly"],"answer":2,"explanation":"Après la bonne nouvelle, la directrice nuance : il ne faut pas se relâcher. C'est une opposition : « However ».","trap":"« Therefore » ferait du succès la cause de « we cannot afford to relax », ce qui est illogique.","recommendedSeconds":25,"tags":["opposition"]},
+    {"id":"toeic-p6-0011","exam":"toeic","section":"part6","groupId":"toeic-p6-g0003","skill":"p6-vocabulaire","difficulty":4,"prompt":"Which choice best fills blank 3?","options":["expanded","excelled","exceeded","expected"],"answer":1,"explanation":"« an area in which we have always excelled » : un domaine où nous avons toujours brillé. « excel » s'emploie sans complément.","trap":"« exceeded » (dépasser) exige un complément d'objet (« exceeded the target »).","recommendedSeconds":25,"tags":["paronyme"]},
+    {"id":"toeic-p6-0012","exam":"toeic","section":"part6","groupId":"toeic-p6-g0003","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 4?","options":["Our prices will be increased next month.","Please come to Friday's meeting prepared to suggest ways to improve it.","The two competitors will merge next year.","Last quarter's results were disappointing."],"answer":1,"explanation":"« it » renvoie au service client mentionné juste avant, et la phrase prépare « I look forward to hearing your ideas ».","trap":"« Last quarter's results were disappointing » contredit le premier paragraphe.","recommendedSeconds":40,"tags":["phrase à insérer","référent"]},
+    {"id":"toeic-p6-0013","exam":"toeic","section":"part6","groupId":"toeic-p6-g0004","skill":"p6-vocabulaire","difficulty":4,"prompt":"Which choice best fills blank 1?","options":["conventional","conversational","convenient","controversial"],"answer":0,"explanation":"On compare la bibliothèque écologique à une bibliothèque classique : « conventional » (traditionnel).","trap":"« convenient » (pratique) ressemble à « conventional » mais n'a pas le bon sens.","recommendedSeconds":25,"tags":["paronyme"]},
+    {"id":"toeic-p6-0014","exam":"toeic","section":"part6","groupId":"toeic-p6-g0004","skill":"p6-insertion-phrase","difficulty":4,"prompt":"Which sentence best fills blank 2?","options":["Sensors also adjust the indoor lighting automatically when the sun is strong.","Many libraries have reduced their opening hours.","The library's collection includes rare maps of the region.","The award will be presented to the city of Halifax."],"answer":0,"explanation":"La phrase prolonge l'éloge de l'éclairage naturel et de l'efficacité énergétique (« also »).","trap":"Le prix est remis au cabinet d'architectes, pas à la ville.","recommendedSeconds":40,"tags":["phrase à insérer","also"]},
+    {"id":"toeic-p6-0015","exam":"toeic","section":"part6","groupId":"toeic-p6-g0004","skill":"p6-connecteurs","difficulty":3,"prompt":"Which choice best fills blank 3?","options":["Because","Unless","Although","Despite"],"answer":2,"explanation":"Concession entre deux propositions : le prix est formidable, mais la vraie récompense est ailleurs. « Although » + proposition.","trap":"« Despite » a le même sens mais ne peut pas introduire une proposition (« this award is »).","recommendedSeconds":25,"tags":["concession"]},
+    {"id":"toeic-p6-0016","exam":"toeic","section":"part6","groupId":"toeic-p6-g0004","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 4?","options":["scheduling","scheduled","schedule","schedules"],"answer":1,"explanation":"« be scheduled to + verbe » = être prévu pour : « which is scheduled to open in 2028 ».","trap":"« is scheduling » serait actif : le centre programmerait quelque chose.","recommendedSeconds":25,"tags":["passif","be scheduled to"]},
+    {"id":"toeic-p6-0017","exam":"toeic","section":"part6","groupId":"toeic-p6-g0005","skill":"p6-grammaire","difficulty":2,"prompt":"Which choice best fills blank 1?","options":["since","during","among","within"],"answer":3,"explanation":"« within two weeks » = d'ici deux semaines, dans un délai de deux semaines.","trap":"« since » se construit avec un point de départ passé, pas avec une durée à venir.","recommendedSeconds":25,"tags":["préposition"]},
+    {"id":"toeic-p6-0018","exam":"toeic","section":"part6","groupId":"toeic-p6-g0005","skill":"p6-insertion-phrase","difficulty":2,"prompt":"Which sentence best fills blank 2?","options":["Your chair was delivered yesterday.","We have recently moved to a new warehouse.","Thank you for applying for the position.","In the meantime, we would like to offer you two options."],"answer":3,"explanation":"La phrase annonce les deux options détaillées juste après (attendre ou recevoir un autre modèle).","trap":"« Your chair was delivered yesterday » contredit la rupture de stock.","recommendedSeconds":40,"tags":["phrase à insérer","annonce"]},
+    {"id":"toeic-p6-0019","exam":"toeic","section":"part6","groupId":"toeic-p6-g0005","skill":"p6-vocabulaire","difficulty":2,"prompt":"Which choice best fills blank 3?","options":["reviews","receipts","refunds","requests"],"answer":0,"explanation":"Un modèle reçoit d'excellents avis de la part des clients : « excellent reviews ».","trap":"Les autres mots commencent aussi par « re- » mais n'ont aucun sens avec « excellent… from our customers ».","recommendedSeconds":25,"tags":["sens"]},
+    {"id":"toeic-p6-0020","exam":"toeic","section":"part6","groupId":"toeic-p6-g0005","skill":"p6-connecteurs","difficulty":2,"prompt":"Which choice best fills blank 4?","options":["Unless","If","Whether","So that"],"answer":1,"explanation":"Condition simple : si vous avez des questions, notre service est disponible.","trap":"« Unless » inverserait le sens : le service ne serait disponible qu'en l'absence de questions.","recommendedSeconds":25,"tags":["condition"]},
+    {"id":"toeic-p6-0021","exam":"toeic","section":"part6","groupId":"toeic-p6-g0006","skill":"p6-vocabulaire","difficulty":3,"prompt":"Which choice best fills blank 1?","options":["last","remain","spend","pass"],"answer":0,"explanation":"« The work is expected to last approximately three weeks » : « last » = durer.","trap":"« spend » s'emploie avec une personne pour sujet (« we will spend three weeks »).","recommendedSeconds":25,"tags":["verbe last"]},
+    {"id":"toeic-p6-0022","exam":"toeic","section":"part6","groupId":"toeic-p6-g0006","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 2?","options":["The building was built in 1975.","Rent payments are due on the first of each month.","The main entrance will remain open during the renovation.","Please note that it will be locked between 11 P.M. and 6 A.M., so keep your key card with you."],"answer":3,"explanation":"« it » renvoie à l'entrée latérale mentionnée juste avant ; la consigne pratique complète l'information.","trap":"La dernière option contredit directement le premier paragraphe.","recommendedSeconds":40,"tags":["phrase à insérer","référent"]},
+    {"id":"toeic-p6-0023","exam":"toeic","section":"part6","groupId":"toeic-p6-g0006","skill":"p6-grammaire","difficulty":2,"prompt":"Which choice best fills blank 3?","options":["space","spaciously","spaces","spacious"],"answer":3,"explanation":"Entre l'article « a » et le nom « lobby », il faut un adjectif : « spacious » (spacieux).","trap":"« space » est un nom ; l'adverbe « spaciously » ne peut pas qualifier un nom.","recommendedSeconds":25,"tags":["classe de mot"]},
+    {"id":"toeic-p6-0024","exam":"toeic","section":"part6","groupId":"toeic-p6-g0006","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 4?","options":["directed","direct","directing","directs"],"answer":0,"explanation":"Après le modal passif « may be », il faut un participe passé : « Questions may be directed to the office » (adressées au bureau).","trap":"« may be directing » serait actif : les questions dirigeraient quelque chose.","recommendedSeconds":25,"tags":["passif","modal"]},
+    {"id":"toeic-p6-0025","exam":"toeic","section":"part6","groupId":"toeic-p6-g0007","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 1?","options":["meet","had met","will meet","are meeting"],"answer":1,"explanation":"La rencontre a eu lieu « several years earlier », avant la fondation de 2004 (déjà au passé) : past perfect « had met ».","trap":"Ne pas tenir compte de « several years earlier », qui marque l'antériorité.","recommendedSeconds":25,"tags":["past perfect"]},
+    {"id":"toeic-p6-0026","exam":"toeic","section":"part6","groupId":"toeic-p6-g0007","skill":"p6-connecteurs","difficulty":3,"prompt":"Which choice best fills blank 2?","options":["On the other hand","Instead","For this reason","Otherwise"],"answer":2,"explanation":"Tester chaque produit découle de la mission (qualité à prix juste) : lien de cause à conséquence, « For this reason ».","trap":"« On the other hand » introduirait une idée opposée à la mission.","recommendedSeconds":25,"tags":["conséquence"]},
+    {"id":"toeic-p6-0027","exam":"toeic","section":"part6","groupId":"toeic-p6-g0007","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 3?","options":["Our stores are open seven days a week.","Hiking boots should be replaced every few years.","That is why we donate 2 percent of our profits to trail maintenance projects.","We recently opened our first store in Boulder."],"answer":2,"explanation":"« That is why » relie la phrase à l'idée précédente : protéger les lieux de randonnée.","trap":"Le premier magasin de Boulder date des débuts de l'entreprise, pas d'une ouverture récente.","recommendedSeconds":40,"tags":["phrase à insérer","that is why"]},
+    {"id":"toeic-p6-0028","exam":"toeic","section":"part6","groupId":"toeic-p6-g0007","skill":"p6-vocabulaire","difficulty":3,"prompt":"Which choice best fills blank 4?","options":["acknowledged","knowing","knowledgeable","known"],"answer":2,"explanation":"« our knowledgeable staff » : un personnel compétent, qui s'y connaît, capable de conseiller.","trap":"« known staff » (personnel connu) ne correspond pas à l'idée de conseil.","recommendedSeconds":25,"tags":["adjectif"]},
+    {"id":"toeic-p6-0029","exam":"toeic","section":"part6","groupId":"toeic-p6-g0008","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 1?","options":["included","include","including","includes"],"answer":2,"explanation":"« 30 minutes, including 10 minutes for questions » : « including » (y compris) introduit un groupe nominal.","trap":"« included » s'emploierait après le nom (« 10 minutes for questions included »).","recommendedSeconds":25,"tags":["including"]},
+    {"id":"toeic-p6-0030","exam":"toeic","section":"part6","groupId":"toeic-p6-g0008","skill":"p6-insertion-phrase","difficulty":4,"prompt":"Which sentence best fills blank 2?","options":["The summit was canceled last year due to low attendance.","Geneva is known for its beautiful lake.","Please remember that speakers must pay their own travel expenses.","We kindly ask you to send us your slides by 1 April so that our technical team can test them."],"answer":3,"explanation":"Le paragraphe porte sur l'organisation de la présentation ; la demande d'envoi des diapositives s'y rattache.","trap":"La dernière option contredit le paragraphe suivant (frais pris en charge).","recommendedSeconds":40,"tags":["phrase à insérer"]},
+    {"id":"toeic-p6-0031","exam":"toeic","section":"part6","groupId":"toeic-p6-g0008","skill":"p6-vocabulaire","difficulty":4,"prompt":"Which choice best fills blank 3?","options":["finalize","finance","finish off","final"],"answer":0,"explanation":"« to finalize your flight and hotel arrangements » : finaliser l'organisation du voyage.","trap":"« finance » est tentant parce que le comité paie les frais, mais la coordinatrice organise, elle ne finance pas.","recommendedSeconds":25,"tags":["collocation"]},
+    {"id":"toeic-p6-0032","exam":"toeic","section":"part6","groupId":"toeic-p6-g0008","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 4?","options":["confident","confidential","confidence","confidently"],"answer":0,"explanation":"« We are confident that… » (nous sommes convaincus que) : après « are », il faut l'adjectif attribut.","trap":"« confidential » signifie « confidentiel » : faux ami partiel.","recommendedSeconds":25,"tags":["adjectif","faux ami"]},
+    {"id":"toeic-p6-0033","exam":"toeic","section":"part6","groupId":"toeic-p6-g0009","skill":"p6-grammaire","difficulty":1,"prompt":"Which choice best fills blank 1?","options":["have reserved","reserve","are reserving it","reserving"],"answer":0,"explanation":"La réservation est déjà faite et son résultat compte pour le déjeuner à venir : present perfect « have reserved ».","trap":"« reserving » seul n'est pas un verbe conjugué.","recommendedSeconds":25,"tags":["present perfect"]},
+    {"id":"toeic-p6-0034","exam":"toeic","section":"part6","groupId":"toeic-p6-g0009","skill":"p6-insertion-phrase","difficulty":2,"prompt":"Which sentence best fills blank 2?","options":["The app was launched in 2015.","Friday is usually our busiest day.","Please submit your expense reports.","It's just a five-minute walk from the office."],"answer":3,"explanation":"« It » renvoie au restaurant cité juste avant ; l'information pratique est naturelle dans une invitation.","trap":"L'application est « new » : la date de 2015 est incohérente.","recommendedSeconds":35,"tags":["phrase à insérer","référent"]},
+    {"id":"toeic-p6-0035","exam":"toeic","section":"part6","groupId":"toeic-p6-g0009","skill":"p6-connecteurs","difficulty":1,"prompt":"Which choice best fills blank 3?","options":["if","unless","so","because"],"answer":0,"explanation":"« let me know … if you have any dietary restrictions » : prévenez-moi si vous avez des restrictions alimentaires.","trap":"« because » supposerait que tout le monde a des restrictions.","recommendedSeconds":20,"tags":["if"]},
+    {"id":"toeic-p6-0036","exam":"toeic","section":"part6","groupId":"toeic-p6-g0009","skill":"p6-vocabulaire","difficulty":2,"prompt":"Which choice best fills blank 4?","options":["spend","charge","borrow","cover"],"answer":3,"explanation":"« cover the cost » = prendre en charge les frais.","trap":"« charge the cost » ne s'emploie pas ; on « charge » quelqu'un (facturer).","recommendedSeconds":20,"tags":["collocation"]},
+    {"id":"toeic-p6-0037","exam":"toeic","section":"part6","groupId":"toeic-p6-g0010","skill":"p6-vocabulaire","difficulty":2,"prompt":"Which choice best fills blank 1?","options":["remain","resume","restore","retire"],"answer":1,"explanation":"« Regular hours will resume » : les horaires habituels reprendront samedi.","trap":"« resume » est un faux ami : il ne signifie pas « résumer » mais « reprendre ».","recommendedSeconds":25,"tags":["faux ami"]},
+    {"id":"toeic-p6-0038","exam":"toeic","section":"part6","groupId":"toeic-p6-g0010","skill":"p6-grammaire","difficulty":2,"prompt":"Which choice best fills blank 2?","options":["located","locating","locates","location"],"answer":0,"explanation":"Participe passé à valeur passive : « the drop box (which is) located next to the main entrance ».","trap":"« locating » signifierait que la boîte localise quelque chose.","recommendedSeconds":25,"tags":["participe"]},
+    {"id":"toeic-p6-0039","exam":"toeic","section":"part6","groupId":"toeic-p6-g0010","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 3?","options":["The library will also be closed on Saturday.","Our new computer lab has twenty workstations.","Items returned during this period will not be charged late fees.","Thanksgiving is celebrated in November."],"answer":2,"explanation":"Le paragraphe traite des retours pendant la fermeture ; l'absence de pénalités de retard s'y rattache directement.","trap":"La bibliothèque rouvre samedi : la deuxième option contredit le texte.","recommendedSeconds":40,"tags":["phrase à insérer"]},
+    {"id":"toeic-p6-0040","exam":"toeic","section":"part6","groupId":"toeic-p6-g0010","skill":"p6-grammaire","difficulty":1,"prompt":"Which choice best fills blank 4?","options":["pleasant","pleasantly","pleasure","please"],"answer":0,"explanation":"Entre « a » et « holiday », il faut un adjectif : « a pleasant holiday ».","trap":"« pleasure » est un nom.","recommendedSeconds":20,"tags":["adjectif"]},
+    {"id":"toeic-p6-0041","exam":"toeic","section":"part6","groupId":"toeic-p6-g0011","skill":"p6-grammaire","difficulty":2,"prompt":"Which choice best fills blank 1?","options":["later","latest","lately","late"],"answer":1,"explanation":"« the latest audiovisual technology » : la technologie la plus récente (superlatif de « late »).","trap":"« lately » est un adverbe (récemment) et ne peut pas qualifier un nom.","recommendedSeconds":25,"tags":["superlatif"]},
+    {"id":"toeic-p6-0042","exam":"toeic","section":"part6","groupId":"toeic-p6-g0011","skill":"p6-grammaire","difficulty":4,"prompt":"Which choice best fills blank 2?","options":["three-courses","three course's","three-course","third-course"],"answer":2,"explanation":"Un adjectif composé avec un nombre reste au singulier : « a three-course dinner » (un dîner de trois plats).","trap":"Mettre le nom au pluriel (« three-courses »), comme on le ferait sans trait d'union.","recommendedSeconds":25,"tags":["adjectif composé"]},
+    {"id":"toeic-p6-0043","exam":"toeic","section":"part6","groupId":"toeic-p6-g0011","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 3?","options":["Our center will close for renovations in December.","Menus can be adapted to any dietary requirement.","Guests must bring their own laptops.","The harbor is home to many fishing boats."],"answer":1,"explanation":"La phrase complète la présentation du service traiteur, sujet du paragraphe.","trap":"La fermeture en décembre contredirait l'offre de réservation avant le 31 décembre.","recommendedSeconds":40,"tags":["phrase à insérer"]},
+    {"id":"toeic-p6-0044","exam":"toeic","section":"part6","groupId":"toeic-p6-g0011","skill":"p6-connecteurs","difficulty":3,"prompt":"Which choice best fills blank 4?","options":["Although","Because","Unless","Despite"],"answer":1,"explanation":"La disponibilité limitée est la cause du conseil de réserver tôt : « Because ».","trap":"« Although » créerait une opposition illogique.","recommendedSeconds":25,"tags":["cause"]},
+    {"id":"toeic-p6-0045","exam":"toeic","section":"part6","groupId":"toeic-p6-g0012","skill":"p6-connecteurs","difficulty":3,"prompt":"Which choice best fills blank 1?","options":["Therefore","Otherwise","Moreover","Similarly"],"answer":1,"explanation":"« Otherwise » = sinon : si vous ne changez pas votre mot de passe, votre compte sera bloqué.","trap":"« Therefore » ferait du changement de mot de passe la cause du blocage.","recommendedSeconds":25,"tags":["otherwise"]},
+    {"id":"toeic-p6-0046","exam":"toeic","section":"part6","groupId":"toeic-p6-g0012","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 2?","options":["included","include","including","inclusion"],"answer":2,"explanation":"« twelve characters, including one number and one symbol » : « including » introduit les éléments compris dans l'ensemble.","trap":"« include » serait un verbe conjugué sans sujet.","recommendedSeconds":25,"tags":["including"]},
+    {"id":"toeic-p6-0047","exam":"toeic","section":"part6","groupId":"toeic-p6-g0012","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 3?","options":["For security reasons, do not reuse any of your last five passwords.","The help desk will close permanently next month.","Our network was installed in 2010.","Employees may keep their current passwords if they wish."],"answer":0,"explanation":"La phrase ajoute une règle de création du nouveau mot de passe, sujet du paragraphe.","trap":"La dernière option contredit l'obligation de changer de mot de passe.","recommendedSeconds":40,"tags":["phrase à insérer"]},
+    {"id":"toeic-p6-0048","exam":"toeic","section":"part6","groupId":"toeic-p6-g0012","skill":"p6-vocabulaire","difficulty":3,"prompt":"Which choice best fills blank 4?","options":["attendance","intention","attention","extension"],"answer":2,"explanation":"« We appreciate your prompt attention » : formule de fin pour une action à faire rapidement.","trap":"« extension » apparaît juste avant (numéro de poste) : simple écho.","recommendedSeconds":25,"tags":["formule"]},
+    {"id":"toeic-p6-0049","exam":"toeic","section":"part6","groupId":"toeic-p6-g0013","skill":"p6-insertion-phrase","difficulty":3,"prompt":"Which sentence best fills blank 1?","options":["We are pleased that you enjoyed every part of your stay.","Our hotel has 150 rooms.","We understand how uncomfortable this must have been, especially during such hot weather.","The restaurant is closed on Mondays."],"answer":2,"explanation":"Après le rappel du problème, la directrice exprime de l'empathie ; « this » renvoie à la climatisation en panne.","trap":"La deuxième option contredit la plainte du client.","recommendedSeconds":40,"tags":["phrase à insérer","empathie"]},
+    {"id":"toeic-p6-0050","exam":"toeic","section":"part6","groupId":"toeic-p6-g0013","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 2?","options":["replace","replacing","replacement","replaced"],"answer":3,"explanation":"« has since replaced » : present perfect (has + participe passé), avec « since » placé entre l'auxiliaire et le participe.","trap":"L'adverbe « since » sépare l'auxiliaire du participe et brouille la structure.","recommendedSeconds":25,"tags":["present perfect"]},
+    {"id":"toeic-p6-0051","exam":"toeic","section":"part6","groupId":"toeic-p6-g0013","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 3?","options":["by","until","since","for"],"answer":1,"explanation":"« valid until the end of the year » : la validité dure jusqu'à la fin de l'année.","trap":"« by » marque une échéance pour une action ponctuelle, pas une durée de validité.","recommendedSeconds":25,"tags":["until/by"]},
+    {"id":"toeic-p6-0052","exam":"toeic","section":"part6","groupId":"toeic-p6-g0013","skill":"p6-vocabulaire","difficulty":4,"prompt":"Which choice best fills blank 4?","options":["degree","level","amount","grade"],"answer":1,"explanation":"La collocation est « the level of service » (le niveau de service).","trap":"« amount » s'emploie pour une quantité, pas pour la qualité d'un service.","recommendedSeconds":25,"tags":["collocation"]},
+    {"id":"toeic-p6-0053","exam":"toeic","section":"part6","groupId":"toeic-p6-g0014","skill":"p6-connecteurs","difficulty":3,"prompt":"Which choice best fills blank 1?","options":["Besides","Instead","Likewise","Meanwhile"],"answer":1,"explanation":"Le bus ne passera plus par le marché ; à la place, il empruntera Elm Avenue : « Instead ».","trap":"« Besides » (en outre) ajouterait une information au lieu de la remplacer.","recommendedSeconds":25,"tags":["remplacement"]},
+    {"id":"toeic-p6-0054","exam":"toeic","section":"part6","groupId":"toeic-p6-g0014","skill":"p6-grammaire","difficulty":4,"prompt":"Which choice best fills blank 2?","options":["was prompted","prompted","was prompting","prompts"],"answer":0,"explanation":"« by a recent survey » désigne l'agent : le changement a été motivé par une enquête. Passif au prétérit, « was prompted ».","trap":"« prompted » actif ferait du changement l'auteur de l'action sur l'enquête.","recommendedSeconds":25,"tags":["passif"]},
+    {"id":"toeic-p6-0055","exam":"toeic","section":"part6","groupId":"toeic-p6-g0014","skill":"p6-insertion-phrase","difficulty":4,"prompt":"Which sentence best fills blank 3?","options":["The university was founded in 1890.","Fewer than ten percent of riders used the Central Market stop.","Bus fares will double next year.","The hospital is located right next to the Central Market."],"answer":1,"explanation":"La phrase prolonge les résultats de l'enquête et justifie la suppression de l'arrêt.","trap":"Si l'hôpital était à côté du marché, le changement d'itinéraire n'aurait aucun sens.","recommendedSeconds":40,"tags":["phrase à insérer"]},
+    {"id":"toeic-p6-0056","exam":"toeic","section":"part6","groupId":"toeic-p6-g0014","skill":"p6-vocabulaire","difficulty":3,"prompt":"Which choice best fills blank 4?","options":["affordable","eligible","available","capable"],"answer":2,"explanation":"« Updated maps are available » : les plans mis à jour sont disponibles.","trap":"« affordable » (abordable) concerne un prix.","recommendedSeconds":25,"tags":["adjectif"]},
+    {"id":"toeic-p6-0057","exam":"toeic","section":"part6","groupId":"toeic-p6-g0015","skill":"p6-grammaire","difficulty":2,"prompt":"Which choice best fills blank 1?","options":["will","must","would","might"],"answer":2,"explanation":"La formule polie est « we would like to invite you ».","trap":"« will like » n'est pas idiomatique pour exprimer un souhait.","recommendedSeconds":20,"tags":["would like"]},
+    {"id":"toeic-p6-0058","exam":"toeic","section":"part6","groupId":"toeic-p6-g0015","skill":"p6-insertion-phrase","difficulty":2,"prompt":"Which sentence best fills blank 2?","options":["We regret to inform you that the position has been filled.","The interview should last approximately one hour.","Our office will be closed on Tuesday.","Unfortunately, your résumé was not received."],"answer":1,"explanation":"Le paragraphe décrit le déroulement de l'entretien ; la durée s'y insère naturellement.","trap":"Les trois autres options contredisent l'invitation.","recommendedSeconds":35,"tags":["phrase à insérer"]},
+    {"id":"toeic-p6-0059","exam":"toeic","section":"part6","groupId":"toeic-p6-g0015","skill":"p6-grammaire","difficulty":3,"prompt":"Which choice best fills blank 3?","options":["featured","features","feature","featuring"],"answer":3,"explanation":"« a copy of your portfolio, featuring examples… » : participe présent à valeur active (un portfolio qui présente des exemples).","trap":"« featured » aurait un sens passif (le portfolio serait mis en avant).","recommendedSeconds":25,"tags":["participe présent"]},
+    {"id":"toeic-p6-0060","exam":"toeic","section":"part6","groupId":"toeic-p6-g0015","skill":"p6-vocabulaire","difficulty":3,"prompt":"Which choice best fills blank 4?","options":["attention","attendance","appearance","attendant"],"answer":1,"explanation":"« confirm your attendance » = confirmer votre présence.","trap":"« attendant » désigne une personne (un préposé).","recommendedSeconds":25,"tags":["paronyme"]},
+    {"id":"toeic-p6-0061","exam":"toeic","section":"part6","groupId":"toeic-p6-g0016","skill":"p6-connecteurs","difficulty":4,"prompt":"Which choice best fills blank 1?","options":["unless","whereas","despite","provided"],"answer":3,"explanation":"« provided (that) » = à condition que : retour possible à condition que l'article soit neuf.","trap":"« unless » inverserait la condition.","recommendedSeconds":25,"tags":["condition"]},
+    {"id":"toeic-p6-0062","exam":"toeic","section":"part6","groupId":"toeic-p6-g0016","skill":"p6-insertion-phrase","difficulty":4,"prompt":"Which sentence best fills blank 2?","options":["Our stores are open until nine on weekdays.","Shipping labels must be purchased at a post office.","Gift cards cannot be used for online purchases.","Then click “Return item” and choose a reason from the list."],"answer":3,"explanation":"La phrase est l'étape suivante de la procédure, entre la sélection de la commande et l'envoi de l'étiquette.","trap":"L'étiquette est prépayée et envoyée par e-mail : l'achat à la poste contredit le texte.","recommendedSeconds":40,"tags":["phrase à insérer","procédure"]},
+    {"id":"toeic-p6-0063","exam":"toeic","section":"part6","groupId":"toeic-p6-g0016","skill":"p6-vocabulaire","difficulty":4,"prompt":"Which choice best fills blank 3?","options":["returnable","reliable","renewable","refundable"],"answer":3,"explanation":"« non-refundable » = non remboursable. Les frais de port initiaux ne sont pas remboursés.","trap":"« returnable » s'applique à un objet qu'on rapporte, pas à des frais.","recommendedSeconds":25,"tags":["préfixe non-"]},
+    {"id":"toeic-p6-0064","exam":"toeic","section":"part6","groupId":"toeic-p6-g0016","skill":"p6-grammaire","difficulty":5,"prompt":"Which choice best fills blank 4?","options":["subjected","subjecting","subjects","subject"],"answer":3,"explanation":"« be subject to » (adjectif) = être soumis à, sous réserve de : « exchanges are subject to availability ».","trap":"« subjected to » existe, mais signifie « soumis de force à » (une épreuve, un traitement).","recommendedSeconds":25,"tags":["subject to"]},
+    {"id":"toeic-p6-0065","exam":"toeic","section":"part6","groupId":"toeic-p6-g0017","skill":"p6-vocabulaire","difficulty":4,"prompt":"Which choice best fills blank 1?","options":["inquirers","inquiries","acquisitions","requirements"],"answer":1,"explanation":"La phrase suivante parle d'appels de restaurants qui demandent à acheter : « inquiries » (demandes de renseignements).","trap":"« inquirers » désigne des personnes : « an increase in inquirers from businesses » est maladroit.","recommendedSeconds":25,"tags":["sens","contexte"]},
+    {"id":"toeic-p6-0066","exam":"toeic","section":"part6","groupId":"toeic-p6-g0017","skill":"p6-insertion-phrase","difficulty":5,"prompt":"Which sentence best fills blank 2?","options":["Sourdough bread is easy to make at home.","The bakery will close its Hawthorne Street shop.","Most of the bakery's employees live in Seattle.","“At first, we simply didn't have the capacity to fill those orders.”"],"answer":3,"explanation":"La citation explique pourquoi l'entreprise a dû s'agrandir, ce que le paragraphe suivant développe (« To meet the demand »).","trap":"Le dernier paragraphe indique que la boutique de Hawthorne Street reste ouverte.","recommendedSeconds":40,"tags":["phrase à insérer","enchaînement"]},
+    {"id":"toeic-p6-0067","exam":"toeic","section":"part6","groupId":"toeic-p6-g0017","skill":"p6-vocabulaire","difficulty":4,"prompt":"Which choice best fills blank 3?","options":["outcome","outlook","outset","output"],"answer":3,"explanation":"« triple its output » = tripler sa production.","trap":"« outcome » (résultat, issue) ressemble à « output » mais ne désigne pas une quantité produite.","recommendedSeconds":25,"tags":["paronyme"]},
+    {"id":"toeic-p6-0068","exam":"toeic","section":"part6","groupId":"toeic-p6-g0017","skill":"p6-vocabulaire","difficulty":5,"prompt":"Which choice best fills blank 4?","options":["abandon","abolish","absorb","abstain"],"answer":0,"explanation":"« We would never abandon them » : nous ne les laisserions jamais tomber (les clients de la boutique).","trap":"« abolish » s'emploie pour une loi ou une pratique, pas pour des personnes.","recommendedSeconds":25,"tags":["sens"]}
+  ]
+}

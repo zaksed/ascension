@@ -1,0 +1,524 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part7",
+  "description": "Partie 7 — examen blanc n°2 : 10 documents simples (29 questions) puis 2 doubles et 3 triples (25 questions).",
+  "groups": [
+    {
+      "id": "toeic-p7-g0016",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 1,
+      "tags": [
+        "avis",
+        "salle de sport"
+      ],
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Fitness Center Hours Change",
+          "body": "Starting September 1, the Oakridge Office Park fitness center will open at 6 A.M. instead of 7 A.M. on weekdays to accommodate early-shift employees. Weekend hours (9 A.M.–5 P.M.) remain unchanged.\n\nTowels are now provided free of charge at the front desk."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0017",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "SMS",
+        "sens implicite"
+      ],
+      "passages": [
+        {
+          "kind": "text-message",
+          "body": "Carla Mendes (2:41 P.M.): The projector in Room 5 isn't turning on. My presentation starts at 3.\nJin Park (2:42 P.M.): Did you check the power switch on the wall? It's behind the curtain.\nCarla Mendes (2:44 P.M.): You're a lifesaver!\nJin Park (2:45 P.M.): It happens to everyone. Good luck with the presentation."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0018",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "carte de fidélité"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Café Lumière — Loyalty Card",
+          "body": "Buy 9 coffees, get the 10th free!\n\nReceive one stamp with every hot or iced coffee purchase. Pastries and sandwiches are not included.\n\nPlease present this card before paying. Card valid until December 31."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0019",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "e-mail",
+        "départ en retraite"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "All Staff",
+            "From": "Lucy Grant",
+            "Subject": "Retirement celebration for Gloria Banks"
+          },
+          "body": "Hi all,\n\nAfter 32 years with Hartfield Insurance, Gloria Banks will retire at the end of this month. Please join us for a farewell reception on Friday, June 27, at 4:00 P.M. in the third-floor lounge.\n\nIf you would like to contribute to a group gift, please give your donation to Ahmed in accounting by Wednesday.\n\nLucy"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0020",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "article",
+        "transports"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Harbor City Ferry Adds Evening Service",
+          "body": "Beginning next month, the Harbor City ferry will run until 11 P.M. on Fridays and Saturdays, two hours later than its current schedule. The change is a response to requests from island residents who work evening shifts in the city's restaurants and theaters.\n\nThe additional trips will be funded for one year by a grant from the regional transportation authority. After that, the city will decide whether to continue the service based on the number of passengers.\n\nFares will not change. A one-way ticket costs $4.50, and monthly passes remain available for $90."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0021",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "formulaire",
+        "hôtel"
+      ],
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Seaside Grand Hotel — Guest Feedback Form",
+          "meta": {
+            "Guest name": "Alicia Moreno",
+            "Room": "412",
+            "Dates of stay": "July 3–7"
+          },
+          "body": "Comments: The staff were wonderful, especially Tomás at the front desk, who arranged a last-minute boat tour for my family. The room was spotless. Breakfast was good, but dinner service in the restaurant was very slow on two evenings. We would definitely stay again.\n\nWould you like to be contacted about this feedback?  ☐ Yes   ☒ No",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Category",
+              "Rating (1–5)"
+            ],
+            "rows": [
+              [
+                "Room cleanliness",
+                "5"
+              ],
+              [
+                "Front desk service",
+                "5"
+              ],
+              [
+                "Restaurant",
+                "3"
+              ],
+              [
+                "Value for money",
+                "4"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0022",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "note de service",
+        "insertion"
+      ],
+      "passages": [
+        {
+          "kind": "memo",
+          "meta": {
+            "To": "All Laboratory Staff",
+            "From": "Dr. Helena Vos, Laboratory Director",
+            "Re": "New safety equipment"
+          },
+          "body": "Over the next two weeks, new eyewash stations will be installed in all three laboratories. [[1]] The installation will take place in the evenings, so it should not interrupt your work.\n\nIn addition, every staff member will receive a new pair of safety goggles. [[2]] Please pick yours up from the supply room by Friday and sign the distribution sheet.\n\nFinally, a refresher course on emergency procedures will be held on March 14. [[3]] Attendance is mandatory for all staff who work with chemicals. [[4]]"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0023",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "chat",
+        "événement"
+      ],
+      "passages": [
+        {
+          "kind": "chat",
+          "body": "Nadia Petrov (11:20): Quick check on Saturday's store opening. Rob, did the balloons arrive?\nRob Klein (11:21): They're coming tomorrow morning. The supplier confirmed.\nNadia Petrov (11:22): Great. Sana, how many people have signed up for the free coffee tasting?\nSana Iqbal (11:24): 85 so far. We planned for 60.\nNadia Petrov (11:25): Wow. We'd better get more cups.\nLeo Martins (11:26): I'm at the wholesale store right now. I can grab some.\nNadia Petrov (11:27): Perfect. Get at least 50 extra, just in case.\nLeo Martins (11:28): Will do. Anything else?\nSana Iqbal (11:30): Maybe more napkins too.\nLeo Martins (11:31): Consider it done."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0024",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "article",
+        "technologie"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Smart Thermostats Gain Popularity Among Small Businesses",
+          "body": "A growing number of small businesses are installing smart thermostats to reduce energy costs. These devices learn a building's usage patterns and automatically adjust the temperature when rooms are empty.\n\nAccording to a survey by the Small Business Energy Council, 38 percent of businesses with fewer than 50 employees now use smart thermostats, up from 21 percent three years ago. Owners reported average savings of 12 percent on heating and cooling bills.\n\n“The initial cost was about $300 per unit, but we recovered that within a year,” said Jorge Alvarado, owner of three bakeries in San Diego. He noted that the devices can also be controlled remotely through a smartphone app, which allows him to adjust settings from home.\n\nHowever, some owners mentioned drawbacks. Several said that setting up the devices was more complicated than expected, a few found that the devices occasionally lost their Wi-Fi connection, and others expressed concerns about data privacy."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0025",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "single-passage",
+      "difficulty": 5,
+      "tags": [
+        "lettre",
+        "banque",
+        "insertion"
+      ],
+      "passages": [
+        {
+          "kind": "letter",
+          "meta": {
+            "To": "Ms. Haruka Ito",
+            "From": "Customer Accounts Department, Silverline Bank"
+          },
+          "body": "Dear Ms. Ito,\n\nWe are writing to inform you of changes to your Silverline Rewards credit card, effective March 1. [[1]]\n\nFirst, the annual fee will increase from $45 to $60. In return, you will now earn two points for every dollar spent at restaurants and grocery stores, up from one point. [[2]] Points can be redeemed for travel, gift cards, or statement credits.\n\nSecond, we are introducing free travel insurance for flights purchased with your card. [[3]] Details of the coverage are included in the enclosed brochure.\n\nIf you do not wish to accept these changes, you may close your account at any time before March 1 without penalty. [[4]] We value your membership and thank you for choosing Silverline Bank.\n\nSincerely,\nCustomer Accounts Department"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0026",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "double-passage",
+      "difficulty": 3,
+      "tags": [
+        "facture",
+        "réclamation"
+      ],
+      "passages": [
+        {
+          "kind": "invoice",
+          "title": "Bright Sparks Electrical Services — Invoice #7714",
+          "meta": {
+            "Customer": "Dalton Bakery, 18 Mill Road",
+            "Service date": "November 12"
+          },
+          "body": "Payment due by December 12.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Work performed",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Replacement of three ceiling lights (customer area)",
+                "$210"
+              ],
+              [
+                "Inspection of oven wiring",
+                "$95"
+              ],
+              [
+                "Emergency call-out fee (weekends only)",
+                "$80"
+              ],
+              [
+                "TOTAL",
+                "$385"
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "billing@brightsparks.com",
+            "From": "Rina Dalton",
+            "Date": "November 20",
+            "Subject": "Invoice #7714"
+          },
+          "body": "Hello,\n\nI received the invoice for the work done at my bakery last week. Your technician did an excellent job, and the new lights look great.\n\nHowever, I believe there is an error. The service was performed on a Tuesday afternoon, not on a weekend, so I don't think the emergency fee applies. Could you please send me a corrected invoice?\n\nThank you,\nRina Dalton"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0027",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "double-passage",
+      "difficulty": 4,
+      "tags": [
+        "coworking",
+        "abonnement"
+      ],
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "HiveSpace Coworking — Membership Plans",
+          "body": "All plans include high-speed Wi-Fi, free coffee, and 2 hours of meeting room use per month. Additional meeting room time: $15 per hour.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Plan",
+              "Price",
+              "Features"
+            ],
+            "rows": [
+              [
+                "Flex",
+                "$150/month",
+                "10 days of access per month; shared desks"
+              ],
+              [
+                "Resident",
+                "$320/month",
+                "Unlimited access; dedicated desk; personal locker"
+              ],
+              [
+                "Team",
+                "$1,100/month",
+                "Private office for up to 4 people; unlimited access"
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "info@hivespace.com",
+            "From": "Oliver Grant",
+            "Subject": "Membership question"
+          },
+          "body": "Hello,\n\nI'm a freelance graphic designer, and I'd like to work at HiveSpace every weekday. I'd prefer to have my own desk where I can leave my monitor and drawing tablet overnight. I also meet with clients regularly, probably about five hours a month.\n\nCould you tell me whether I can start on the first of next month?\n\nThanks,\nOliver Grant"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0028",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "triple-passage",
+      "difficulty": 4,
+      "tags": [
+        "marché",
+        "candidature"
+      ],
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Maplewood Summer Market — Vendor Applications Now Open",
+          "body": "The Maplewood Summer Market will take place every Saturday from June 7 to August 30 in Central Square.\n\nBooth fees: standard booth (3 m × 3 m), $40 per Saturday; corner booth (3 m × 3 m, two open sides), $55 per Saturday. Vendors who apply for the full season (all 13 Saturdays) receive a 15 percent discount.\n\nFood vendors must provide a valid health permit. Applications are due by May 1."
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "market@maplewood.gov",
+            "From": "Elena Ruiz, Ruiz Family Tamales",
+            "Date": "April 22"
+          },
+          "body": "Hello,\n\nI would like to apply for a corner booth for the entire season. We sell homemade tamales and fresh juices. I have attached our health permit, which was renewed in March.\n\nLast year we had a standard booth near the fountain, and many customers told us they had trouble finding us.\n\nThank you,\nElena Ruiz"
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Elena Ruiz",
+            "From": "Ben Atwood, Market Coordinator",
+            "Date": "April 25"
+          },
+          "body": "Dear Ms. Ruiz,\n\nThank you for your application. Unfortunately, all corner booths for the full season have already been assigned. However, a corner booth is available for the Saturdays in August, and I can offer you a standard booth for the earlier dates. Your booth will be located at the main entrance to the square, which is the busiest spot in the market.\n\nPlease let me know by April 30 whether this arrangement suits you.\n\nBest regards,\nBen Atwood"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0029",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "triple-passage",
+      "difficulty": 5,
+      "tags": [
+        "train",
+        "voyage d'affaires"
+      ],
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Railink — E-ticket",
+          "meta": {
+            "Passenger": "Sophie Laurent",
+            "Trip": "Paris (Gare de Lyon) → Geneva",
+            "Date": "Thursday, March 12"
+          },
+          "body": "Departure 07:58 — Arrival 11:04. Coach 7, Seat 54.\nFare: Flexi Business (exchangeable free of charge until departure; refundable with a 10% fee)."
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Marc Weber",
+            "From": "Sophie Laurent",
+            "Date": "March 9"
+          },
+          "body": "Hi Marc,\n\nThe client in Geneva has just moved our meeting from Thursday afternoon to Friday morning at 9:30. I'm going to change my train to Thursday evening so that I can stay at a hotel near their office.\n\nCould you book me a room for Thursday night? Also, please let the rest of the team know about the change.\n\nThanks,\nSophie"
+        },
+        {
+          "kind": "form",
+          "title": "Railink — Exchange Confirmation",
+          "meta": {
+            "Passenger": "Sophie Laurent",
+            "Original trip": "March 12, 07:58"
+          },
+          "body": "New trip: Paris (Gare de Lyon) → Geneva, Thursday, March 12.\nDeparture 17:58 — Arrival 21:05. Coach 3, Seat 12.\nExchange fee: €0.00"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0030",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock2",
+      "kind": "triple-passage",
+      "difficulty": 5,
+      "tags": [
+        "bénévolat",
+        "entreprise"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Kestrel Logistics Newsletter — Community Day",
+          "body": "On Friday, May 16, Kestrel employees will spend the day volunteering instead of working. This year, staff can choose one of three projects:\n\n- Riverside Park cleanup (morning only, 8 A.M.–12 P.M.)\n- Food bank sorting (all day, 9 A.M.–4 P.M.)\n- Reading program at Elm Street Elementary School (afternoon only, 1 P.M.–3 P.M.)\n\nEmployees should sign up on the intranet by May 2. Lunch will be provided for all volunteers at the food bank."
+        },
+        {
+          "kind": "form",
+          "title": "Community Day Sign-Up",
+          "meta": {
+            "Name": "Grace Liu",
+            "Department": "Customer Accounts",
+            "Project": "Food bank sorting",
+            "Dietary needs": "Vegetarian",
+            "T-shirt size": "M",
+            "Submitted": "April 28"
+          },
+          "body": "Thank you for signing up! You will receive a confirmation by e-mail."
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Community Day Committee",
+            "From": "Grace Liu",
+            "Date": "May 6"
+          },
+          "body": "Hello,\n\nI signed up for the food bank project, but I've just been told that I need to attend an important client meeting on the morning of May 16. Would it be possible to switch to a project that takes place in the afternoon? I'd be happy to help wherever there is the most need.\n\nThank you,\nGrace"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p7-0055","exam":"toeic","section":"part7","groupId":"toeic-p7-g0016","skill":"p7-details","difficulty":1,"prompt":"What change will take place on September 1?","options":["Weekend hours will be extended.","The center will open earlier on weekdays.","A membership fee will be introduced.","The center will close for repairs."],"answer":1,"explanation":"Ouverture à 6 h au lieu de 7 h en semaine.","trap":"Les horaires du week-end restent inchangés.","recommendedSeconds":40,"tags":["changement"]},
+    {"id":"toeic-p7-0056","exam":"toeic","section":"part7","groupId":"toeic-p7-g0016","skill":"p7-details","difficulty":2,"prompt":"What is now provided at no cost?","options":["Lockers","Towels","Water bottles","Personal training"],"answer":1,"explanation":"« Towels are now provided free of charge ».","trap":"« free of charge » est paraphrasé par « at no cost ».","recommendedSeconds":40,"tags":["paraphrase"]},
+    {"id":"toeic-p7-0057","exam":"toeic","section":"part7","groupId":"toeic-p7-g0017","skill":"p7-sens-implicite","difficulty":3,"prompt":"At 2:44 P.M., what does Ms. Mendes most likely mean when she writes, “You're a lifesaver”?","options":["She needs medical assistance.","She wants Mr. Park to give the presentation.","Mr. Park's advice solved her problem.","She will be late for her presentation."],"answer":2,"explanation":"L'interrupteur caché était la cause de la panne ; « You're a lifesaver » remercie chaleureusement M. Park de l'avoir tirée d'affaire.","trap":"Prendre l'expression au sens littéral (sauver une vie).","recommendedSeconds":60,"tags":["expression idiomatique"]},
+    {"id":"toeic-p7-0058","exam":"toeic","section":"part7","groupId":"toeic-p7-g0017","skill":"p7-inference","difficulty":2,"prompt":"What is suggested about the power switch?","options":["It is broken.","It was recently installed.","It is not easy to see.","It controls the room lights."],"answer":2,"explanation":"« It's behind the curtain » et « It happens to everyone » : l'interrupteur est peu visible.","trap":"L'interrupteur n'est pas en panne : il fallait seulement l'allumer.","recommendedSeconds":50,"tags":["déduction"]},
+    {"id":"toeic-p7-0059","exam":"toeic","section":"part7","groupId":"toeic-p7-g0018","skill":"p7-details","difficulty":2,"prompt":"How can a customer get a free drink?","options":["By collecting nine stamps","By buying a pastry","By ordering before December","By paying with a credit card"],"answer":0,"explanation":"Un tampon par café acheté ; après neuf cafés, le dixième est offert.","trap":"Les pâtisseries ne donnent pas de tampon.","recommendedSeconds":40,"tags":["condition"]},
+    {"id":"toeic-p7-0060","exam":"toeic","section":"part7","groupId":"toeic-p7-g0018","skill":"p7-inference","difficulty":3,"prompt":"What is indicated about the card?","options":["It can be used for sandwiches.","It is valid at all cafés in the city.","It expires at the end of the year.","It must be registered online."],"answer":2,"explanation":"« Card valid until December 31. »","trap":"Les sandwichs sont expressément exclus.","recommendedSeconds":40,"tags":["validité"]},
+    {"id":"toeic-p7-0061","exam":"toeic","section":"part7","groupId":"toeic-p7-g0019","skill":"p7-idee-principale","difficulty":1,"prompt":"What is the purpose of the e-mail?","options":["To announce a promotion","To introduce a new employee","To invite staff to an event","To request a budget"],"answer":2,"explanation":"« Please join us for a farewell reception » : invitation à un pot de départ.","trap":"Il s'agit d'un départ à la retraite, pas d'une promotion.","recommendedSeconds":40,"tags":["but"]},
+    {"id":"toeic-p7-0062","exam":"toeic","section":"part7","groupId":"toeic-p7-g0019","skill":"p7-details","difficulty":2,"prompt":"What are readers asked to do by Wednesday?","options":["Give money for a gift","Reserve the lounge","Contact Ms. Banks","Submit a report to accounting"],"answer":0,"explanation":"« please give your donation to Ahmed in accounting by Wednesday ».","trap":"Ahmed travaille à la comptabilité, mais on ne lui remet pas de rapport.","recommendedSeconds":40,"tags":["échéance"]},
+    {"id":"toeic-p7-0063","exam":"toeic","section":"part7","groupId":"toeic-p7-g0020","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the article mainly about?","options":["An extension of ferry hours","A fare increase","A new restaurant on the island","A change in theater schedules"],"answer":0,"explanation":"Le ferry circulera deux heures plus tard les vendredis et samedis.","trap":"Les tarifs ne changent pas (« Fares will not change »).","recommendedSeconds":50,"tags":["sujet"]},
+    {"id":"toeic-p7-0064","exam":"toeic","section":"part7","groupId":"toeic-p7-g0020","skill":"p7-details","difficulty":3,"prompt":"Why was the change made?","options":["Residents asked for it.","Tourism has increased.","A new ferry was purchased.","Road traffic has worsened."],"answer":0,"explanation":"« a response to requests from island residents who work evening shifts ».","trap":"Restaurants et théâtres sont les lieux de travail des résidents, pas des attractions touristiques.","recommendedSeconds":50,"tags":["cause"]},
+    {"id":"toeic-p7-0065","exam":"toeic","section":"part7","groupId":"toeic-p7-g0020","skill":"p7-inference","difficulty":4,"prompt":"What will determine whether the evening service continues after one year?","options":["The cost of fuel","How many people use it","A vote by residents","The ticket price"],"answer":1,"explanation":"« the city will decide … based on the number of passengers ».","trap":"La subvention ne couvre qu'un an, mais c'est la fréquentation qui décidera de la suite.","recommendedSeconds":50,"tags":["condition"]},
+    {"id":"toeic-p7-0066","exam":"toeic","section":"part7","groupId":"toeic-p7-g0021","skill":"p7-details","difficulty":2,"prompt":"What did Ms. Moreno rate the lowest?","options":["The room","The front desk","The value for money","The restaurant"],"answer":3,"explanation":"Le restaurant a la note la plus basse (3/5).","trap":"La valeur pour le prix a 4, pas 3.","recommendedSeconds":40,"tags":["tableau"]},
+    {"id":"toeic-p7-0067","exam":"toeic","section":"part7","groupId":"toeic-p7-g0021","skill":"p7-details","difficulty":3,"prompt":"What did Tomás do for Ms. Moreno?","options":["He organized an excursion.","He upgraded her room.","He served dinner.","He gave her a discount."],"answer":0,"explanation":"« who arranged a last-minute boat tour for my family » : une excursion.","trap":"Il travaille à la réception, pas au restaurant.","recommendedSeconds":50,"tags":["paraphrase"]},
+    {"id":"toeic-p7-0068","exam":"toeic","section":"part7","groupId":"toeic-p7-g0021","skill":"p7-inference","difficulty":3,"prompt":"What is indicated about Ms. Moreno?","options":["She stayed for two weeks.","She complained about breakfast.","She does not want to be contacted.","She traveled alone."],"answer":2,"explanation":"Elle a coché « No » à la question sur le contact.","trap":"Elle voyageait en famille et a trouvé le petit-déjeuner bon.","recommendedSeconds":50,"tags":["formulaire"]},
+    {"id":"toeic-p7-0069","exam":"toeic","section":"part7","groupId":"toeic-p7-g0022","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the purpose of the memo?","options":["To announce a new laboratory director","To inform staff about safety improvements","To request supply orders","To report an accident"],"answer":1,"explanation":"Postes de rinçage oculaire, nouvelles lunettes, formation : la note présente des mesures de sécurité.","trap":"Aucun accident n'est mentionné.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0070","exam":"toeic","section":"part7","groupId":"toeic-p7-g0022","skill":"p7-details","difficulty":3,"prompt":"What are staff members asked to do?","options":["Install eyewash stations","Collect some equipment","Work in the evenings","Teach a course"],"answer":1,"explanation":"« Please pick yours up from the supply room by Friday » : récupérer leurs lunettes.","trap":"L'installation aura lieu le soir, mais ce n'est pas le personnel qui s'en charge.","recommendedSeconds":50,"tags":["consigne"]},
+    {"id":"toeic-p7-0071","exam":"toeic","section":"part7","groupId":"toeic-p7-g0022","skill":"p7-insertion-phrase","difficulty":4,"prompt":"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “These are lighter and less likely to fog up than the current model.”","options":["[1]","[2]","[3]","[4]"],"answer":1,"explanation":"« These » renvoie aux nouvelles lunettes de sécurité présentées juste avant [2] ; « fog up » (s'embuer) concerne des lunettes.","trap":"Placer la phrase après les postes de rinçage [1], qui ne peuvent pas s'embuer.","recommendedSeconds":70,"tags":["insertion","référent"]},
+    {"id":"toeic-p7-0072","exam":"toeic","section":"part7","groupId":"toeic-p7-g0023","skill":"p7-idee-principale","difficulty":2,"prompt":"What are the writers preparing for?","options":["A visit from a coffee supplier","A store opening","A balloon festival","A staff training"],"answer":1,"explanation":"« Quick check on Saturday's store opening. »","trap":"Les ballons et la dégustation de café font partie de l'inauguration.","recommendedSeconds":50,"tags":["sujet"]},
+    {"id":"toeic-p7-0073","exam":"toeic","section":"part7","groupId":"toeic-p7-g0023","skill":"p7-details","difficulty":3,"prompt":"What is indicated about the coffee tasting?","options":["It will take place tomorrow.","More people registered than expected.","It has been canceled.","It costs $5 per person."],"answer":1,"explanation":"85 inscrits pour 60 prévus.","trap":"La dégustation est gratuite (« free coffee tasting »).","recommendedSeconds":50,"tags":["chiffres"]},
+    {"id":"toeic-p7-0074","exam":"toeic","section":"part7","groupId":"toeic-p7-g0023","skill":"p7-sens-implicite","difficulty":4,"prompt":"At 11:31, what does Mr. Martins most likely mean when he writes, “Consider it done”?","options":["He will buy napkins.","He has finished shopping.","He thinks the plan is complete.","He disagrees with Ms. Iqbal."],"answer":0,"explanation":"Il répond à la suggestion d'acheter des serviettes : « Consider it done » signifie « je m'en occupe ».","trap":"Comprendre « done » comme « terminé » (courses finies).","recommendedSeconds":60,"tags":["expression idiomatique","chat"]},
+    {"id":"toeic-p7-0075","exam":"toeic","section":"part7","groupId":"toeic-p7-g0023","skill":"p7-inference","difficulty":3,"prompt":"Where most likely is Mr. Martins?","options":["At a store that sells goods in large quantities","At the new store","At a coffee farm","At a balloon supplier"],"answer":0,"explanation":"« I'm at the wholesale store right now » : un magasin de vente en gros.","trap":"Les ballons arrivent par le fournisseur, pas via M. Martins.","recommendedSeconds":50,"tags":["vocabulaire"]},
+    {"id":"toeic-p7-0076","exam":"toeic","section":"part7","groupId":"toeic-p7-g0024","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the article mainly about?","options":["The growing use of a technology by small businesses","A new energy regulation","The opening of a bakery chain","A survey on employee satisfaction"],"answer":0,"explanation":"De plus en plus de petites entreprises installent des thermostats intelligents.","trap":"Les boulangeries de M. Alvarado ne sont qu'un exemple.","recommendedSeconds":50,"tags":["sujet"]},
+    {"id":"toeic-p7-0077","exam":"toeic","section":"part7","groupId":"toeic-p7-g0024","skill":"p7-details","difficulty":4,"prompt":"By how many percentage points has the use of smart thermostats among small businesses increased?","options":["12","17","21","38"],"answer":1,"explanation":"De 21 % à 38 % : 38 − 21 = 17 points.","trap":"12 % correspond aux économies moyennes, pas à la hausse.","recommendedSeconds":60,"tags":["calcul"]},
+    {"id":"toeic-p7-0078","exam":"toeic","section":"part7","groupId":"toeic-p7-g0024","skill":"p7-vocabulaire","difficulty":4,"prompt":"In paragraph 3, the word “recovered” is closest in meaning to","options":["healed","found","repaired","earned back"],"answer":3,"explanation":"« we recovered that within a year » : l'investissement de 300 $ a été rentabilisé, regagné grâce aux économies.","trap":"« healed » est le sens médical de « recover ».","recommendedSeconds":50,"tags":["vocabulaire en contexte"]},
+    {"id":"toeic-p7-0079","exam":"toeic","section":"part7","groupId":"toeic-p7-g0024","skill":"p7-details","difficulty":4,"prompt":"What is NOT mentioned as a drawback of smart thermostats?","options":["Complicated setup","Data privacy concerns","Connection problems","Short battery life"],"answer":3,"explanation":"Le dernier paragraphe cite l'installation compliquée, les pertes de connexion Wi-Fi et la confidentialité des données ; pas l'autonomie de la batterie.","trap":"Vérifier chaque option dans le texte plutôt que de répondre de mémoire.","recommendedSeconds":70,"tags":["NOT"]},
+    {"id":"toeic-p7-0080","exam":"toeic","section":"part7","groupId":"toeic-p7-g0025","skill":"p7-idee-principale","difficulty":2,"prompt":"Why was the letter sent?","options":["To offer a new loan","To notify a customer of account changes","To request a payment","To confirm a travel booking"],"answer":1,"explanation":"« to inform you of changes to your Silverline Rewards credit card ».","trap":"L'assurance voyage est un des changements, pas une réservation.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0081","exam":"toeic","section":"part7","groupId":"toeic-p7-g0025","skill":"p7-details","difficulty":3,"prompt":"What will happen to the annual fee?","options":["It will rise.","It will be eliminated.","It will be charged monthly.","It will remain the same."],"answer":0,"explanation":"La cotisation passe de 45 $ à 60 $.","trap":"« In return » introduit une contrepartie, pas une baisse de la cotisation.","recommendedSeconds":50,"tags":["chiffres"]},
+    {"id":"toeic-p7-0082","exam":"toeic","section":"part7","groupId":"toeic-p7-g0025","skill":"p7-inference","difficulty":4,"prompt":"What is suggested about Ms. Ito?","options":["She recently took a flight.","She can cancel her card before March 1 without a penalty.","She requested travel insurance.","She has used all of her points."],"answer":1,"explanation":"« you may close your account at any time before March 1 without penalty ».","trap":"L'assurance voyage est introduite par la banque, pas demandée par la cliente.","recommendedSeconds":60,"tags":["condition"]},
+    {"id":"toeic-p7-0083","exam":"toeic","section":"part7","groupId":"toeic-p7-g0025","skill":"p7-insertion-phrase","difficulty":5,"prompt":"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “The insurance covers trip cancellations and lost luggage.”","options":["[1]","[2]","[3]","[4]"],"answer":2,"explanation":"La phrase précise l'assurance voyage présentée juste avant [3], et précède le renvoi à la brochure détaillée.","trap":"En [1], l'assurance n'a pas encore été mentionnée : « The insurance » n'aurait pas de référent.","recommendedSeconds":70,"tags":["insertion","article défini"]},
+    {"id":"toeic-p7-0084","exam":"toeic","section":"part7","groupId":"toeic-p7-g0026","skill":"p7-details","difficulty":2,"prompt":"What work was done at Dalton Bakery?","options":["A new oven was installed.","Some lights were replaced.","All the wiring was replaced.","A new sign was hung."],"answer":1,"explanation":"« Replacement of three ceiling lights ».","trap":"Le câblage du four a seulement été inspecté.","recommendedSeconds":50,"tags":["facture"]},
+    {"id":"toeic-p7-0085","exam":"toeic","section":"part7","groupId":"toeic-p7-g0026","skill":"p7-idee-principale","difficulty":2,"prompt":"Why did Ms. Dalton write the e-mail?","options":["To book another service","To question a charge","To request an inspection","To change a payment date"],"answer":1,"explanation":"Elle conteste les frais d'urgence du week-end et demande une facture corrigée.","trap":"Elle félicite le technicien, mais ce n'est pas le but principal de l'e-mail.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0086","exam":"toeic","section":"part7","groupId":"toeic-p7-g0026","skill":"p7-synthese","difficulty":4,"prompt":"What amount does Ms. Dalton believe she should pay?","options":["$210","$305","$385","$465"],"answer":1,"explanation":"Total de 385 $ moins les 80 $ de frais d'urgence du week-end, qui ne s'appliquent pas un mardi : 305 $.","trap":"385 $ est le montant facturé, que Mme Dalton conteste.","recommendedSeconds":80,"tags":["croisement","calcul"]},
+    {"id":"toeic-p7-0087","exam":"toeic","section":"part7","groupId":"toeic-p7-g0026","skill":"p7-details","difficulty":3,"prompt":"What does Ms. Dalton say about the technician?","options":["He arrived late.","He worked on a weekend.","He did good work.","He forgot to inspect the oven."],"answer":2,"explanation":"« Your technician did an excellent job ».","trap":"Selon elle, l'intervention n'a justement pas eu lieu un week-end.","recommendedSeconds":50,"tags":["opinion"]},
+    {"id":"toeic-p7-0088","exam":"toeic","section":"part7","groupId":"toeic-p7-g0026","skill":"p7-vocabulaire","difficulty":4,"prompt":"In the e-mail, the word “applies” is closest in meaning to","options":["is requested","is attached","is relevant","is used up"],"answer":2,"explanation":"« I don't think the emergency fee applies » : les frais ne s'appliquent pas, ne sont pas pertinents ici.","trap":"Confondre avec « apply for » (postuler, demander).","recommendedSeconds":50,"tags":["vocabulaire en contexte"]},
+    {"id":"toeic-p7-0089","exam":"toeic","section":"part7","groupId":"toeic-p7-g0027","skill":"p7-details","difficulty":2,"prompt":"What is included in all membership plans?","options":["A private office","Free coffee","A personal locker","Unlimited meeting room use"],"answer":1,"explanation":"« All plans include high-speed Wi-Fi, free coffee, and 2 hours of meeting room use ».","trap":"Les salles de réunion sont limitées à 2 heures par mois.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0090","exam":"toeic","section":"part7","groupId":"toeic-p7-g0027","skill":"p7-synthese","difficulty":4,"prompt":"Which plan is most suitable for Mr. Grant?","options":["Flex","Team","Resident","Student"],"answer":2,"explanation":"Il veut venir tous les jours de semaine (plus de 10 jours) et disposer de son propre bureau : la formule Resident (accès illimité, bureau attitré).","trap":"Flex n'offre que 10 jours et des bureaux partagés ; Team est prévu pour une équipe.","recommendedSeconds":80,"tags":["croisement"]},
+    {"id":"toeic-p7-0091","exam":"toeic","section":"part7","groupId":"toeic-p7-g0027","skill":"p7-synthese","difficulty":5,"prompt":"How much will Mr. Grant probably pay each month for additional meeting room time?","options":["$15","$30","$45","$75"],"answer":2,"explanation":"Environ 5 heures de rendez-vous par mois, dont 2 incluses : 3 heures × 15 $ = 45 $.","trap":"75 $ correspond aux 5 heures facturées, sans déduire les 2 heures incluses.","recommendedSeconds":90,"tags":["croisement","calcul"]},
+    {"id":"toeic-p7-0092","exam":"toeic","section":"part7","groupId":"toeic-p7-g0027","skill":"p7-details","difficulty":2,"prompt":"What is Mr. Grant's profession?","options":["Photographer","Graphic designer","Architect","Writer"],"answer":1,"explanation":"« I'm a freelance graphic designer ».","trap":"La tablette graphique pourrait évoquer d'autres métiers créatifs.","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0093","exam":"toeic","section":"part7","groupId":"toeic-p7-g0027","skill":"p7-details","difficulty":3,"prompt":"What does Mr. Grant ask about?","options":["Parking","Discounts for freelancers","Printing services","A start date"],"answer":3,"explanation":"« Could you tell me whether I can start on the first of next month? »","trap":"Il se présente comme travailleur indépendant mais ne demande pas de remise.","recommendedSeconds":50,"tags":["demande"]},
+    {"id":"toeic-p7-0094","exam":"toeic","section":"part7","groupId":"toeic-p7-g0028","skill":"p7-details","difficulty":2,"prompt":"What must food vendors provide?","options":["A health permit","Their own tent","A price list","Proof of insurance"],"answer":0,"explanation":"« Food vendors must provide a valid health permit. »","trap":"Les autres documents sont plausibles mais non exigés.","recommendedSeconds":40,"tags":["exigence"]},
+    {"id":"toeic-p7-0095","exam":"toeic","section":"part7","groupId":"toeic-p7-g0028","skill":"p7-synthese","difficulty":4,"prompt":"Why did Ms. Ruiz most likely request a corner booth?","options":["To be more visible to customers","To have more space for cooking","Because it is cheaper","Because it is near the fountain"],"answer":0,"explanation":"Les clients avaient du mal à la trouver l'an dernier ; un stand d'angle a deux côtés ouverts (document 1), donc plus de visibilité.","trap":"Le stand d'angle a la même taille (3 m × 3 m) et coûte plus cher (55 $).","recommendedSeconds":80,"tags":["croisement","inférence"]},
+    {"id":"toeic-p7-0096","exam":"toeic","section":"part7","groupId":"toeic-p7-g0028","skill":"p7-details","difficulty":3,"prompt":"What problem does Mr. Atwood mention?","options":["Ms. Ruiz's permit has expired.","The application arrived too late.","The market has been canceled.","The requested booth type is unavailable for the full season."],"answer":3,"explanation":"« all corner booths for the full season have already been assigned ».","trap":"Le permis a été renouvelé en mars : il est valide.","recommendedSeconds":50,"tags":["problème"]},
+    {"id":"toeic-p7-0097","exam":"toeic","section":"part7","groupId":"toeic-p7-g0028","skill":"p7-synthese","difficulty":4,"prompt":"What is suggested about Ms. Ruiz's application?","options":["It was rejected.","It was submitted before the deadline.","It included a payment.","It was for one Saturday only."],"answer":1,"explanation":"Envoyée le 22 avril, avant la date limite du 1er mai (document 1).","trap":"La candidature n'est pas rejetée : une autre formule lui est proposée.","recommendedSeconds":60,"tags":["croisement","dates"]},
+    {"id":"toeic-p7-0098","exam":"toeic","section":"part7","groupId":"toeic-p7-g0028","skill":"p7-details","difficulty":3,"prompt":"Where will Ms. Ruiz's booth most likely be located?","options":["Near the fountain","At the main entrance to the square","On a corner for the whole season","Outside Central Square"],"answer":1,"explanation":"« Your booth will be located at the main entrance to the square ».","trap":"La fontaine était l'emplacement de l'an dernier.","recommendedSeconds":50,"tags":["lieu"]},
+    {"id":"toeic-p7-0099","exam":"toeic","section":"part7","groupId":"toeic-p7-g0029","skill":"p7-details","difficulty":2,"prompt":"What is indicated about Ms. Laurent's original ticket?","options":["It could be exchanged at no charge.","It was for a Friday trip.","It was non-refundable.","It was for a seat in coach 3."],"answer":0,"explanation":"Tarif « Flexi Business : exchangeable free of charge until departure ».","trap":"Le billet est remboursable avec 10 % de frais ; la voiture 3 est celle du nouveau billet.","recommendedSeconds":50,"tags":["conditions"]},
+    {"id":"toeic-p7-0100","exam":"toeic","section":"part7","groupId":"toeic-p7-g0029","skill":"p7-idee-principale","difficulty":2,"prompt":"Why did Ms. Laurent change her travel plans?","options":["Her train was canceled.","Her hotel was fully booked.","A colleague asked her to.","A meeting was rescheduled."],"answer":3,"explanation":"« The client in Geneva has just moved our meeting … to Friday morning ».","trap":"Le train n'a pas été annulé : c'est elle qui l'a changé.","recommendedSeconds":50,"tags":["cause"]},
+    {"id":"toeic-p7-0101","exam":"toeic","section":"part7","groupId":"toeic-p7-g0029","skill":"p7-details","difficulty":3,"prompt":"What does Ms. Laurent ask Mr. Weber to do?","options":["Change her train ticket","Contact the client","Attend the meeting for her","Reserve accommodation"],"answer":3,"explanation":"« Could you book me a room for Thursday night? »","trap":"C'est elle qui change son billet de train.","recommendedSeconds":50,"tags":["demande"]},
+    {"id":"toeic-p7-0102","exam":"toeic","section":"part7","groupId":"toeic-p7-g0029","skill":"p7-synthese","difficulty":4,"prompt":"At what time will Ms. Laurent arrive in Geneva?","options":["09:30","11:04","17:58","21:05"],"answer":3,"explanation":"La confirmation d'échange indique une arrivée à 21 h 05.","trap":"11 h 04 était l'arrivée prévue par le billet d'origine ; 17 h 58 est l'heure de départ.","recommendedSeconds":60,"tags":["croisement","horaires"]},
+    {"id":"toeic-p7-0103","exam":"toeic","section":"part7","groupId":"toeic-p7-g0029","skill":"p7-synthese","difficulty":5,"prompt":"What is suggested about the ticket exchange?","options":["It was made by Mr. Weber.","It was free because of the type of fare.","It moved the trip to Friday.","It kept the same seat."],"answer":1,"explanation":"Frais d'échange : 0 € (document 3), conformément au tarif Flexi échangeable gratuitement (document 1).","trap":"Le voyage reste le jeudi 12 mars, mais le soir.","recommendedSeconds":80,"tags":["croisement"]},
+    {"id":"toeic-p7-0104","exam":"toeic","section":"part7","groupId":"toeic-p7-g0030","skill":"p7-details","difficulty":2,"prompt":"What will happen on May 16?","options":["Employees will do volunteer work.","A new school will open.","The office will be renovated.","Clients will visit the company."],"answer":0,"explanation":"« Kestrel employees will spend the day volunteering instead of working. »","trap":"L'école Elm Street existe déjà ; elle accueille un des projets.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0105","exam":"toeic","section":"part7","groupId":"toeic-p7-g0030","skill":"p7-details","difficulty":3,"prompt":"What is indicated about the food bank project?","options":["It is the shortest project.","It takes place at a school.","It requires special training.","Participants will receive a meal."],"answer":3,"explanation":"« Lunch will be provided for all volunteers at the food bank. »","trap":"C'est au contraire le projet le plus long (toute la journée).","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0106","exam":"toeic","section":"part7","groupId":"toeic-p7-g0030","skill":"p7-synthese","difficulty":4,"prompt":"Which project will Ms. Liu most likely join?","options":["The park cleanup","Food bank sorting","None of the projects","The reading program"],"answer":3,"explanation":"Elle doit assister à une réunion le matin et demande un projet de l'après-midi ; le seul projet uniquement l'après-midi est le programme de lecture (13 h–15 h).","trap":"Le nettoyage du parc a lieu le matin seulement.","recommendedSeconds":80,"tags":["croisement","horaires"]},
+    {"id":"toeic-p7-0107","exam":"toeic","section":"part7","groupId":"toeic-p7-g0030","skill":"p7-inference","difficulty":4,"prompt":"What is suggested about Ms. Liu's request?","options":["Her manager has approved it.","It was made after the sign-up deadline.","It concerns her dietary needs.","It was sent on April 28."],"answer":1,"explanation":"Elle écrit le 6 mai, alors que les inscriptions se terminaient le 2 mai (document 1).","trap":"Le 28 avril est la date de son inscription initiale (document 2).","recommendedSeconds":70,"tags":["croisement","dates"]},
+    {"id":"toeic-p7-0108","exam":"toeic","section":"part7","groupId":"toeic-p7-g0030","skill":"p7-vocabulaire","difficulty":4,"prompt":"In the e-mail, the word “need” is closest in meaning to","options":["poverty","obligation","desire","demand for help"],"answer":3,"explanation":"« wherever there is the most need » : là où l'on a le plus besoin de bénévoles.","trap":"« poverty » est un autre sens possible de « need » (être dans le besoin), qui ne convient pas ici.","recommendedSeconds":50,"tags":["vocabulaire en contexte"]}
+  ]
+}

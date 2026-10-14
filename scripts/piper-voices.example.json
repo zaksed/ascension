@@ -1,0 +1,10 @@
+{
+  "US-F": "C:/piper/voices/en_US-amy-medium.onnx",
+  "US-M": "C:/piper/voices/en_US-ryan-medium.onnx",
+  "UK-F": "C:/piper/voices/en_GB-jenny_dioco-medium.onnx",
+  "UK-M": "C:/piper/voices/en_GB-alan-medium.onnx",
+  "AU-F": "C:/piper/voices/en_US-kristin-medium.onnx",
+  "AU-M": "C:/piper/voices/en_GB-northern_english_male-medium.onnx",
+  "CA-F": "C:/piper/voices/en_US-hfc_female-medium.onnx",
+  "CA-M": "C:/piper/voices/en_US-joe-medium.onnx"
+}

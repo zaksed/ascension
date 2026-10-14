@@ -1,0 +1,206 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Identité visuelle « Ascension » : bleu glacier + ambre de sommet. Contrastes ≥ 4,5:1 sur le texte. */
+:root {
+  --canvas: #f4f6fb;
+  --surface: #ffffff;
+  --surface-2: #eaeef6;
+  --ink: #0f172a;
+  --muted: #4f5b73;
+  --line: #d3dae8;
+  --brand: #0e7490;
+  --brand-strong: #155e75;
+  --brand-soft: #d6f3f8;
+  --on-brand: #ffffff;
+  --accent: #b45309;
+  --accent-bright: #f59e0b;
+  --accent-soft: #fdf0d3;
+  --ok: #15803d;
+  --ok-soft: #dcf5e3;
+  --bad: #b91c1c;
+  --bad-soft: #fde4e4;
+  --toeic: #0369a1;
+  --toeic-soft: #dbeefb;
+  --tm: #6d28d9;
+  --tm-soft: #ece4fd;
+  --frozen: #0284c7;
+  /* Graphiques (validés par script : contraste >= 3:1, séparation daltonisme, rampe ordinale). */
+  --viz-toeic: #0369a1;
+  --viz-tm: #6d28d9;
+  --heat-1: #68b2c4;
+  --heat-2: #0e7490;
+  --grid: #e6eaf2;
+  --axis: #c3cad8;
+  color-scheme: light;
+}
+
+:root.dark {
+  --canvas: #0b1220;
+  --surface: #131b2c;
+  --surface-2: #1c2539;
+  --ink: #e7ecf5;
+  --muted: #a3afc6;
+  --line: #2b3752;
+  --brand: #22b8cf;
+  --brand-strong: #67d4e4;
+  --brand-soft: #123643;
+  --on-brand: #04202a;
+  --accent: #f5a524;
+  --accent-bright: #fbbf24;
+  --accent-soft: #3a2a10;
+  --ok: #4ade80;
+  --ok-soft: #10301f;
+  --bad: #f87171;
+  --bad-soft: #3a1717;
+  --toeic: #4cc3f7;
+  --toeic-soft: #0f2c40;
+  --tm: #b39bfb;
+  --tm-soft: #241a43;
+  --frozen: #7dd3fc;
+  --viz-toeic: #2f8fd6;
+  --viz-tm: #8f74ea;
+  --heat-1: #1d6b7c;
+  --heat-2: #4fd1e3;
+  --grid: #222c41;
+  --axis: #34405a;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-on-brand: var(--on-brand);
+  --color-accent: var(--accent);
+  --color-accent-bright: var(--accent-bright);
+  --color-accent-soft: var(--accent-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-toeic: var(--toeic);
+  --color-toeic-soft: var(--toeic-soft);
+  --color-tm: var(--tm);
+  --color-tm-soft: var(--tm-soft);
+  --color-frozen: var(--frozen);
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+}
+
+html,
+body {
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0.5rem;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 0.5rem;
+  background: var(--surface);
+  padding: 0.5rem 1rem;
+}
+
+/* Animations discrètes, désactivables (réglage) et coupées si l'utilisateur préfère moins de mouvement. */
+@keyframes pop {
+  0% { transform: scale(0.96); }
+  60% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+@keyframes rise {
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes float-up {
+  0% { opacity: 0; transform: translateY(0); }
+  20% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-36px); }
+}
+@keyframes flame {
+  0%, 100% { transform: scale(1) rotate(-2deg); }
+  50% { transform: scale(1.08) rotate(2deg); }
+}
+
+.anim-pop { animation: pop 260ms ease-out; }
+.anim-shake { animation: shake 260ms ease-in-out; }
+.anim-rise { animation: rise 280ms ease-out both; }
+.anim-float { animation: float-up 1200ms ease-out forwards; }
+.anim-flame { animation: flame 1.6s ease-in-out infinite; transform-origin: 50% 80%; }
+
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}
+
+/* Textes d'examen (TOEIC en anglais) : lisibilité soignée. */
+.reading {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.reading p + p {
+  margin-top: 0.75rem;
+}
+
+.blank {
+  display: inline-block;
+  min-width: 3.2rem;
+  padding: 0 0.4rem;
+  border-bottom: 2px solid var(--brand);
+  color: var(--brand-strong);
+  font-weight: 700;
+  text-align: center;
+}
+.blank-current {
+  background: var(--brand-soft);
+  border-radius: 4px 4px 0 0;
+}
+
+.marker {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--accent);
+  padding: 0 0.15rem;
+}
+
+/* Safe areas iOS (PWA installée) */
+.pb-safe { padding-bottom: max(0.5rem, env(safe-area-inset-bottom)); }
+.pt-safe { padding-top: env(safe-area-inset-top); }

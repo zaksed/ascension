@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part7",
+  "description": "Partie 7 — examen blanc n°1 : 10 documents simples (29 questions) puis 2 doubles et 3 triples (25 questions).",
+  "groups": [
+    {
+      "id": "toeic-p7-g0001",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 1,
+      "tags": [
+        "avis"
+      ],
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Attention Shoppers",
+          "body": "Westgate Mall parking lot C will be closed for resurfacing from Monday, June 2, to Wednesday, June 4.\n\nDuring this time, please use lots A or B, or the new parking garage on Elm Street. A shuttle bus will run from the garage to the main entrance every 10 minutes from 9 A.M. to 9 P.M.\n\nWe apologize for any inconvenience.\n— Westgate Mall Management"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0002",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "SMS",
+        "sens implicite"
+      ],
+      "passages": [
+        {
+          "kind": "text-message",
+          "body": "Dana Ruiz (9:12 A.M.): Hi Omar, are you still at the warehouse?\nOmar Haddad (9:13 A.M.): Yes, just finishing the inventory count. Why?\nDana Ruiz (9:14 A.M.): The client from Vantage Foods wants to see samples of our new packaging this afternoon. Could you bring a few boxes when you come back?\nOmar Haddad (9:16 A.M.): My car's in the shop until Thursday.\nDana Ruiz (9:17 A.M.): Ah, right. I'll ask Priya to pick them up on her way back from lunch.\nOmar Haddad (9:18 A.M.): Good idea. I'll leave them by the loading door."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0003",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "facture"
+      ],
+      "passages": [
+        {
+          "kind": "invoice",
+          "title": "Greenfield Office Furniture — Invoice #20931",
+          "meta": {
+            "Customer": "Hallmark Accounting, 45 Pine Road",
+            "Date": "April 11"
+          },
+          "body": "Payment due within 30 days. Questions? Call our billing office at 555-0182.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Item",
+              "Qty",
+              "Unit price",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Ergonomic office chair (EC-200)",
+                "4",
+                "$180",
+                "$720"
+              ],
+              [
+                "Standing desk (SD-50)",
+                "2",
+                "$450",
+                "$900"
+              ],
+              [
+                "Delivery and assembly (free on orders over $1,500)",
+                "1",
+                "$0",
+                "$0"
+              ],
+              [
+                "TOTAL",
+                "",
+                "",
+                "$1,620"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0004",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "e-mail",
+        "voyage"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Kenji Watanabe",
+            "From": "Northwind Airlines",
+            "Subject": "Your upcoming flight"
+          },
+          "body": "Dear Mr. Watanabe,\n\nOnline check-in for your flight NW 418 from Osaka to Vancouver on May 9 is now open. You can check in up to 24 hours before departure on our website or through our mobile app.\n\nPlease note that your ticket includes one checked bag of up to 23 kg. Additional bags can be purchased online at a discounted rate until 6 hours before departure; at the airport, the full rate applies.\n\nWe wish you a pleasant flight.\n\nNorthwind Airlines Customer Service"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0005",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "article",
+        "ville"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "City Opens New Community Garden",
+          "body": "Residents of the Eastside neighborhood can now grow their own vegetables at the new Linden Street Community Garden, which opened last Saturday. The garden, built on a former parking lot, contains 60 individual plots that can be rented for $40 per season.\n\n“The demand has been overwhelming,” said city council member Rosa Delgado. “All the plots were reserved within three days, and we already have a waiting list of more than 100 people.”\n\nThe city plans to open two more gardens next year. Residents interested in volunteering or joining the waiting list can register at the Eastside Community Center."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0006",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "offre d'emploi"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Now Hiring: Bilingual Customer Support Specialist — Polaris Travel Group",
+          "body": "Polaris Travel Group, a leading provider of corporate travel services, is seeking a full-time customer support specialist for its Montreal office. Responsibilities include assisting clients by phone and e-mail, modifying bookings, and resolving billing issues.\n\nRequirements:\n- Fluency in English and French\n- At least two years of customer service experience\n- Familiarity with booking software is an advantage but not required; full training will be provided.\n\nWe offer a competitive salary, a hybrid work schedule (three days a week in the office), and discounted travel for employees and their families.\n\nTo apply, send your résumé and a cover letter to careers@polaristravel.com by October 15."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0007",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "lettre",
+        "insertion"
+      ],
+      "passages": [
+        {
+          "kind": "letter",
+          "meta": {
+            "To": "Ms. Claire Moreau",
+            "From": "Paul Tremblay, Events Manager, Lakeview Lodge"
+          },
+          "body": "Dear Ms. Moreau,\n\nThank you for your interest in hosting your company's annual retreat at Lakeview Lodge. [[1]] Our lodge can accommodate up to 80 guests and offers four meeting rooms, each equipped with a projector and a video-conferencing system. [[2]] Guests can also enjoy our hiking trails, indoor pool, and kayak rentals.\n\nAs you requested, I have attached a price list for September 18–20. [[3]] Please note that a 25 percent deposit is required to confirm your booking. [[4]]\n\nI would be happy to arrange a tour of the lodge if you would like to visit before making a decision.\n\nSincerely,\nPaul Tremblay"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0008",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "chat",
+        "sens implicite"
+      ],
+      "passages": [
+        {
+          "kind": "chat",
+          "body": "Hannah Cole (10:02): Hi team. The printer for the Lisbon conference brochures just told me they can't deliver until Friday.\nViktor Sousa (10:03): Friday? The conference starts Thursday morning.\nHannah Cole (10:04): I know. They said the paper we ordered is out of stock.\nMei Tanaka (10:05): Could they use a different paper? The design would still look fine on matte instead of glossy.\nHannah Cole (10:06): Good thought. Let me ask.\nRaúl Ortega (10:09): We could also print a small batch here for the first day. Our office printer handles color well.\nViktor Sousa (10:10): How many attendees are registered?\nRaúl Ortega (10:11): 240 as of this morning.\nViktor Sousa (10:12): That's a lot of pages.\nHannah Cole (10:15): Update: they can use matte paper and deliver Wednesday afternoon.\nMei Tanaka (10:16): Perfect. Problem solved."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0009",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "article",
+        "insertion"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Riverton Bike Maker Pedals Into Europe",
+          "body": "RIVERTON (May 3) — Cyclo Works, a Riverton-based manufacturer of electric bicycles, announced on Tuesday that it will begin selling its products in Germany and the Netherlands this fall. [[1]]\n\nThe company was founded eight years ago by engineers Tomas Brandt and Ifeoma Nwosu, who started out repairing bicycles in a rented garage. Today, Cyclo Works employs 140 people and sold more than 25,000 bicycles last year. [[2]]\n\nTo support the expansion, the company has signed an agreement with a logistics firm in Rotterdam that will handle storage and deliveries throughout Europe. [[3]] Cyclo Works also plans to open a small customer service office in Berlin.\n\n“European cyclists have high expectations,” said Ms. Nwosu. “We believe our long-lasting batteries will set us apart from the competition.” [[4]]"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0010",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "single-passage",
+      "difficulty": 5,
+      "tags": [
+        "e-mail",
+        "procédure"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "All Branch Managers",
+            "From": "Sandra Kowalczyk, Regional Director",
+            "Date": "January 8",
+            "Subject": "New expense policy"
+          },
+          "body": "Dear Managers,\n\nBeginning February 1, all expense reports must be submitted through our new online system, ExpensePro, rather than on paper. The system will allow us to process reimbursements in five business days instead of the current three weeks.\n\nTraining sessions on ExpensePro will be held at the regional office on January 20 and 22. Each session lasts two hours and is limited to 15 participants. If you cannot attend either session, a recording will be available on the intranet from January 23.\n\nPlease also note the following changes to the policy itself: meal expenses during business travel will now be reimbursed up to $60 per day (previously $50), and receipts are now required for all expenses over $10 (previously $25). Hotel bookings must still be made through our corporate travel agency.\n\nPlease share this information with your teams.\n\nSandra Kowalczyk"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0011",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "double-passage",
+      "difficulty": 3,
+      "tags": [
+        "cours de cuisine"
+      ],
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Spice Route Kitchen — Weekend Classes in March",
+          "body": "All classes run from 10 A.M. to 1 P.M. and include lunch. Groups of four or more receive a 10% discount. Cancellations made at least 48 hours in advance receive a full refund.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Class",
+              "Date",
+              "Price per person"
+            ],
+            "rows": [
+              [
+                "Thai Street Food",
+                "Saturday, March 7",
+                "$65"
+              ],
+              [
+                "Indian Curries",
+                "Sunday, March 8",
+                "$70"
+              ],
+              [
+                "Moroccan Tagines",
+                "Saturday, March 14",
+                "$75"
+              ],
+              [
+                "Mexican Classics",
+                "Sunday, March 15",
+                "$65"
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "bookings@spiceroutekitchen.com",
+            "From": "Laura Benson",
+            "Subject": "Booking for March 14"
+          },
+          "body": "Hello,\n\nI'd like to book places for myself and three colleagues for your class on March 14. We're planning it as a team-building activity.\n\nOne of my colleagues is allergic to nuts. Could the recipes be adapted for her? Also, we would like to stay a little longer to enjoy our meal together. Is the kitchen available after 1 P.M.?\n\nThank you,\nLaura Benson"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0012",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "double-passage",
+      "difficulty": 4,
+      "tags": [
+        "déménagement",
+        "bureaux"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "All Staff",
+            "From": "Inês Duarte, Facilities",
+            "Subject": "Desk assignments for the new office"
+          },
+          "body": "As you know, we will move into our new office at 250 Harbor Street on Monday, April 6. Desk assignments are shown in the attached table.\n\nPlease note that the fourth floor will not be ready until April 20 because of a delay in the delivery of furniture. Until then, staff assigned to the fourth floor will work from home.\n\nThe kitchen on the third floor will be shared by all employees.\n\nInês Duarte"
+        },
+        {
+          "kind": "form",
+          "title": "Desk Assignments — 250 Harbor Street",
+          "body": "Attachment to the e-mail of March 20.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Department",
+              "Floor"
+            ],
+            "rows": [
+              [
+                "Finance",
+                "2"
+              ],
+              [
+                "Human Resources",
+                "2"
+              ],
+              [
+                "Marketing",
+                "3"
+              ],
+              [
+                "Legal",
+                "4"
+              ],
+              [
+                "IT Support",
+                "4"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0013",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "triple-passage",
+      "difficulty": 4,
+      "tags": [
+        "recrutement"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Brightwave Energy — Field Technician (Solar Installation)",
+          "body": "Location: Phoenix, Arizona\n\nBrightwave Energy is looking for field technicians to install and maintain residential solar panels.\n\nRequirements: valid driver's license; ability to work at heights; electrical certification preferred.\n\nStarting pay: $24 per hour, or $27 per hour for certified electricians.\n\nApply by June 10 at brightwave.com/careers."
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "hiring@brightwave.com",
+            "From": "Marcus Bell",
+            "Date": "June 4",
+            "Subject": "Field technician application"
+          },
+          "body": "Dear Hiring Team,\n\nI am writing to apply for the field technician position advertised on your website. I have three years of experience installing roofing systems, and I recently completed my electrical certification at Phoenix Technical College.\n\nI am available to start immediately. My résumé is attached.\n\nSincerely,\nMarcus Bell"
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Marcus Bell",
+            "From": "Joanna Pierce, Recruitment Manager, Brightwave Energy",
+            "Date": "June 12",
+            "Subject": "Interview"
+          },
+          "body": "Dear Mr. Bell,\n\nThank you for your application. We would like to invite you to an interview at our Phoenix office on June 18 at 9:30 A.M. The interview will include a short practical test on a rooftop model, so please wear closed-toe shoes.\n\nPlease confirm your availability by June 15.\n\nBest regards,\nJoanna Pierce"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0014",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "triple-passage",
+      "difficulty": 5,
+      "tags": [
+        "conférence",
+        "inscription"
+      ],
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Northern Retail Summit — October 9–10, Toronto Convention Centre",
+          "body": "Registration: Full pass (both days) $420; one-day pass $250. Members of the Canadian Retail Association receive 20% off any pass.\n\nHighlights:\nDay 1 keynote — “The Future of Physical Stores,” Priya Raman, CEO of ShopLane\nDay 2 workshop — “Data-Driven Pricing” (limited to 40 participants; registration required)"
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "registration@nrsummit.ca",
+            "From": "Daniel Okoro",
+            "Date": "September 2"
+          },
+          "body": "Hello,\n\nI'd like to register for the full pass. I am a member of the Canadian Retail Association (membership number CRA-55821). I would also like to sign up for the workshop on data-driven pricing. Could you confirm whether the workshop is included in the pass?\n\nThank you,\nDaniel Okoro\nStore Operations Manager, Fenwick Home"
+        },
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Daniel Okoro",
+            "From": "Sylvie Gagnon",
+            "Date": "September 3"
+          },
+          "body": "Dear Mr. Okoro,\n\nThank you for registering. Your membership discount has been applied. The workshop is included in your pass, and we have reserved a place for you. Because of high demand, the workshop has been moved to a larger room (Hall C), and the number of places has been increased to 60.\n\nPlease also note that Ms. Raman will no longer be able to attend in person; she will deliver her keynote by video link.\n\nBest regards,\nSylvie Gagnon"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0015",
+      "exam": "toeic",
+      "section": "part7",
+      "pool": "mock1",
+      "kind": "triple-passage",
+      "difficulty": 5,
+      "tags": [
+        "avis client",
+        "produit"
+      ],
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "AquaPure Home Water Filter — Model AP-3",
+          "body": "Removes 99% of common contaminants.\nEach filter cartridge lasts 6 months or 2,000 liters, whichever comes first.\nPrice: $89. Replacement cartridges: $25 each, or $20 each with an annual subscription.\nFree shipping on orders over $50. Two-year warranty."
+        },
+        {
+          "kind": "review",
+          "title": "★★★☆☆ “Good filter, short cartridge life” — by K. Mensah, August 14",
+          "body": "I bought the AP-3 in May, and the water tastes much better. However, my first cartridge needed replacing after only two months. We are a family of five and use a lot of water for cooking, so maybe that's why. Also, replacement cartridges aren't cheap when you buy them one at a time. Overall, I'd recommend this filter, but be aware of the extra costs."
+        },
+        {
+          "kind": "text",
+          "title": "Response from AquaPure Customer Care — August 15",
+          "body": "Thank you for your review, Mr. Mensah. You're right that larger households reach the 2,000-liter limit sooner. To help reduce your costs, we have added three months of free cartridges to your account; they will be shipped automatically with your next order. You may also be interested in our new Model AP-5, whose cartridge lasts twice as long."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p7-0001","exam":"toeic","section":"part7","groupId":"toeic-p7-g0001","skill":"p7-idee-principale","difficulty":1,"prompt":"What is the purpose of the notice?","options":["To announce a temporary closure","To advertise a new store","To report a change in mall hours","To introduce parking fees"],"answer":0,"explanation":"Le parking C sera fermé du 2 au 4 juin : c'est une fermeture temporaire.","trap":"Le nouveau parking d'Elm Street est mentionné, mais l'avis n'en fait pas la promotion.","recommendedSeconds":40,"tags":["but"]},
+    {"id":"toeic-p7-0002","exam":"toeic","section":"part7","groupId":"toeic-p7-g0001","skill":"p7-details","difficulty":1,"prompt":"What is available from the parking garage?","options":["A shuttle service","Free car washes","Electric vehicle charging","Discounted parking"],"answer":0,"explanation":"« A shuttle bus will run from the garage to the main entrance every 10 minutes ».","trap":"Aucun tarif réduit n'est annoncé.","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0003","exam":"toeic","section":"part7","groupId":"toeic-p7-g0002","skill":"p7-sens-implicite","difficulty":3,"prompt":"At 9:16 A.M., what does Mr. Haddad most likely mean when he writes, “My car's in the shop until Thursday”?","options":["He will be late for work on Thursday.","He needs a ride home.","He cannot transport the boxes.","He is buying a new car."],"answer":2,"explanation":"Mme Ruiz lui demande d'apporter des cartons ; sa voiture étant au garage, il ne peut pas les transporter. Elle propose aussitôt une autre solution.","trap":"« in the shop » signifie « au garage », pas « au magasin ».","recommendedSeconds":60,"tags":["intention","SMS"]},
+    {"id":"toeic-p7-0004","exam":"toeic","section":"part7","groupId":"toeic-p7-g0002","skill":"p7-details","difficulty":2,"prompt":"What will Mr. Haddad do?","options":["Leave some boxes near a door","Meet with a client","Have lunch with Priya","Count the inventory again on Thursday"],"answer":0,"explanation":"« I'll leave them by the loading door. »","trap":"C'est Priya qui récupérera les cartons après son déjeuner.","recommendedSeconds":50,"tags":["action future"]},
+    {"id":"toeic-p7-0005","exam":"toeic","section":"part7","groupId":"toeic-p7-g0003","skill":"p7-details","difficulty":2,"prompt":"How much did Hallmark Accounting pay for delivery?","options":["$180","$450","Nothing","$1,500"],"answer":2,"explanation":"La ligne « Delivery and assembly » est à 0 $ : livraison gratuite.","trap":"1 500 $ est le seuil de gratuité, pas un montant facturé.","recommendedSeconds":50,"tags":["facture"]},
+    {"id":"toeic-p7-0006","exam":"toeic","section":"part7","groupId":"toeic-p7-g0003","skill":"p7-inference","difficulty":3,"prompt":"What is suggested about the order?","options":["It was paid in advance.","It qualified for a free service.","It was delivered late.","It included four desks."],"answer":1,"explanation":"Le total (1 620 $) dépasse 1 500 $ : la livraison et le montage sont offerts.","trap":"Il y a quatre chaises et deux bureaux, pas quatre bureaux ; le paiement est à 30 jours.","recommendedSeconds":60,"tags":["déduction"]},
+    {"id":"toeic-p7-0007","exam":"toeic","section":"part7","groupId":"toeic-p7-g0004","skill":"p7-idee-principale","difficulty":1,"prompt":"Why was the e-mail sent?","options":["To announce that check-in is available","To confirm a seat upgrade","To report a flight delay","To request payment for a ticket"],"answer":0,"explanation":"« Online check-in for your flight … is now open. »","trap":"Les bagages supplémentaires sont une information secondaire.","recommendedSeconds":40,"tags":["but"]},
+    {"id":"toeic-p7-0008","exam":"toeic","section":"part7","groupId":"toeic-p7-g0004","skill":"p7-details","difficulty":3,"prompt":"How can Mr. Watanabe save money on extra luggage?","options":["By purchasing it online in advance","By checking in at the airport","By joining a loyalty program","By choosing a weekday flight"],"answer":0,"explanation":"Les bagages supplémentaires sont moins chers en ligne jusqu'à 6 heures avant le départ ; à l'aéroport, le plein tarif s'applique.","trap":"L'enregistrement à l'aéroport fait justement payer le plein tarif.","recommendedSeconds":60,"tags":["condition"]},
+    {"id":"toeic-p7-0009","exam":"toeic","section":"part7","groupId":"toeic-p7-g0005","skill":"p7-details","difficulty":2,"prompt":"What was the garden site previously used for?","options":["Housing","Parking","A playground","A market"],"answer":1,"explanation":"« built on a former parking lot ».","trap":"« former » (ancien) est la clé ; les autres usages ne sont pas mentionnés.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0010","exam":"toeic","section":"part7","groupId":"toeic-p7-g0005","skill":"p7-vocabulaire","difficulty":3,"prompt":"In paragraph 2, the word “overwhelming” is closest in meaning to","options":["confusing","disappointing","very great","temporary"],"answer":2,"explanation":"« The demand has been overwhelming » : la demande a été considérable, comme le confirment les parcelles réservées en trois jours.","trap":"« overwhelming » peut signifier « accablant » dans d'autres contextes ; ici, le sens est « énorme ».","recommendedSeconds":50,"tags":["vocabulaire en contexte"]},
+    {"id":"toeic-p7-0011","exam":"toeic","section":"part7","groupId":"toeic-p7-g0005","skill":"p7-details","difficulty":3,"prompt":"How can residents join the waiting list?","options":["By calling Ms. Delgado","By paying $40","By registering at a community center","By attending a council meeting"],"answer":2,"explanation":"« can register at the Eastside Community Center ».","trap":"Les 40 $ sont le prix de location d'une parcelle, pas de l'inscription sur la liste d'attente.","recommendedSeconds":50,"tags":["procédure"]},
+    {"id":"toeic-p7-0012","exam":"toeic","section":"part7","groupId":"toeic-p7-g0006","skill":"p7-details","difficulty":3,"prompt":"What is NOT mentioned as a job responsibility?","options":["Answering e-mails","Changing reservations","Training new employees","Handling payment problems"],"answer":2,"explanation":"Les missions citées : aider les clients par téléphone et e-mail, modifier les réservations, régler les problèmes de facturation. Former des employés n'en fait pas partie.","trap":"« full training will be provided » concerne la formation que le candidat recevra, pas une mission.","recommendedSeconds":70,"tags":["NOT"]},
+    {"id":"toeic-p7-0013","exam":"toeic","section":"part7","groupId":"toeic-p7-g0006","skill":"p7-inference","difficulty":3,"prompt":"What is indicated about experience with booking software?","options":["At least two years of it are needed.","It must be certified.","It is tested during the interview.","It is not required."],"answer":3,"explanation":"« Familiarity with booking software is an advantage but not required ».","trap":"Les deux ans d'expérience concernent le service client, pas le logiciel.","recommendedSeconds":60,"tags":["condition"]},
+    {"id":"toeic-p7-0014","exam":"toeic","section":"part7","groupId":"toeic-p7-g0006","skill":"p7-details","difficulty":2,"prompt":"What benefit is offered?","options":["A company car","Reduced-price travel","Fully remote work","A signing bonus"],"answer":1,"explanation":"« discounted travel for employees and their families ».","trap":"Le poste est hybride (trois jours au bureau), pas entièrement à distance.","recommendedSeconds":50,"tags":["avantages"]},
+    {"id":"toeic-p7-0015","exam":"toeic","section":"part7","groupId":"toeic-p7-g0007","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the purpose of the letter?","options":["To confirm a reservation","To request a refund","To respond to an inquiry","To announce new facilities"],"answer":2,"explanation":"« Thank you for your interest… As you requested, I have attached a price list » : il répond à une demande d'information.","trap":"La réservation n'est pas encore confirmée : un acompte est exigé pour cela.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0016","exam":"toeic","section":"part7","groupId":"toeic-p7-g0007","skill":"p7-details","difficulty":3,"prompt":"What is mentioned about the meeting rooms?","options":["They have video-conferencing equipment.","Each can hold 80 people.","They overlook the lake.","They must be booked separately."],"answer":0,"explanation":"« each equipped with a projector and a video-conferencing system ».","trap":"80 est la capacité totale du lodge, pas celle de chaque salle.","recommendedSeconds":60,"tags":["détail"]},
+    {"id":"toeic-p7-0017","exam":"toeic","section":"part7","groupId":"toeic-p7-g0007","skill":"p7-insertion-phrase","difficulty":4,"prompt":"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “Group rates are available for bookings of more than 30 guests.”","options":["[1]","[2]","[3]","[4]"],"answer":2,"explanation":"La phrase parle de tarifs : elle suit naturellement la mention de la liste de prix, juste avant la règle de l'acompte.","trap":"La position [2] suit les salles de réunion et précède les loisirs : aucune question de prix à cet endroit.","recommendedSeconds":70,"tags":["insertion"]},
+    {"id":"toeic-p7-0018","exam":"toeic","section":"part7","groupId":"toeic-p7-g0008","skill":"p7-idee-principale","difficulty":2,"prompt":"What problem does Ms. Cole report?","options":["A design contains errors.","A delivery will be late.","A conference has been postponed.","A printer is broken."],"answer":1,"explanation":"L'imprimeur ne peut pas livrer avant vendredi, alors que la conférence commence jeudi.","trap":"« printer » désigne ici l'imprimeur (l'entreprise), pas une machine en panne.","recommendedSeconds":50,"tags":["problème"]},
+    {"id":"toeic-p7-0019","exam":"toeic","section":"part7","groupId":"toeic-p7-g0008","skill":"p7-details","difficulty":3,"prompt":"What does Ms. Tanaka suggest?","options":["Changing the brochure design","Finding a new printing company","Using a different type of paper","Reducing the number of brochures"],"answer":2,"explanation":"« Could they use a different paper? … matte instead of glossy. »","trap":"Elle précise que le design resterait le même.","recommendedSeconds":50,"tags":["suggestion"]},
+    {"id":"toeic-p7-0020","exam":"toeic","section":"part7","groupId":"toeic-p7-g0008","skill":"p7-sens-implicite","difficulty":4,"prompt":"At 10:12, what does Mr. Sousa most likely mean when he writes, “That's a lot of pages”?","options":["He thinks the brochure is too long.","He is pleased with the number of attendees.","He doubts that printing in the office is practical.","He wants to order more paper."],"answer":2,"explanation":"Il réagit à l'idée d'imprimer au bureau : avec 240 participants, cela ferait énormément de pages. Il exprime un doute sur la faisabilité.","trap":"Il ne critique pas la longueur de la brochure elle-même.","recommendedSeconds":70,"tags":["intention","chat"]},
+    {"id":"toeic-p7-0021","exam":"toeic","section":"part7","groupId":"toeic-p7-g0008","skill":"p7-inference","difficulty":3,"prompt":"When will the brochures most likely be delivered?","options":["On Wednesday","On Thursday","On Friday","On Monday"],"answer":0,"explanation":"Mise à jour de 10 h 15 : l'imprimeur peut livrer mercredi après-midi sur papier mat.","trap":"Vendredi était la date initiale, abandonnée.","recommendedSeconds":50,"tags":["date","mise à jour"]},
+    {"id":"toeic-p7-0022","exam":"toeic","section":"part7","groupId":"toeic-p7-g0009","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the article mainly about?","options":["The opening of a factory in Germany","A company's plan to enter new markets","A new type of battery","The founders' engineering careers"],"answer":1,"explanation":"Cyclo Works va vendre ses vélos en Allemagne et aux Pays-Bas : elle s'implante sur de nouveaux marchés.","trap":"Aucune usine n'est ouverte en Allemagne : seulement un bureau de service client à Berlin.","recommendedSeconds":50,"tags":["sujet"]},
+    {"id":"toeic-p7-0023","exam":"toeic","section":"part7","groupId":"toeic-p7-g0009","skill":"p7-details","difficulty":3,"prompt":"According to the article, what did the founders originally do?","options":["They repaired bicycles.","They designed batteries.","They worked for a logistics firm.","They sold cars."],"answer":0,"explanation":"« who started out repairing bicycles in a rented garage ».","trap":"Les batteries sont citées comme atout actuel, pas comme activité d'origine.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0024","exam":"toeic","section":"part7","groupId":"toeic-p7-g0009","skill":"p7-inference","difficulty":4,"prompt":"What will the Rotterdam company most likely do?","options":["Manufacture batteries","Store and deliver products","Open a store in Berlin","Provide customer service"],"answer":1,"explanation":"« a logistics firm in Rotterdam that will handle storage and deliveries throughout Europe ».","trap":"Le service client sera assuré par un bureau de Cyclo Works à Berlin.","recommendedSeconds":60,"tags":["attribution"]},
+    {"id":"toeic-p7-0025","exam":"toeic","section":"part7","groupId":"toeic-p7-g0009","skill":"p7-insertion-phrase","difficulty":4,"prompt":"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “Nearly a third of those were sold outside the country.”","options":["[1]","[2]","[3]","[4]"],"answer":1,"explanation":"« those » renvoie aux « 25,000 bicycles » vendus l'an dernier, mentionnés juste avant la position [2].","trap":"Placer la phrase en [1], où aucun nombre de vélos n'a encore été donné.","recommendedSeconds":70,"tags":["insertion","référent"]},
+    {"id":"toeic-p7-0026","exam":"toeic","section":"part7","groupId":"toeic-p7-g0010","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the purpose of the e-mail?","options":["To introduce a new travel agency","To schedule a regional meeting","To announce changes to an expense procedure","To request receipts from managers"],"answer":2,"explanation":"Nouveau système en ligne et nouvelles règles de remboursement : l'e-mail annonce des changements de procédure.","trap":"L'agence de voyage reste la même (« must still be made through »).","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0027","exam":"toeic","section":"part7","groupId":"toeic-p7-g0010","skill":"p7-details","difficulty":3,"prompt":"What is one benefit of ExpensePro?","options":["Faster reimbursements","Lower hotel prices","Automatic receipt scanning","Fewer training requirements"],"answer":0,"explanation":"Remboursements en cinq jours ouvrés au lieu de trois semaines.","trap":"La numérisation automatique des reçus est plausible mais jamais mentionnée.","recommendedSeconds":60,"tags":["avantage"]},
+    {"id":"toeic-p7-0028","exam":"toeic","section":"part7","groupId":"toeic-p7-g0010","skill":"p7-inference","difficulty":4,"prompt":"What is suggested about managers who cannot attend a training session?","options":["They must attend a session in February.","They cannot use ExpensePro.","They can watch a recording.","They should contact Ms. Kowalczyk."],"answer":2,"explanation":"« a recording will be available on the intranet from January 23 ».","trap":"Aucune session en février n'est prévue.","recommendedSeconds":60,"tags":["condition"]},
+    {"id":"toeic-p7-0029","exam":"toeic","section":"part7","groupId":"toeic-p7-g0010","skill":"p7-details","difficulty":5,"prompt":"What is NOT mentioned as a change?","options":["A new hotel booking procedure","A higher daily meal allowance","A lower amount above which receipts are required","Online submission of reports"],"answer":0,"explanation":"Les réservations d'hôtel passent toujours par l'agence (« still ») : rien ne change. Les trois autres changements sont bien annoncés.","trap":"« receipts … over $10 (previously $25) » : le seuil baisse, ce qui correspond à l'option C.","recommendedSeconds":80,"tags":["NOT","still"]},
+    {"id":"toeic-p7-0030","exam":"toeic","section":"part7","groupId":"toeic-p7-g0011","skill":"p7-details","difficulty":2,"prompt":"What is indicated about all the classes?","options":["They last a full day.","They include a meal.","They are held on weekdays.","They are limited to four people."],"answer":1,"explanation":"« All classes run from 10 A.M. to 1 P.M. and include lunch. »","trap":"« four » apparaît dans la remise de groupe, pas comme limite de participants.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0031","exam":"toeic","section":"part7","groupId":"toeic-p7-g0011","skill":"p7-synthese","difficulty":4,"prompt":"How much will each person in Ms. Benson's group most likely pay?","options":["$65.00","$67.50","$70.00","$75.00"],"answer":1,"explanation":"Le 14 mars, c'est le cours marocain à 75 $. Ils sont quatre (elle et trois collègues), donc 10 % de remise : 75 × 0,9 = 67,50 $.","trap":"S'arrêter à 75 $ sans appliquer la remise de groupe annoncée dans le premier document.","recommendedSeconds":90,"tags":["croisement","calcul"]},
+    {"id":"toeic-p7-0032","exam":"toeic","section":"part7","groupId":"toeic-p7-g0011","skill":"p7-details","difficulty":2,"prompt":"Why is Ms. Benson booking the class?","options":["For a birthday celebration","To prepare for a new job","To review a restaurant","For a team-building activity"],"answer":3,"explanation":"« We're planning it as a team-building activity. »","trap":"Les autres motifs sont plausibles mais absents du texte.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0033","exam":"toeic","section":"part7","groupId":"toeic-p7-g0011","skill":"p7-details","difficulty":3,"prompt":"What does Ms. Benson ask about?","options":["Parking near the kitchen","Paying by credit card","Changing the date of the class","Adapting recipes for an allergy"],"answer":3,"explanation":"« One of my colleagues is allergic to nuts. Could the recipes be adapted for her? »","trap":"Elle pose deux questions ; seule celle sur l'allergie figure parmi les options.","recommendedSeconds":50,"tags":["demande"]},
+    {"id":"toeic-p7-0034","exam":"toeic","section":"part7","groupId":"toeic-p7-g0011","skill":"p7-synthese","difficulty":4,"prompt":"What is suggested about Ms. Benson's group?","options":["They hope to stay after the scheduled end time.","They have taken a class before.","They plan to cancel their booking.","They want a private chef."],"answer":0,"explanation":"Le cours se termine à 13 h (document 1) ; elle demande si la cuisine est disponible après 13 h (document 2).","trap":"Rien n'indique une participation antérieure à un cours.","recommendedSeconds":70,"tags":["croisement"]},
+    {"id":"toeic-p7-0035","exam":"toeic","section":"part7","groupId":"toeic-p7-g0012","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the purpose of the e-mail?","options":["To announce a furniture sale","To introduce new staff members","To request feedback on a kitchen","To provide information about an office move"],"answer":3,"explanation":"Date du déménagement, attribution des bureaux, retard du 4e étage : l'e-mail informe sur le déménagement.","trap":"Les meubles sont mentionnés à cause d'un retard de livraison, pas d'une vente.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0036","exam":"toeic","section":"part7","groupId":"toeic-p7-g0012","skill":"p7-details","difficulty":2,"prompt":"Why will part of the new office not be ready on April 6?","options":["Furniture has not been delivered.","Painting is not finished.","Internet access has not been installed.","The building failed an inspection."],"answer":0,"explanation":"« because of a delay in the delivery of furniture ».","trap":"Les autres causes sont fréquentes lors d'un déménagement mais ne sont pas citées.","recommendedSeconds":50,"tags":["cause"]},
+    {"id":"toeic-p7-0037","exam":"toeic","section":"part7","groupId":"toeic-p7-g0012","skill":"p7-synthese","difficulty":4,"prompt":"Which department will work from home until April 20?","options":["Finance","Marketing","Legal","Human Resources"],"answer":2,"explanation":"Le 4e étage ne sera prêt que le 20 avril (e-mail) ; le tableau y place le service juridique (Legal).","trap":"Le marketing est au 3e étage, près de la cuisine commune.","recommendedSeconds":70,"tags":["croisement","tableau"]},
+    {"id":"toeic-p7-0038","exam":"toeic","section":"part7","groupId":"toeic-p7-g0012","skill":"p7-details","difficulty":3,"prompt":"According to the e-mail, what will all employees share?","options":["A parking lot","A meeting room","Desks on the fourth floor","A kitchen"],"answer":3,"explanation":"« The kitchen on the third floor will be shared by all employees. »","trap":"Aucun parking ni aucune salle de réunion n'est mentionné.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0039","exam":"toeic","section":"part7","groupId":"toeic-p7-g0012","skill":"p7-synthese","difficulty":4,"prompt":"What is suggested about the marketing department?","options":["It will move after the other departments.","It will share a floor with Finance.","It will be on the same floor as the shared kitchen.","It will work remotely for two weeks."],"answer":2,"explanation":"Le marketing est au 3e étage (tableau), où se trouve la cuisine commune (e-mail).","trap":"Ce sont les services du 4e étage qui télétravaillent jusqu'au 20 avril.","recommendedSeconds":70,"tags":["croisement"]},
+    {"id":"toeic-p7-0040","exam":"toeic","section":"part7","groupId":"toeic-p7-g0013","skill":"p7-details","difficulty":2,"prompt":"What is a requirement for the position?","options":["A college degree","A driver's license","Experience in sales","Fluency in Spanish"],"answer":1,"explanation":"« Requirements: valid driver's license; ability to work at heights… »","trap":"La certification électrique est souhaitée (« preferred »), pas exigée, et elle ne figure pas dans les options.","recommendedSeconds":50,"tags":["exigence"]},
+    {"id":"toeic-p7-0041","exam":"toeic","section":"part7","groupId":"toeic-p7-g0013","skill":"p7-synthese","difficulty":4,"prompt":"What hourly wage would Mr. Bell most likely receive if hired?","options":["$24","$25","$27","$30"],"answer":2,"explanation":"M. Bell vient d'obtenir sa certification d'électricien (document 2) ; l'annonce prévoit 27 $ de l'heure pour les électriciens certifiés.","trap":"24 $ est le salaire de base sans certification.","recommendedSeconds":80,"tags":["croisement"]},
+    {"id":"toeic-p7-0042","exam":"toeic","section":"part7","groupId":"toeic-p7-g0013","skill":"p7-details","difficulty":3,"prompt":"What does Mr. Bell mention in his e-mail?","options":["He lives near Phoenix Technical College.","He has installed solar panels before.","He can begin working right away.","He saw the job advertised in a newspaper."],"answer":2,"explanation":"« I am available to start immediately. »","trap":"Son expérience porte sur des toitures (« roofing systems »), pas sur des panneaux solaires ; l'annonce était sur le site web.","recommendedSeconds":60,"tags":["détail"]},
+    {"id":"toeic-p7-0043","exam":"toeic","section":"part7","groupId":"toeic-p7-g0013","skill":"p7-details","difficulty":3,"prompt":"What is Mr. Bell asked to do for the interview?","options":["Bring his certificate","Wear suitable shoes","Arrive before 9:00 A.M.","Complete an online test"],"answer":1,"explanation":"« please wear closed-toe shoes ».","trap":"L'épreuve pratique se fait sur place, sur une maquette de toit, pas en ligne.","recommendedSeconds":50,"tags":["consigne"]},
+    {"id":"toeic-p7-0044","exam":"toeic","section":"part7","groupId":"toeic-p7-g0013","skill":"p7-inference","difficulty":4,"prompt":"What is suggested about the interview?","options":["It will take place at a customer's home.","It will include a physical task.","It will be conducted by phone.","It has been rescheduled."],"answer":1,"explanation":"« a short practical test on a rooftop model » : une épreuve pratique.","trap":"L'entretien a lieu au bureau de Phoenix, pas chez un client.","recommendedSeconds":60,"tags":["déduction"]},
+    {"id":"toeic-p7-0045","exam":"toeic","section":"part7","groupId":"toeic-p7-g0014","skill":"p7-synthese","difficulty":4,"prompt":"How much did Mr. Okoro most likely pay for his registration?","options":["$200","$250","$336","$420"],"answer":2,"explanation":"Pass complet à 420 $ (document 1), membre de l'association donc 20 % de remise, appliquée selon le document 3 : 420 × 0,8 = 336 $.","trap":"Oublier la remise membre, confirmée dans la réponse de Mme Gagnon.","recommendedSeconds":90,"tags":["croisement","calcul"]},
+    {"id":"toeic-p7-0046","exam":"toeic","section":"part7","groupId":"toeic-p7-g0014","skill":"p7-details","difficulty":3,"prompt":"What does Mr. Okoro ask about?","options":["Whether a workshop is included in a pass","Whether hotel rooms are available","How to become an association member","When the keynote speech begins"],"answer":0,"explanation":"« Could you confirm whether the workshop is included in the pass? »","trap":"Il est déjà membre : il donne son numéro d'adhérent.","recommendedSeconds":50,"tags":["demande"]},
+    {"id":"toeic-p7-0047","exam":"toeic","section":"part7","groupId":"toeic-p7-g0014","skill":"p7-details","difficulty":3,"prompt":"What is indicated about the workshop?","options":["Its capacity has increased.","It has been canceled.","It costs extra.","It will be held on the first day."],"answer":0,"explanation":"Le nombre de places passe de 40 (document 1) à 60 (document 3).","trap":"L'atelier est inclus dans le pass : il ne coûte rien de plus.","recommendedSeconds":60,"tags":["changement"]},
+    {"id":"toeic-p7-0048","exam":"toeic","section":"part7","groupId":"toeic-p7-g0014","skill":"p7-inference","difficulty":4,"prompt":"What is suggested about Ms. Raman?","options":["She is a member of the association.","She will speak remotely.","She will lead the workshop.","She works for Fenwick Home."],"answer":1,"explanation":"« she will deliver her keynote by video link » : elle interviendra à distance.","trap":"Fenwick Home est l'employeur de M. Okoro ; Mme Raman dirige ShopLane.","recommendedSeconds":60,"tags":["paraphrase"]},
+    {"id":"toeic-p7-0049","exam":"toeic","section":"part7","groupId":"toeic-p7-g0014","skill":"p7-vocabulaire","difficulty":4,"prompt":"In the third document, the word “demand” is closest in meaning to","options":["interest","order","claim","pressure"],"answer":0,"explanation":"« Because of high demand » : beaucoup de participants veulent s'inscrire, donc un fort intérêt.","trap":"« claim » (revendication) est un autre sens de « demand », qui ne convient pas ici.","recommendedSeconds":50,"tags":["vocabulaire en contexte"]},
+    {"id":"toeic-p7-0050","exam":"toeic","section":"part7","groupId":"toeic-p7-g0015","skill":"p7-details","difficulty":2,"prompt":"According to the product page, what comes with the AP-3?","options":["Free installation","An annual subscription","Free cartridges","A two-year warranty"],"answer":3,"explanation":"« Two-year warranty. »","trap":"L'abonnement annuel est une option payante pour les cartouches.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0051","exam":"toeic","section":"part7","groupId":"toeic-p7-g0015","skill":"p7-synthese","difficulty":4,"prompt":"Why did Mr. Mensah's cartridge most likely need replacing after two months?","options":["The cartridge was defective.","He installed it incorrectly.","His water was heavily contaminated.","His household reached the volume limit."],"answer":3,"explanation":"La cartouche dure 6 mois OU 2 000 litres (document 1) ; famille de cinq qui utilise beaucoup d'eau (document 2) ; le fabricant confirme la limite des 2 000 litres (document 3).","trap":"Penser à un défaut, alors que les trois documents convergent vers la limite de volume.","recommendedSeconds":80,"tags":["croisement"]},
+    {"id":"toeic-p7-0052","exam":"toeic","section":"part7","groupId":"toeic-p7-g0015","skill":"p7-synthese","difficulty":5,"prompt":"What is suggested about Mr. Mensah?","options":["He returned his filter.","He has bought the AP-5.","He does not have an annual subscription.","He paid for shipping."],"answer":2,"explanation":"Il se plaint du prix des cartouches achetées une par une (25 $) ; avec l'abonnement annuel, il les paierait 20 $. Il n'est donc pas abonné.","trap":"L'AP-5 lui est seulement suggéré dans la réponse.","recommendedSeconds":90,"tags":["croisement","inférence"]},
+    {"id":"toeic-p7-0053","exam":"toeic","section":"part7","groupId":"toeic-p7-g0015","skill":"p7-details","difficulty":3,"prompt":"What has AquaPure done for Mr. Mensah?","options":["Refunded his purchase","Provided free cartridges","Sent a technician","Upgraded his filter model"],"answer":1,"explanation":"« we have added three months of free cartridges to your account ».","trap":"L'AP-5 est seulement recommandé, pas offert.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0054","exam":"toeic","section":"part7","groupId":"toeic-p7-g0015","skill":"p7-details","difficulty":3,"prompt":"What does the response say about the AP-5?","options":["It is less expensive.","It removes more contaminants.","It has a longer warranty.","Its cartridge lasts longer."],"answer":3,"explanation":"« whose cartridge lasts twice as long ».","trap":"Le prix de l'AP-5 n'est pas indiqué.","recommendedSeconds":50,"tags":["comparaison"]}
+  ]
+}

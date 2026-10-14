@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.claude/
+*.log
+# Configuration locale de Piper (chemins propres à votre ordinateur)
+scripts/piper-voices.json

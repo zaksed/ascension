@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part4",
+  "description": "Partie 4 — 6 exposés d'entraînement (dont 1 avec graphique et 2 questions de sens implicite).",
+  "groups": [
+    {
+      "id": "toeic-p4-g0021",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "message vocal",
+        "bibliothèque"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "CA-F",
+          "text": "Hello, Mr. Brennan. This is Sofia Ruiz from the Westfield Public Library. The book you reserved, The Art of Negotiation, has arrived and is being held for you at the front desk. We'll keep it for seven days."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-F",
+          "text": "Also, I noticed that your library card expires at the end of this month. You can renew it online, or at the front desk when you come in. Just bring a recent utility bill as proof of address."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0022",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "annonce",
+        "sécurité"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "Attention, all tenants of the Carlton Building. As part of our annual safety inspection, a fire drill will take place this Thursday at ten thirty A.M."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "When the alarm sounds, please leave the building using the nearest staircase. Do not use the elevators. Floor wardens wearing orange vests will direct you to the assembly point in the parking lot across the street. The drill should take about twenty minutes. Thank you for your cooperation."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0023",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "réunion",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "Morning, everyone. A quick update on the Henderson account. The client approved our design concepts yesterday, which is great news. They'd like the final version by the twentieth, so we have about three weeks."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "Now, I know that sounds like plenty of time. But the printing company needs ten days to produce the catalogs. So I'll need first drafts of all the pages by next Friday."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "Jenny will be coordinating with the printer, so please copy her on any e-mails about paper or colors."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0024",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "publicité",
+        "festival"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "Calling all music lovers! The fifth annual Harbor Jazz Festival returns to Seaside Park on July twelfth and thirteenth, featuring more than thirty bands from around the world."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "Tickets for both days are just sixty pounds if you buy them before June first, and children under twelve get in free. Food trucks will offer dishes from a dozen countries. For the full program and to buy tickets, visit harbor jazz dot com."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0025",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 4,
+      "tags": [
+        "graphique",
+        "message vocal"
+      ],
+      "media": {
+        "type": "table",
+        "title": "Meeting Rooms",
+        "headers": [
+          "Room",
+          "Capacity",
+          "Equipment"
+        ],
+        "rows": [
+          [
+            "Aspen",
+            "6",
+            "TV screen"
+          ],
+          [
+            "Birch",
+            "12",
+            "Projector"
+          ],
+          [
+            "Cedar",
+            "20",
+            "Projector"
+          ],
+          [
+            "Maple",
+            "40",
+            "Stage and projector"
+          ]
+        ]
+      },
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Hi, Kevin, it's Monica. About tomorrow's training for the new sales staff: there will be fifteen people, not ten as I originally said. So the room I booked won't be big enough."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Could you reserve the smallest room that fits everyone? We'll definitely need a projector for the slides. Also, could you order coffee and pastries for nine fifteen? Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0026",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 4,
+      "tags": [
+        "podcast",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "Welcome back to Small Business Matters. Today's topic is pricing. Many new business owners set their prices by looking at what competitors charge and then going a little lower. It seems logical. But think about what that tells customers about the quality of your product."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "In my experience, customers are often willing to pay more if they understand what makes your product different. So before you lower your prices, ask yourself whether you've clearly explained your product's value."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "After the break, I'll talk with a café owner who doubled her profits by raising her prices."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p4-0061","exam":"toeic","section":"part4","groupId":"toeic-p4-g0021","skill":"p4-idee-generale","difficulty":1,"prompt":"Where does the speaker work?","options":["At a bookstore","At a utility company","At a library","At a law firm"],"answer":2,"explanation":"« Sofia Ruiz from the Westfield Public Library ».","trap":"Un livre réservé peut évoquer une librairie, mais la carte de lecteur confirme la bibliothèque.","recommendedSeconds":15,"tags":["lieu de travail"]},
+    {"id":"toeic-p4-0062","exam":"toeic","section":"part4","groupId":"toeic-p4-g0021","skill":"p4-details","difficulty":2,"prompt":"How long will the book be held?","options":["For seven days","Until the end of the month","For two weeks","For one day"],"answer":0,"explanation":"« We'll keep it for seven days. »","trap":"« the end of this month » concerne l'expiration de la carte.","recommendedSeconds":15,"tags":["durée"]},
+    {"id":"toeic-p4-0063","exam":"toeic","section":"part4","groupId":"toeic-p4-g0021","skill":"p4-inference","difficulty":3,"prompt":"What should the listener bring to renew his card?","options":["Proof of address","His old card","A photograph","A renewal fee"],"answer":0,"explanation":"« bring a recent utility bill as proof of address ».","trap":"« utility bill » (facture d'électricité, d'eau…) est ici un justificatif de domicile, pas un paiement.","recommendedSeconds":15,"tags":["consigne"]},
+    {"id":"toeic-p4-0064","exam":"toeic","section":"part4","groupId":"toeic-p4-g0022","skill":"p4-idee-generale","difficulty":2,"prompt":"What is the purpose of the announcement?","options":["To report an elevator problem","To introduce new floor wardens","To announce a fire drill","To close a parking lot"],"answer":2,"explanation":"« a fire drill will take place this Thursday ».","trap":"Les ascenseurs sont mentionnés comme consigne, pas comme panne.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p4-0065","exam":"toeic","section":"part4","groupId":"toeic-p4-g0022","skill":"p4-inference","difficulty":2,"prompt":"What are listeners told not to do?","options":["Leave their offices","Park across the street","Use the elevators","Wear orange vests"],"answer":2,"explanation":"« Do not use the elevators. »","trap":"Les gilets orange sont portés par les responsables d'étage.","recommendedSeconds":15,"tags":["interdiction"]},
+    {"id":"toeic-p4-0066","exam":"toeic","section":"part4","groupId":"toeic-p4-g0022","skill":"p4-details","difficulty":3,"prompt":"Where should people gather?","options":["In the lobby","In a parking lot","On the roof","Near the staircase"],"answer":1,"explanation":"« the assembly point in the parking lot across the street ».","trap":"L'escalier sert à sortir, pas à se rassembler.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p4-0067","exam":"toeic","section":"part4","groupId":"toeic-p4-g0023","skill":"p4-details","difficulty":2,"prompt":"What did the client do yesterday?","options":["Approved some designs","Signed a new contract","Visited the office","Changed a deadline"],"answer":0,"explanation":"« The client approved our design concepts yesterday ».","trap":"L'échéance du 20 est fixée, mais rien n'indique qu'elle a changé.","recommendedSeconds":15,"tags":["action passée"]},
+    {"id":"toeic-p4-0068","exam":"toeic","section":"part4","groupId":"toeic-p4-g0023","skill":"p4-sens-implicite","difficulty":4,"prompt":"Why does the speaker say, “the printing company needs ten days to produce the catalogs”?","options":["To complain about the printing company","To suggest changing printers","To explain that the schedule is tighter than it seems","To announce a delay"],"answer":2,"explanation":"Trois semaines semblent suffisantes, mais dix jours d'impression réduisent fortement le temps disponible : d'où les brouillons exigés dès vendredi prochain.","trap":"Interpréter la remarque comme une plainte contre l'imprimeur.","recommendedSeconds":20,"tags":["sous-entendu"]},
+    {"id":"toeic-p4-0069","exam":"toeic","section":"part4","groupId":"toeic-p4-g0023","skill":"p4-inference","difficulty":3,"prompt":"What are listeners asked to do?","options":["Call the printing company","Choose paper samples","Copy Jenny on certain e-mails","Meet with the client"],"answer":2,"explanation":"« please copy her on any e-mails about paper or colors ».","trap":"C'est Jenny, et non les auditeurs, qui traitera avec l'imprimeur.","recommendedSeconds":15,"tags":["consigne"]},
+    {"id":"toeic-p4-0070","exam":"toeic","section":"part4","groupId":"toeic-p4-g0024","skill":"p4-idee-generale","difficulty":1,"prompt":"What is being advertised?","options":["A food fair","A park opening","A concert hall","A music festival"],"answer":3,"explanation":"« The fifth annual Harbor Jazz Festival returns to Seaside Park ».","trap":"Les food trucks ne sont qu'un élément du festival.","recommendedSeconds":15,"tags":["publicité"]},
+    {"id":"toeic-p4-0071","exam":"toeic","section":"part4","groupId":"toeic-p4-g0024","skill":"p4-details","difficulty":3,"prompt":"How can listeners get the lower ticket price?","options":["By buying tickets early","By bringing children","By attending only one day","By joining a club"],"answer":0,"explanation":"« just sixty pounds if you buy them before June first ».","trap":"La gratuité pour les moins de douze ans ne réduit pas le prix des billets adultes.","recommendedSeconds":15,"tags":["condition"]},
+    {"id":"toeic-p4-0072","exam":"toeic","section":"part4","groupId":"toeic-p4-g0024","skill":"p4-details","difficulty":2,"prompt":"What will be available at the event?","options":["Food trucks","Free parking","Music lessons","Hotel discounts"],"answer":0,"explanation":"« Food trucks will offer dishes from a dozen countries. »","trap":"Le stationnement n'est pas évoqué.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0073","exam":"toeic","section":"part4","groupId":"toeic-p4-g0025","skill":"p4-details","difficulty":2,"prompt":"Why is the speaker calling?","options":["A training session was canceled.","A projector is broken.","A room was booked twice.","The number of participants has changed."],"answer":3,"explanation":"« there will be fifteen people, not ten as I originally said ».","trap":"Le projecteur est un besoin, il n'est pas en panne.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p4-0074","exam":"toeic","section":"part4","groupId":"toeic-p4-g0025","skill":"p4-graphique","difficulty":4,"prompt":"Look at the graphic. Which room will the listener most likely reserve?","options":["Aspen","Birch","Cedar","Maple"],"answer":2,"explanation":"Il faut au moins 15 places et un projecteur, dans la plus petite salle possible : Cedar (20 places, projecteur).","trap":"Birch a un projecteur mais seulement 12 places ; Maple convient mais n'est pas la plus petite.","recommendedSeconds":25,"tags":["graphique","contraintes"]},
+    {"id":"toeic-p4-0075","exam":"toeic","section":"part4","groupId":"toeic-p4-g0025","skill":"p4-inference","difficulty":2,"prompt":"What does the speaker ask the listener to order?","options":["New slides","Training manuals","Name badges","Refreshments"],"answer":3,"explanation":"« could you order coffee and pastries » : des rafraîchissements.","trap":"Repérer la généralisation « coffee and pastries » → « refreshments ».","recommendedSeconds":15,"tags":["paraphrase"]},
+    {"id":"toeic-p4-0076","exam":"toeic","section":"part4","groupId":"toeic-p4-g0026","skill":"p4-idee-generale","difficulty":2,"prompt":"What is the main topic of the episode?","options":["Hiring staff","Setting prices","Opening a café","Choosing suppliers"],"answer":1,"explanation":"« Today's topic is pricing. »","trap":"Le café est l'exemple de l'invitée qui suivra la pause.","recommendedSeconds":15,"tags":["sujet"]},
+    {"id":"toeic-p4-0077","exam":"toeic","section":"part4","groupId":"toeic-p4-g0026","skill":"p4-sens-implicite","difficulty":5,"prompt":"Why does the speaker say, “think about what that tells customers about the quality of your product”?","options":["To recommend copying competitors","To warn that low prices can suggest low quality","To encourage customer surveys","To praise a specific product"],"answer":1,"explanation":"Il critique la stratégie du prix le plus bas : un prix inférieur peut laisser penser que le produit est de moindre qualité.","trap":"Croire qu'il approuve la stratégie décrite juste avant (« It seems logical »).","recommendedSeconds":20,"tags":["sous-entendu","argumentation"]},
+    {"id":"toeic-p4-0078","exam":"toeic","section":"part4","groupId":"toeic-p4-g0026","skill":"p4-details","difficulty":3,"prompt":"Who will the speaker talk with after the break?","options":["A café owner","A competitor","A customer","An economist"],"answer":0,"explanation":"« I'll talk with a café owner who doubled her profits ».","trap":"Les concurrents sont mentionnés au début, mais pas comme invités.","recommendedSeconds":15,"tags":["suite"]}
+  ]
+}

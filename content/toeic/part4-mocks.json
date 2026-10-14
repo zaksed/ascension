@@ -1,0 +1,725 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part4",
+  "description": "Partie 4 — g0001-g0010 : examen blanc n°1 ; g0011-g0020 : examen blanc n°2 (2 graphiques et 2 questions de sens implicite par examen).",
+  "groups": [
+    {
+      "id": "toeic-p4-g0001",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "message vocal",
+        "santé"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Hello, this is Grace Chen from Valley Dental Clinic, calling for Mr. Okafor. I'm calling to remind you of your appointment with Dr. Patel tomorrow, Thursday, at two fifteen."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Please note that our clinic has moved to a new address. We're now at 48 Riverside Drive, on the third floor of the Morton Building. Parking is available behind the building."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "If you need to reschedule, please call us at least twenty-four hours in advance to avoid a cancellation fee. Thank you, and see you tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0002",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "annonce",
+        "aéroport"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "Attention, passengers on Coastal Airways flight 382 to Lisbon. Due to a technical issue with the aircraft, this flight will now depart from Gate 27 instead of Gate 12. The new departure time is eleven forty-five."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "We apologize for the inconvenience. To thank you for your patience, passengers on this flight can collect a meal voucher at the customer service desk next to Gate 20. Please keep an eye on the departure screens for further updates."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0003",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "radio",
+        "circulation"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "This is Mike Duncan with your morning traffic update on Radio 96. If you're heading downtown on Highway 9, expect delays of up to thirty minutes because of road work near the Station Street exit."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "The work is part of the city's bridge renovation project, which is scheduled to continue until the end of next month. Drivers are encouraged to use Lakeshore Road instead."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "And remember, the city's new express buses now run every ten minutes from the Northgate park-and-ride. Coming up after the break: an interview with the mayor about the new bike lanes."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0004",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "réunion",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "CA-F",
+          "text": "Before we finish, a quick update on the customer survey. We received more than two thousand responses, which is our highest number ever."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-F",
+          "text": "Most customers are happy with our products, but many mentioned that our website is difficult to navigate on mobile phones. Now, I know the web team is already busy preparing for the holiday sale. But the holiday sale brings in forty percent of our online revenue."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-F",
+          "text": "So I'd like each of you to read the comments this week and suggest one improvement we could make quickly. Please send your ideas to me by Friday."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0005",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "magasin",
+        "promotion"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "Good afternoon, shoppers, and thank you for visiting Brookfield Home Center. For the next two hours only, all paint and painting supplies are twenty-five percent off."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "Our paint experts are also offering free color consultations in aisle seven. Just bring a photo of your room. And don't forget: members of our rewards program get free delivery on any purchase over one hundred dollars. You can sign up at any checkout counter in less than a minute."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0006",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "visite guidée"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "Welcome to the Hartley Chocolate Factory tour. My name is Olivia, and I'll be your guide for the next hour."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "We'll start in the history room, where you'll see the original machines used when the factory opened in 1921. Then we'll walk through the production area. For safety reasons, you'll need to wear one of the hairnets in the basket by the door, and please don't touch any of the equipment."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "At the end of the tour, everyone will receive a free box of our bestselling truffles, and our shop will be open if you'd like to buy more."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0007",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "présentation d'un intervenant"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "Good evening, everyone, and welcome to the annual Small Business Awards. Our keynote speaker tonight needs little introduction."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "Fifteen years ago, Amara Diallo started a bakery in her own kitchen. Today, her company, Golden Crust, has thirty locations across the country and employs more than six hundred people. Ms. Diallo is also known for her mentoring program, which has helped over a hundred young entrepreneurs launch their own businesses."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "Tonight, she'll be sharing what she's learned about growing a company without losing its character. Please join me in welcoming Amara Diallo."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0008",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 4,
+      "tags": [
+        "message vocal",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "AU-F",
+          "text": "Hi, Tom, it's Rachel. I'm calling about our trade show booth. I just got off the phone with the event organizers, and they've moved us from the main hall to the east wing. Apparently there was a problem with the electrical setup."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-F",
+          "text": "I know you designed the booth for a much bigger space. Well, the east wing gets a lot of traffic from the coffee area."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-F",
+          "text": "Could you look at the floor plan I've just e-mailed you and let me know by tomorrow whether we need to change the display panels? Thanks."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0009",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 4,
+      "tags": [
+        "graphique",
+        "formation"
+      ],
+      "media": {
+        "type": "table",
+        "title": "New Employee Training Day",
+        "headers": [
+          "Time",
+          "Session"
+        ],
+        "rows": [
+          [
+            "9:30",
+            "Software Basics"
+          ],
+          [
+            "11:00",
+            "Data Security"
+          ],
+          [
+            "1:30",
+            "Report Writing"
+          ],
+          [
+            "3:00",
+            "Questions and Answers"
+          ]
+        ]
+      },
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Good morning, and welcome to the new employee training day. Before we start, there's been a small change to the agenda."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Mr. Ortiz, who was going to lead the data security session, is stuck in traffic, so his session will switch places with the one scheduled right after lunch."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Lunch will be served in the cafeteria on the ground floor, and you'll need your new ID card to get in. If you haven't picked yours up yet, please see me during the first break."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0010",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock1",
+      "kind": "talk",
+      "difficulty": 5,
+      "tags": [
+        "graphique",
+        "conférence"
+      ],
+      "media": {
+        "type": "table",
+        "title": "Free Shuttles to the Convention Center",
+        "headers": [
+          "Line",
+          "Departs from",
+          "Frequency"
+        ],
+        "rows": [
+          [
+            "Blue",
+            "Central Station",
+            "Every 10 min"
+          ],
+          [
+            "Green",
+            "Airport",
+            "Every 30 min"
+          ],
+          [
+            "Red",
+            "Harbor Hotel",
+            "Every 15 min"
+          ],
+          [
+            "Yellow",
+            "City Museum",
+            "Every 20 min"
+          ]
+        ]
+      },
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "Good evening, and welcome to the International Logistics Forum. Tomorrow's sessions begin at nine at the convention center."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "For those of you staying here at the hotel, free shuttle buses will leave from the main entrance starting at seven thirty. Please note that the stop near the City Museum is closed for construction this week, so that line won't be running."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "If colleagues are arriving by plane tomorrow, let them know that their shuttle only runs every half hour. Finally, registration packs, including your badge, will be available at the convention center entrance."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0011",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 1,
+      "tags": [
+        "message vocal",
+        "garage"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "Hi, this is Laura from Prime Auto Repair. Your car is ready to be picked up. We replaced the front brakes and changed the oil, as you requested. The total comes to three hundred and twenty dollars."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "We're open until six today, and from eight to noon tomorrow. Please remember to bring the claim ticket we gave you, so we can find your keys quickly. Thanks!"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0012",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "annonce",
+        "train"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "Good morning, passengers. This is your conductor speaking. We're now approaching Millbrook, where we'll stop for about ten minutes while the crew changes. Passengers traveling to Portland should remain on board."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "The café car at the back of the train will reopen after Millbrook and will serve hot breakfast until ten. We'd also like to remind you that free Wi-Fi is available in all cars. The network name and password are printed on the back of your seat."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0013",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "actualité économique"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "AU-F",
+          "text": "In business news, the electronics maker Voltrix announced today that it will open a new research center in Melbourne next spring. The center will focus on battery technology and is expected to create about three hundred jobs, mostly for engineers and scientists."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-F",
+          "text": "Voltrix's chief executive said the company chose Melbourne because of its strong universities and the city's support for clean energy projects. Construction of the building, designed by local firm Arden Architects, began last month. Voltrix shares rose four percent following the announcement."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0014",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "réunion",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "OK, everyone, one last thing. As you know, we've been testing the new scheduling software in the Toronto office for the past two months. The feedback has been very positive. Staff say it saves them about an hour a week."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "So starting next month, we'll be using it in all our branches. I know some of you were worried it would be complicated. Well, the Toronto team learned it in a single afternoon."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "Training sessions will be held next week, and you can sign up for one on the intranet."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0015",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "publicité"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Is your home office feeling cramped? At Northline Furniture, we specialize in space-saving desks and shelving designed for small apartments."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "This month, every desk comes with a free ergonomic chair. And our design team will visit your home at no cost to help you plan the perfect layout. Visit our showroom on Fifth Avenue or browse our full catalog online. Northline Furniture: make the most of every square foot."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0016",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "atelier",
+        "formation"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "Welcome to today's workshop on public speaking. I'm Daniel Webb. Over the next three hours, we'll practice techniques to help you feel more confident in front of an audience."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "First, I'll show you a short video of two presentations, one strong and one weak, and we'll discuss the differences. After that, each of you will give a two-minute talk on a topic of your choice. Don't worry: only the people in this room will see it."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "I'll record each talk so that you can watch yourself afterward. You'll find it's the fastest way to improve."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0017",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "radio",
+        "météo"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "CA-F",
+          "text": "And now for the weekend weather. A storm system moving in from the west will bring heavy rain and strong winds to the region on Saturday, with gusts of up to eighty kilometers per hour."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-F",
+          "text": "As a result, the organizers of the Riverside Food Festival have decided to move all of Saturday's events indoors, to the Exhibition Hall on King Street."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-F",
+          "text": "Sunday looks much brighter, with sunshine and temperatures around twenty-two degrees. That's perfect for the festival's closing parade along the river. Stay tuned for the latest on road conditions."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0018",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 4,
+      "tags": [
+        "discours",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "Thank you all for coming to this year's end-of-year meeting. It's been an exceptional year. We launched three new products, opened our first office in Asia, and our customer satisfaction scores are the highest in the company's history."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "I know many of you worked long hours to make all of this happen. Our competitors said we couldn't do it in one year. Well, here we are."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "To show our appreciation, every employee will receive two additional vacation days next year. Human resources will send the details next week."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0019",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 4,
+      "tags": [
+        "graphique",
+        "musée"
+      ],
+      "media": {
+        "type": "table",
+        "title": "Museum Floor Guide",
+        "headers": [
+          "Floor",
+          "Exhibit"
+        ],
+        "rows": [
+          [
+            "1",
+            "Ancient Egypt"
+          ],
+          [
+            "2",
+            "Modern Art"
+          ],
+          [
+            "3",
+            "Natural History"
+          ],
+          [
+            "4",
+            "Photography"
+          ]
+        ]
+      },
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "Attention, museum visitors. The museum will be closing in thirty minutes. We'd also like to remind you that this is the last week of our special photography exhibition, so if you haven't seen it yet, now is your chance."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "Due to a water leak, the natural history floor is temporarily closed, and the dinosaur skeletons have been moved to the floor directly below it until repairs are completed."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-M",
+          "text": "The gift shop on the ground floor will remain open for an additional fifteen minutes after closing."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0020",
+      "exam": "toeic",
+      "section": "part4",
+      "pool": "mock2",
+      "kind": "talk",
+      "difficulty": 5,
+      "tags": [
+        "graphique",
+        "ressources humaines"
+      ],
+      "media": {
+        "type": "table",
+        "title": "Employee Survey — Preferred New Benefit",
+        "headers": [
+          "Benefit",
+          "Votes"
+        ],
+        "rows": [
+          [
+            "Gym membership",
+            "18%"
+          ],
+          [
+            "Extra vacation",
+            "35%"
+          ],
+          [
+            "Flexible hours",
+            "29%"
+          ],
+          [
+            "Commuter subsidy",
+            "18%"
+          ]
+        ]
+      },
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "Thanks for coming. As promised, I want to share the results of our employee benefits survey. As you can see on the chart, the most popular option was extra vacation."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "Unfortunately, our budget doesn't allow us to offer that this year. However, the second most popular choice costs almost nothing to put in place, so we'll introduce it starting in March."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "We'll keep looking at the other options for next year. If you have any questions, my door is always open."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p4-0001","exam":"toeic","section":"part4","groupId":"toeic-p4-g0001","skill":"p4-idee-generale","difficulty":1,"prompt":"What is the purpose of the message?","options":["To cancel an appointment","To introduce a new dentist","To remind a patient of an appointment","To request a payment"],"answer":2,"explanation":"« I'm calling to remind you of your appointment with Dr. Patel tomorrow ».","trap":"Les frais d'annulation sont évoqués, mais le rendez-vous n'est pas annulé.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p4-0002","exam":"toeic","section":"part4","groupId":"toeic-p4-g0001","skill":"p4-details","difficulty":2,"prompt":"What does the speaker say about the clinic?","options":["It is closed tomorrow.","It has a new phone number.","It has moved.","It is hiring staff."],"answer":2,"explanation":"« our clinic has moved to a new address ».","trap":"Le parking est mentionné, mais rien n'indique un changement de numéro de téléphone.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0003","exam":"toeic","section":"part4","groupId":"toeic-p4-g0001","skill":"p4-details","difficulty":3,"prompt":"Why should the listener call at least 24 hours in advance?","options":["To get a parking permit","To confirm his insurance","To avoid a fee","To choose a different doctor"],"answer":2,"explanation":"« to avoid a cancellation fee ».","trap":"Le parking est disponible sans permis particulier.","recommendedSeconds":15,"tags":["raison"]},
+    {"id":"toeic-p4-0004","exam":"toeic","section":"part4","groupId":"toeic-p4-g0002","skill":"p4-idee-generale","difficulty":1,"prompt":"Where is the announcement most likely being made?","options":["At an airport","On a train","At a bus terminal","At a ferry port"],"answer":0,"explanation":"Vol, compagnie aérienne, porte d'embarquement : l'annonce a lieu dans un aéroport.","trap":"Le mot « passengers » convient à tous les transports ; « flight » et « gate » tranchent.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p4-0005","exam":"toeic","section":"part4","groupId":"toeic-p4-g0002","skill":"p4-details","difficulty":2,"prompt":"What has caused the change?","options":["A technical problem","Bad weather","A late crew","Heavy air traffic"],"answer":0,"explanation":"« Due to a technical issue with the aircraft ».","trap":"La météo est une cause fréquente de retard, mais elle n'est pas citée.","recommendedSeconds":15,"tags":["cause"]},
+    {"id":"toeic-p4-0006","exam":"toeic","section":"part4","groupId":"toeic-p4-g0002","skill":"p4-details","difficulty":3,"prompt":"What can passengers receive at the customer service desk?","options":["A meal voucher","A seat upgrade","A refund","A hotel room"],"answer":0,"explanation":"« passengers on this flight can collect a meal voucher at the customer service desk ».","trap":"Ne pas confondre la porte 20 (bureau du service client) avec la nouvelle porte 27.","recommendedSeconds":15,"tags":["compensation"]},
+    {"id":"toeic-p4-0007","exam":"toeic","section":"part4","groupId":"toeic-p4-g0003","skill":"p4-idee-generale","difficulty":2,"prompt":"What is the main purpose of the broadcast?","options":["To advertise a bus company","To announce an election","To describe a bridge design","To report on traffic conditions"],"answer":3,"explanation":"« your morning traffic update » : un point sur la circulation.","trap":"Les bus express et le pont ne sont que des éléments du bulletin.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p4-0008","exam":"toeic","section":"part4","groupId":"toeic-p4-g0003","skill":"p4-inference","difficulty":3,"prompt":"What are drivers encouraged to do?","options":["Leave home earlier","Take a different road","Avoid downtown parking","Buy a bus pass"],"answer":1,"explanation":"« Drivers are encouraged to use Lakeshore Road instead. »","trap":"Les bus express sont signalés, mais aucun abonnement n'est recommandé.","recommendedSeconds":15,"tags":["consigne"]},
+    {"id":"toeic-p4-0009","exam":"toeic","section":"part4","groupId":"toeic-p4-g0003","skill":"p4-details","difficulty":2,"prompt":"What will listeners hear after the break?","options":["A weather report","Some music","Another traffic update","An interview"],"answer":3,"explanation":"« Coming up after the break: an interview with the mayor ».","trap":"Le sujet de l'interview (les pistes cyclables) n'est pas la question.","recommendedSeconds":15,"tags":["suite"]},
+    {"id":"toeic-p4-0010","exam":"toeic","section":"part4","groupId":"toeic-p4-g0004","skill":"p4-details","difficulty":2,"prompt":"What does the speaker say about the customer survey?","options":["It received a record number of responses.","It was sent only to new customers.","It was too long.","It will be repeated next month."],"answer":0,"explanation":"« more than two thousand responses, which is our highest number ever » : un record.","trap":"Repérer la paraphrase « highest ever » → « record ».","recommendedSeconds":15,"tags":["paraphrase"]},
+    {"id":"toeic-p4-0011","exam":"toeic","section":"part4","groupId":"toeic-p4-g0004","skill":"p4-sens-implicite","difficulty":4,"prompt":"Why does the speaker say, “the holiday sale brings in forty percent of our online revenue”?","options":["To congratulate the web team","To stress that the mobile site must be improved soon","To explain why prices will be lowered","To announce a new sales target"],"answer":1,"explanation":"Elle reconnaît que l'équipe web est occupée, mais rappelle que les soldes pèsent lourd en ligne : il faut donc corriger vite le site mobile. La suite (« So I'd like… quickly ») le confirme.","trap":"Prendre ce chiffre pour une simple information commerciale.","recommendedSeconds":20,"tags":["sous-entendu","but"]},
+    {"id":"toeic-p4-0012","exam":"toeic","section":"part4","groupId":"toeic-p4-g0004","skill":"p4-inference","difficulty":3,"prompt":"What are listeners asked to do?","options":["Call some customers","Redesign the website","Suggest an improvement","Prepare for the holiday sale"],"answer":2,"explanation":"« suggest one improvement we could make quickly ».","trap":"Ils doivent proposer une idée, pas refaire eux-mêmes le site.","recommendedSeconds":15,"tags":["consigne"]},
+    {"id":"toeic-p4-0013","exam":"toeic","section":"part4","groupId":"toeic-p4-g0005","skill":"p4-idee-generale","difficulty":1,"prompt":"Where is the announcement being made?","options":["In an art gallery","In a furniture factory","In a photography studio","In a home improvement store"],"answer":3,"explanation":"Peinture, fournitures, livraison : « Brookfield Home Center » est un magasin de bricolage.","trap":"Les conseils en couleurs pourraient évoquer une galerie d'art.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p4-0014","exam":"toeic","section":"part4","groupId":"toeic-p4-g0005","skill":"p4-details","difficulty":2,"prompt":"What is offered in aisle seven?","options":["Free paint samples","Advice about colors","Painting lessons","Delivery forms"],"answer":1,"explanation":"« free color consultations in aisle seven ».","trap":"« consultations » est paraphrasé par « advice ».","recommendedSeconds":15,"tags":["paraphrase"]},
+    {"id":"toeic-p4-0015","exam":"toeic","section":"part4","groupId":"toeic-p4-g0005","skill":"p4-details","difficulty":3,"prompt":"What benefit do rewards program members receive?","options":["An extra discount on paint","Free color consultations","Free delivery on large purchases","Faster checkout"],"answer":2,"explanation":"« free delivery on any purchase over one hundred dollars ».","trap":"La remise sur la peinture et les conseils sont ouverts à tous les clients.","recommendedSeconds":15,"tags":["condition"]},
+    {"id":"toeic-p4-0016","exam":"toeic","section":"part4","groupId":"toeic-p4-g0006","skill":"p4-idee-generale","difficulty":1,"prompt":"Who most likely is the speaker?","options":["A tour guide","A factory owner","A chef","A shop assistant"],"answer":0,"explanation":"« I'll be your guide for the next hour ».","trap":"La boutique est mentionnée en fin de visite, mais elle n'y travaille pas.","recommendedSeconds":15,"tags":["identité"]},
+    {"id":"toeic-p4-0017","exam":"toeic","section":"part4","groupId":"toeic-p4-g0006","skill":"p4-inference","difficulty":3,"prompt":"What are listeners asked to wear?","options":["Gloves","Safety glasses","Name tags","Hairnets"],"answer":3,"explanation":"« you'll need to wear one of the hairnets in the basket by the door ».","trap":"Les autres équipements sont plausibles dans une usine, mais seule la charlotte est citée.","recommendedSeconds":15,"tags":["consigne"]},
+    {"id":"toeic-p4-0018","exam":"toeic","section":"part4","groupId":"toeic-p4-g0006","skill":"p4-details","difficulty":2,"prompt":"What will listeners receive at the end of the tour?","options":["A discount coupon","A box of chocolates","A history book","A T-shirt"],"answer":1,"explanation":"« everyone will receive a free box of our bestselling truffles ».","trap":"« truffles » (truffes en chocolat) doit être relié à « chocolates ».","recommendedSeconds":15,"tags":["vocabulaire"]},
+    {"id":"toeic-p4-0019","exam":"toeic","section":"part4","groupId":"toeic-p4-g0007","skill":"p4-idee-generale","difficulty":2,"prompt":"What is the purpose of the talk?","options":["To present an award","To open a bakery","To introduce a speaker","To announce a merger"],"answer":2,"explanation":"Il présente l'invitée d'honneur et conclut : « Please join me in welcoming Amara Diallo ».","trap":"Le cadre est une remise de prix, mais ce discours ne remet aucun prix.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p4-0020","exam":"toeic","section":"part4","groupId":"toeic-p4-g0007","skill":"p4-details","difficulty":3,"prompt":"How did Ms. Diallo start her business?","options":["With a bank loan","As a franchise","With a business partner","In her own kitchen"],"answer":3,"explanation":"« Amara Diallo started a bakery in her own kitchen ».","trap":"Les trente points de vente pourraient faire penser à une franchise.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0021","exam":"toeic","section":"part4","groupId":"toeic-p4-g0007","skill":"p4-details","difficulty":4,"prompt":"What is Ms. Diallo also known for?","options":["Mentoring young entrepreneurs","Writing cookbooks","Hosting a television show","Teaching at a university"],"answer":0,"explanation":"« known for her mentoring program, which has helped over a hundred young entrepreneurs ».","trap":"Les autres activités sont plausibles pour une boulangère célèbre, mais non mentionnées.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0022","exam":"toeic","section":"part4","groupId":"toeic-p4-g0008","skill":"p4-details","difficulty":2,"prompt":"What has the speaker just done?","options":["Designed a booth","Spoken with event organizers","Visited the east wing","Ordered display panels"],"answer":1,"explanation":"« I just got off the phone with the event organizers ».","trap":"C'est Tom, l'auditeur, qui a conçu le stand.","recommendedSeconds":15,"tags":["action passée"]},
+    {"id":"toeic-p4-0023","exam":"toeic","section":"part4","groupId":"toeic-p4-g0008","skill":"p4-sens-implicite","difficulty":4,"prompt":"What does the speaker imply when she says, “the east wing gets a lot of traffic from the coffee area”?","options":["The new location has an advantage.","The coffee area should be moved.","The booth will be too crowded.","She would prefer the main hall."],"answer":0,"explanation":"Après avoir reconnu l'inconvénient (espace plus petit), elle souligne un point positif : beaucoup de visiteurs passent par là.","trap":"« traffic » désigne ici le passage des visiteurs, pas des embouteillages.","recommendedSeconds":20,"tags":["sous-entendu"]},
+    {"id":"toeic-p4-0024","exam":"toeic","section":"part4","groupId":"toeic-p4-g0008","skill":"p4-inference","difficulty":3,"prompt":"What does the speaker ask the listener to do?","options":["Call the organizers","Review a floor plan","Fix the electrical setup","Order more coffee"],"answer":1,"explanation":"« Could you look at the floor plan I've just e-mailed you…? »","trap":"C'est elle qui a appelé les organisateurs.","recommendedSeconds":15,"tags":["demande"]},
+    {"id":"toeic-p4-0025","exam":"toeic","section":"part4","groupId":"toeic-p4-g0009","skill":"p4-idee-generale","difficulty":2,"prompt":"Who most likely are the listeners?","options":["Security guards","Software developers","Cafeteria staff","New employees"],"answer":3,"explanation":"« welcome to the new employee training day » ; ils doivent aussi retirer leur nouveau badge.","trap":"« data security » ne fait pas des auditeurs des agents de sécurité.","recommendedSeconds":15,"tags":["public"]},
+    {"id":"toeic-p4-0026","exam":"toeic","section":"part4","groupId":"toeic-p4-g0009","skill":"p4-graphique","difficulty":4,"prompt":"Look at the graphic. When will the data security session begin?","options":["9:30","11:00","1:30","3:00"],"answer":2,"explanation":"La séance sur la sécurité des données échange sa place avec celle qui suit le déjeuner, prévue à 13 h 30.","trap":"11 h 00 est l'horaire initial, désormais occupé par « Report Writing ».","recommendedSeconds":20,"tags":["graphique","changement"]},
+    {"id":"toeic-p4-0027","exam":"toeic","section":"part4","groupId":"toeic-p4-g0009","skill":"p4-details","difficulty":3,"prompt":"What do listeners need to enter the cafeteria?","options":["A meal ticket","A visitor pass","An ID card","A registration form"],"answer":2,"explanation":"« you'll need your new ID card to get in ».","trap":"Le ticket repas est plausible, mais jamais mentionné.","recommendedSeconds":15,"tags":["condition"]},
+    {"id":"toeic-p4-0028","exam":"toeic","section":"part4","groupId":"toeic-p4-g0010","skill":"p4-idee-generale","difficulty":2,"prompt":"What event are the listeners attending?","options":["A museum opening","A tourism conference","A transportation strike meeting","A logistics forum"],"answer":3,"explanation":"« welcome to the International Logistics Forum ».","trap":"Le musée n'est cité que pour l'arrêt de navette fermé.","recommendedSeconds":15,"tags":["événement"]},
+    {"id":"toeic-p4-0029","exam":"toeic","section":"part4","groupId":"toeic-p4-g0010","skill":"p4-graphique","difficulty":5,"prompt":"Look at the graphic. Which shuttle line will most of the listeners use?","options":["Blue","Green","Red","Yellow"],"answer":2,"explanation":"Le public loge à l'hôtel où a lieu l'annonce (le Harbor Hotel, départ « from the main entrance ») : c'est la ligne rouge.","trap":"La ligne verte (aéroport, toutes les 30 minutes) concerne les collègues qui arrivent en avion.","recommendedSeconds":25,"tags":["graphique","déduction"]},
+    {"id":"toeic-p4-0030","exam":"toeic","section":"part4","groupId":"toeic-p4-g0010","skill":"p4-details","difficulty":3,"prompt":"Where can listeners pick up their badges?","options":["At the hotel front desk","On the shuttle bus","At the convention center entrance","At the airport"],"answer":2,"explanation":"« registration packs, including your badge, will be available at the convention center entrance ».","trap":"L'annonce est faite à l'hôtel, mais les badges sont au centre de congrès.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p4-0031","exam":"toeic","section":"part4","groupId":"toeic-p4-g0011","skill":"p4-idee-generale","difficulty":1,"prompt":"Where does the speaker work?","options":["At a parking garage","At a car repair shop","At a car rental agency","At a gas station"],"answer":1,"explanation":"« Prime Auto Repair », freins remplacés, vidange : c'est un garage.","trap":"La vidange (« changed the oil ») peut faire penser à une station-service.","recommendedSeconds":15,"tags":["lieu de travail"]},
+    {"id":"toeic-p4-0032","exam":"toeic","section":"part4","groupId":"toeic-p4-g0011","skill":"p4-details","difficulty":2,"prompt":"What work was done on the car?","options":["The tires were changed.","The car was washed.","The brakes were replaced.","The engine was rebuilt."],"answer":2,"explanation":"« We replaced the front brakes and changed the oil ».","trap":"« changed » se rapporte à l'huile, pas aux pneus.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0033","exam":"toeic","section":"part4","groupId":"toeic-p4-g0011","skill":"p4-inference","difficulty":2,"prompt":"What should the listener bring?","options":["A credit card","A driver's license","The car keys","A claim ticket"],"answer":3,"explanation":"« Please remember to bring the claim ticket we gave you ».","trap":"Les clés sont au garage : le ticket sert justement à les retrouver.","recommendedSeconds":15,"tags":["consigne"]},
+    {"id":"toeic-p4-0034","exam":"toeic","section":"part4","groupId":"toeic-p4-g0012","skill":"p4-idee-generale","difficulty":1,"prompt":"Who most likely is the speaker?","options":["A café employee","A pilot","A station manager","A train conductor"],"answer":3,"explanation":"« This is your conductor speaking » dans un train.","trap":"La voiture-bar est mentionnée, mais le locuteur n'y travaille pas.","recommendedSeconds":15,"tags":["identité"]},
+    {"id":"toeic-p4-0035","exam":"toeic","section":"part4","groupId":"toeic-p4-g0012","skill":"p4-details","difficulty":2,"prompt":"What will happen at Millbrook?","options":["The café car will close.","All passengers will change trains.","The crew will change.","Tickets will be checked."],"answer":2,"explanation":"« we'll stop for about ten minutes while the crew changes ».","trap":"Les passagers pour Portland restent à bord : ils ne changent pas de train.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0036","exam":"toeic","section":"part4","groupId":"toeic-p4-g0012","skill":"p4-details","difficulty":3,"prompt":"Where can passengers find the Wi-Fi password?","options":["On their tickets","On the back of the seats","In the café car","On the company website"],"answer":1,"explanation":"« printed on the back of your seat ».","trap":"La voiture-bar est citée juste avant, ce qui peut induire en erreur.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p4-0037","exam":"toeic","section":"part4","groupId":"toeic-p4-g0013","skill":"p4-idee-generale","difficulty":2,"prompt":"What is the news report mainly about?","options":["A university program","A company's expansion","A new battery product","An architecture firm"],"answer":1,"explanation":"Voltrix ouvre un nouveau centre de recherche et crée 300 emplois : l'entreprise se développe.","trap":"Le centre portera sur les batteries, mais aucun nouveau produit n'est annoncé.","recommendedSeconds":15,"tags":["sujet"]},
+    {"id":"toeic-p4-0038","exam":"toeic","section":"part4","groupId":"toeic-p4-g0013","skill":"p4-details","difficulty":3,"prompt":"Why did Voltrix choose Melbourne?","options":["Because of low taxes","Because land is cheap","Because of its international airport","Because of its strong universities"],"answer":3,"explanation":"« because of its strong universities and the city's support for clean energy projects ».","trap":"Les autres raisons sont classiques pour une implantation, mais elles ne sont pas citées.","recommendedSeconds":15,"tags":["raison"]},
+    {"id":"toeic-p4-0039","exam":"toeic","section":"part4","groupId":"toeic-p4-g0013","skill":"p4-details","difficulty":3,"prompt":"What happened to Voltrix shares?","options":["They increased in value.","They were sold to another firm.","They fell by four percent.","They were split."],"answer":0,"explanation":"« Voltrix shares rose four percent ».","trap":"« four percent » est juste, mais le sens est une hausse, pas une baisse.","recommendedSeconds":15,"tags":["chiffres"]},
+    {"id":"toeic-p4-0040","exam":"toeic","section":"part4","groupId":"toeic-p4-g0014","skill":"p4-details","difficulty":2,"prompt":"What has the company been doing for the past two months?","options":["Opening new branches","Hiring new staff","Testing some software","Renovating an office"],"answer":2,"explanation":"« we've been testing the new scheduling software in the Toronto office ».","trap":"Les agences existent déjà ; le logiciel y sera déployé.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0041","exam":"toeic","section":"part4","groupId":"toeic-p4-g0014","skill":"p4-sens-implicite","difficulty":4,"prompt":"Why does the speaker say, “the Toronto team learned it in a single afternoon”?","options":["To praise one particular employee","To reassure listeners that the software is easy to learn","To suggest that no training is needed","To criticize the Toronto office"],"answer":1,"explanation":"Elle répond à l'inquiétude citée juste avant (« worried it would be complicated ») : le logiciel s'apprend vite.","trap":"Des formations sont quand même prévues : l'option « no training is needed » est trop forte.","recommendedSeconds":20,"tags":["rassurer"]},
+    {"id":"toeic-p4-0042","exam":"toeic","section":"part4","groupId":"toeic-p4-g0014","skill":"p4-inference","difficulty":2,"prompt":"How can listeners register for a training session?","options":["By e-mailing the speaker","On the intranet","At the reception desk","By phone"],"answer":1,"explanation":"« you can sign up for one on the intranet ».","trap":"Aucun autre moyen d'inscription n'est mentionné.","recommendedSeconds":15,"tags":["consigne"]},
+    {"id":"toeic-p4-0043","exam":"toeic","section":"part4","groupId":"toeic-p4-g0015","skill":"p4-idee-generale","difficulty":1,"prompt":"What is being advertised?","options":["A moving company","A furniture store","A real estate agency","An interior design school"],"answer":1,"explanation":"Bureaux, étagères, salle d'exposition : c'est une publicité pour Northline Furniture.","trap":"L'équipe de design fait partie du service, ce n'est pas une école.","recommendedSeconds":15,"tags":["publicité"]},
+    {"id":"toeic-p4-0044","exam":"toeic","section":"part4","groupId":"toeic-p4-g0015","skill":"p4-details","difficulty":2,"prompt":"What comes with every desk this month?","options":["A bookshelf","Free delivery","A desk lamp","A chair"],"answer":3,"explanation":"« every desk comes with a free ergonomic chair ».","trap":"Les étagères sont vendues par le magasin, mais non offertes.","recommendedSeconds":15,"tags":["offre"]},
+    {"id":"toeic-p4-0045","exam":"toeic","section":"part4","groupId":"toeic-p4-g0015","skill":"p4-details","difficulty":3,"prompt":"What service does the design team provide?","options":["Online design courses","Furniture repairs","Free home visits","Storage rental"],"answer":2,"explanation":"« our design team will visit your home at no cost ».","trap":"« at no cost » est paraphrasé par « free ».","recommendedSeconds":15,"tags":["paraphrase"]},
+    {"id":"toeic-p4-0046","exam":"toeic","section":"part4","groupId":"toeic-p4-g0016","skill":"p4-idee-generale","difficulty":1,"prompt":"What is the topic of the workshop?","options":["Video production","Time management","Report writing","Public speaking"],"answer":3,"explanation":"« Welcome to today's workshop on public speaking. »","trap":"Les vidéos sont un outil de l'atelier, pas son sujet.","recommendedSeconds":15,"tags":["sujet"]},
+    {"id":"toeic-p4-0047","exam":"toeic","section":"part4","groupId":"toeic-p4-g0016","skill":"p4-details","difficulty":2,"prompt":"What will the listeners do first?","options":["Watch a video","Give a talk","Fill out a survey","Form small groups"],"answer":0,"explanation":"« First, I'll show you a short video… »","trap":"Les présentations des participants viennent ensuite (« After that »).","recommendedSeconds":15,"tags":["ordre"]},
+    {"id":"toeic-p4-0048","exam":"toeic","section":"part4","groupId":"toeic-p4-g0016","skill":"p4-details","difficulty":3,"prompt":"Why will the speaker record the talks?","options":["To post them online","To grade the participants","To show them to managers","So participants can review their own performance"],"answer":3,"explanation":"« so that you can watch yourself afterward ».","trap":"Il précise que seules les personnes présentes verront les vidéos : elles ne seront ni publiées ni montrées aux managers.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p4-0049","exam":"toeic","section":"part4","groupId":"toeic-p4-g0017","skill":"p4-idee-generale","difficulty":2,"prompt":"What is the main topic of the broadcast?","options":["The weekend weather","A road closure","A cooking competition","A new exhibition hall"],"answer":0,"explanation":"« And now for the weekend weather. »","trap":"Le festival n'est évoqué que comme conséquence de la météo.","recommendedSeconds":15,"tags":["sujet"]},
+    {"id":"toeic-p4-0050","exam":"toeic","section":"part4","groupId":"toeic-p4-g0017","skill":"p4-details","difficulty":3,"prompt":"What have the festival organizers decided to do?","options":["Cancel the festival","Move some events indoors","Postpone the parade","Extend the festival by one day"],"answer":1,"explanation":"« move all of Saturday's events indoors, to the Exhibition Hall ».","trap":"Le festival n'est pas annulé : seul le lieu des événements du samedi change.","recommendedSeconds":15,"tags":["décision"]},
+    {"id":"toeic-p4-0051","exam":"toeic","section":"part4","groupId":"toeic-p4-g0017","skill":"p4-details","difficulty":3,"prompt":"What will take place on Sunday?","options":["A storm","A parade","A food tasting","A concert"],"answer":1,"explanation":"« perfect for the festival's closing parade along the river ».","trap":"La tempête est prévue samedi.","recommendedSeconds":15,"tags":["date"]},
+    {"id":"toeic-p4-0052","exam":"toeic","section":"part4","groupId":"toeic-p4-g0018","skill":"p4-details","difficulty":2,"prompt":"According to the speaker, what happened this year?","options":["An office opened in Asia.","A competitor was purchased.","A product was recalled.","A new CEO was appointed."],"answer":0,"explanation":"« opened our first office in Asia ».","trap":"Les concurrents sont mentionnés, mais aucun rachat.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0053","exam":"toeic","section":"part4","groupId":"toeic-p4-g0018","skill":"p4-sens-implicite","difficulty":5,"prompt":"What does the speaker mean when he says, “Well, here we are”?","options":["The meeting is coming to an end.","The company proved its critics wrong.","Employees have arrived at a new office.","The company's goals were unrealistic."],"answer":1,"explanation":"Les concurrents disaient que c'était impossible en un an ; « here we are » signifie « et pourtant, nous y sommes arrivés ».","trap":"Comprendre « here we are » au sens littéral d'une arrivée dans un lieu.","recommendedSeconds":20,"tags":["expression idiomatique"]},
+    {"id":"toeic-p4-0054","exam":"toeic","section":"part4","groupId":"toeic-p4-g0018","skill":"p4-details","difficulty":3,"prompt":"What will employees receive?","options":["Extra vacation days","A cash bonus","A gift card","Free training courses"],"answer":0,"explanation":"« every employee will receive two additional vacation days next year ».","trap":"Une prime en argent est plausible, mais ce n'est pas ce qui est annoncé.","recommendedSeconds":15,"tags":["récompense"]},
+    {"id":"toeic-p4-0055","exam":"toeic","section":"part4","groupId":"toeic-p4-g0019","skill":"p4-details","difficulty":2,"prompt":"What does the speaker say about the photography exhibition?","options":["It has been moved.","It is free today.","It opens tomorrow.","It ends this week."],"answer":3,"explanation":"« this is the last week of our special photography exhibition ».","trap":"Ce sont les squelettes de dinosaures qui ont été déplacés, pas l'exposition photo.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0056","exam":"toeic","section":"part4","groupId":"toeic-p4-g0019","skill":"p4-graphique","difficulty":4,"prompt":"Look at the graphic. On which floor are the dinosaur skeletons currently displayed?","options":["Floor 1","Floor 2","Floor 3","Floor 4"],"answer":1,"explanation":"L'histoire naturelle est au 3e étage ; les squelettes ont été déplacés à l'étage juste en dessous, le 2e.","trap":"Le 3e étage est leur emplacement habituel, actuellement fermé.","recommendedSeconds":20,"tags":["graphique","position relative"]},
+    {"id":"toeic-p4-0057","exam":"toeic","section":"part4","groupId":"toeic-p4-g0019","skill":"p4-details","difficulty":3,"prompt":"What will remain open after the museum closes?","options":["The café","The photography exhibition","The parking lot","The gift shop"],"answer":3,"explanation":"« The gift shop … will remain open for an additional fifteen minutes after closing. »","trap":"Le café et le parking ne sont jamais mentionnés.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0058","exam":"toeic","section":"part4","groupId":"toeic-p4-g0020","skill":"p4-idee-generale","difficulty":2,"prompt":"Who most likely is the speaker?","options":["A human resources manager","A gym owner","A travel agent","A financial consultant"],"answer":0,"explanation":"Elle présente une enquête sur les avantages salariés et annonce une mesure pour les employés : elle travaille aux ressources humaines.","trap":"L'abonnement à la salle de sport n'est qu'une des options de l'enquête.","recommendedSeconds":15,"tags":["identité"]},
+    {"id":"toeic-p4-0059","exam":"toeic","section":"part4","groupId":"toeic-p4-g0020","skill":"p4-details","difficulty":3,"prompt":"Why will the most popular benefit not be offered?","options":["Because few employees chose it","Because of a legal issue","Because of budget limits","Because the survey closed early"],"answer":2,"explanation":"« our budget doesn't allow us to offer that this year ».","trap":"C'est au contraire l'option la plus choisie (35 %).","recommendedSeconds":15,"tags":["raison"]},
+    {"id":"toeic-p4-0060","exam":"toeic","section":"part4","groupId":"toeic-p4-g0020","skill":"p4-graphique","difficulty":5,"prompt":"Look at the graphic. Which benefit will be introduced in March?","options":["Gym membership","Extra vacation","Flexible hours","Commuter subsidy"],"answer":2,"explanation":"Le deuxième choix le plus populaire est « Flexible hours » (29 %) : c'est lui qui sera mis en place en mars.","trap":"« Extra vacation » est le premier choix, écarté pour raisons budgétaires.","recommendedSeconds":25,"tags":["graphique","classement"]}
+  ]
+}

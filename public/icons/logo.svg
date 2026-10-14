@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Ascension</title>
+  <rect width="64" height="64" rx="16" fill="#0e7490"/>
+  <path d="M8 52 26 22l8 12 6-8 16 26z" fill="#ffffff" opacity="0.95"/>
+  <path d="M26 22l4 6-4-1-4 3z" fill="#d6f3f8"/>
+  <path d="M18 50c6-2 4-6 10-8s6-5 10-6" stroke="#0e7490" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-dasharray="1 4"/>
+  <path d="M40 26V12" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M40 12h10l-3 3.5 3 3.5H40z" fill="#f59e0b"/>
+</svg>

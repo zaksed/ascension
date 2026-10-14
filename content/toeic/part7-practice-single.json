@@ -1,0 +1,526 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part7",
+  "description": "Partie 7 — entraînement : 22 documents simples (63 questions).",
+  "groups": [
+    {
+      "id": "toeic-p7-g0031",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 1,
+      "tags": [
+        "avis",
+        "ascenseur"
+      ],
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Building Notice",
+          "body": "The east elevator in Tower B will be out of service on Tuesday, October 14, from 8 A.M. to 2 P.M. for scheduled maintenance. The west elevator and the freight elevator will remain in operation.\n\nVisitors with mobility needs may contact the security desk for assistance.\n\n— Tower B Management"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0032",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "SMS",
+        "sens implicite"
+      ],
+      "passages": [
+        {
+          "kind": "text-message",
+          "body": "Ben Ochoa (8:47 A.M.): Morning! Are you still able to cover the reception desk from 12 to 1?\nAyumi Sato (8:50 A.M.): I have a dentist appointment at 12:30, I'm afraid.\nBen Ochoa (8:51 A.M.): Oh, I forgot. No worries. I'll ask Kevin.\nAyumi Sato (8:52 A.M.): Thanks. I can take the 3-to-4 slot if that helps."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0033",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "bon de réduction"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "SPRING SALE at Garden Gate Nursery",
+          "body": "20% off all outdoor plants and flower seeds, March 20–31.\n\nBring this coupon to receive an additional $5 off any purchase over $50. Limit one coupon per customer. Not valid on gift cards or garden tools."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0034",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 1,
+      "tags": [
+        "e-mail",
+        "commande"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Daniela Costa",
+            "From": "Summit Outfitters",
+            "Subject": "Your order has shipped!"
+          },
+          "body": "Hi Daniela,\n\nGood news: your order #A-55120 (1 × Trailblazer backpack, navy) has shipped via QuickPost. Estimated delivery: Thursday, June 5.\n\nTrack your package at quickpost.com using tracking number QP7781204.\n\nNot happy with your purchase? Returns are free within 60 days.\n\nSummit Outfitters"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0035",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "invitation",
+        "réseau"
+      ],
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "You're Invited!",
+          "body": "The Westbrook Chamber of Commerce invites members and guests to its Annual Networking Breakfast on Wednesday, February 12, from 7:30 to 9:30 A.M., in the Riverside Hotel Ballroom.\n\nGuest speaker: Dr. Amina Yusuf, economist — “Local Business Trends for the Year Ahead”\n\nMembers: free. Non-members: $25. Please RSVP by February 5 to events@westbrookchamber.org.\n\nBusiness cards will be collected at the door for a prize drawing."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0036",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "SMS",
+        "sens implicite"
+      ],
+      "passages": [
+        {
+          "kind": "text-message",
+          "body": "Marta Novak (4:10 P.M.): The client wants the presentation slides in Spanish too. Can you handle the translation by Friday?\nLuis Ferreira (4:12 P.M.): How many slides?\nMarta Novak (4:12 P.M.): About forty.\nLuis Ferreira (4:14 P.M.): That's a tall order. Could we use the agency we hired last spring for part of it?\nMarta Novak (4:15 P.M.): Good idea. I'll call them now."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0037",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "formulaire",
+        "garantie"
+      ],
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Product Warranty Registration — Kline Appliances",
+          "meta": {
+            "Product": "Kline ProBlend 900 blender",
+            "Serial number": "KB9-44721",
+            "Purchase date": "August 3",
+            "Store": "HomeWorks, Dayton",
+            "Name": "Patrick O'Neill",
+            "E-mail": "p.oneill@mailbox.net"
+          },
+          "body": "Register within 30 days of purchase to extend your warranty from one year to three years at no cost.\n\n☒ Yes, send me information about new products and recipes."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0038",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "mode d'emploi"
+      ],
+      "passages": [
+        {
+          "kind": "text",
+          "title": "Printer Toner Cartridge — Installation",
+          "body": "1. Turn off the printer and open the front cover.\n2. Remove the used cartridge by pulling the green handle.\n3. Shake the new cartridge gently five or six times to distribute the toner.\n4. Remove the orange protective strip before inserting the cartridge.\n5. Close the cover and turn the printer on.\n\nUsed cartridges can be returned free of charge using the prepaid envelope included in this box."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0039",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 2,
+      "tags": [
+        "offre d'emploi"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Part-Time Barista Wanted — Copper Kettle Café, Downtown Portland",
+          "body": "We're looking for a friendly, reliable barista to join our team on weekends (Saturday and Sunday, 7 A.M.–2 P.M.). No experience is necessary; we'll teach you everything you need to know about coffee.\n\nRequirements: availability on weekends and some holidays; good communication skills.\n\nPerks: free drinks during shifts, a 30% staff discount on food, and a flexible schedule during exam periods for students.\n\nApply in person with your résumé, Monday to Friday, 2–5 P.M."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0040",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "article",
+        "commerce local"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Family Bookstore Celebrates 50 Years",
+          "body": "SPRINGDALE — Hollis & Daughters Books will celebrate its 50th anniversary this Saturday with readings, live music, and free cake for visitors. The store was opened in 1975 by Walter Hollis and is now run by his daughters, Ruth and Ellen.\n\nLike many independent bookstores, Hollis & Daughters struggled when online shopping became popular. “About ten years ago, we nearly closed,” said Ruth Hollis. The sisters turned things around by adding a café, hosting book clubs, and inviting local authors for monthly events. Sales have grown every year since 2017.\n\nSaturday's festivities begin at 10 A.M. Local author Daniel Price will read from his new novel at 2 P.M."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0041",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "e-mail",
+        "service client",
+        "insertion"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "Karim Haddad",
+            "From": "Mina Cho, Customer Support, Lumio Home",
+            "Subject": "Your smart lamp"
+          },
+          "body": "Dear Mr. Haddad,\n\nThank you for contacting Lumio Home about your smart lamp. We are sorry to hear that it no longer connects to the app. [[1]]\n\nBased on the serial number you provided, your lamp is still under warranty. [[2]] We will send you a replacement free of charge. To receive it, please reply to this e-mail with your shipping address.\n\nYou do not need to return the original lamp. [[3]] Instead, we ask that you recycle it at an electronics collection point. [[4]]\n\nKind regards,\nMina Cho"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0042",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 3,
+      "tags": [
+        "note de service",
+        "recrutement saisonnier"
+      ],
+      "passages": [
+        {
+          "kind": "memo",
+          "meta": {
+            "To": "All Store Managers",
+            "From": "Regional Operations",
+            "Date": "November 3",
+            "Subject": "Holiday staffing"
+          },
+          "body": "As in previous years, stores will extend their opening hours from November 28 until December 31. All locations will open at 8 A.M. and close at 10 P.M.\n\nTo support this, each store may hire up to six seasonal employees. Job advertisements must be posted by November 10, and new hires must complete the online safety training before their first shift.\n\nPlease send your staffing plans to your district manager by November 7."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0043",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "FAQ",
+        "vélos en libre-service"
+      ],
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "City Bike Share — Frequently Asked Questions",
+          "body": "How do I rent a bike?\nDownload the CityRide app, scan the QR code on any bike, and you're ready to go.\n\nHow much does it cost?\nSingle rides cost $1 to unlock plus $0.20 per minute. A monthly membership ($20) includes unlimited rides of up to 45 minutes each.\n\nWhat if I ride for more than 45 minutes?\nMembers pay $0.20 per additional minute.\n\nWhere can I return a bike?\nAt any of our 150 stations. Bikes left outside a station will be charged a $25 fee.\n\nAre helmets provided?\nNo, but riders under 18 are required by law to wear one."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0044",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "avis client",
+        "tourisme"
+      ],
+      "passages": [
+        {
+          "kind": "review",
+          "title": "★★★★☆ Harborline Ferry Tours — “Great views, crowded deck” — posted by J. Akande",
+          "body": "My husband and I took the two-hour sunset tour last Saturday. The guide was knowledgeable and funny, and the views of the coastline were breathtaking. We even saw a family of dolphins near the lighthouse!\n\nMy only complaint is that the boat was very crowded. It was hard to find a spot on the upper deck to take photos. If you go, I recommend booking a weekday tour, when there are fewer passengers, or arriving early to board first.\n\nThe tour includes a drink, and snacks are available for purchase. At $45 per person, I think it's good value."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0045",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "lettre",
+        "emballage",
+        "insertion"
+      ],
+      "passages": [
+        {
+          "kind": "letter",
+          "meta": {
+            "To": "Valued Customer",
+            "From": "The Fresh Basket Team"
+          },
+          "body": "Dear Valued Customer,\n\nSince 2009, Fresh Basket has delivered organic groceries to homes across the region. [[1]] We are writing to let you know about an important change to our service.\n\nBeginning April 1, all deliveries will be made in reusable insulated boxes instead of cardboard boxes. [[2]] Our driver will collect the empty boxes when your next order arrives. A deposit of $10 will be added to your first order; it will be refunded when you cancel your subscription and return the boxes.\n\nWe believe this change will significantly reduce packaging waste. [[3]] Thank you for supporting our commitment to the environment. [[4]]\n\nSincerely,\nThe Fresh Basket Team"
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0046",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "horaires",
+        "piscine"
+      ],
+      "passages": [
+        {
+          "kind": "schedule",
+          "title": "Greenville Public Pool — Summer Schedule (June 15–August 31)",
+          "body": "Note: The pool will be closed on July 4. Swim lessons require advance registration at the front desk; sessions fill quickly. Lifeguards are on duty at all times.",
+          "table": {
+            "type": "table",
+            "headers": [
+              "Activity",
+              "Days",
+              "Time"
+            ],
+            "rows": [
+              [
+                "Lap swimming",
+                "Monday–Friday",
+                "6:00–8:00 A.M."
+              ],
+              [
+                "Swim lessons (children)",
+                "Tuesday, Thursday",
+                "9:00–11:00 A.M."
+              ],
+              [
+                "Open swim",
+                "Daily",
+                "12:00–6:00 P.M."
+              ],
+              [
+                "Aqua fitness",
+                "Monday, Wednesday",
+                "6:30–7:30 P.M."
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0047",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "publicité",
+        "mobilité"
+      ],
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Upgrade Your Commute with Velo Electric Scooters",
+          "body": "Tired of traffic? The new Velo S2 folds in three seconds and weighs only 12 kg, so you can carry it onto buses and trains with ease. Its battery offers a range of up to 40 km on a single charge, enough for most daily commutes.\n\nFor a limited time, purchase a Velo S2 at any authorized dealer and receive a free helmet and lock (a $120 value).\n\nNot ready to buy? Try one for a week through our rental program for just $25. If you decide to buy, the rental fee will be deducted from the purchase price."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0048",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "chat",
+        "informatique",
+        "sens implicite"
+      ],
+      "passages": [
+        {
+          "kind": "chat",
+          "body": "Grace Owusu (9:05): Has anyone else lost access to the shared drive this morning?\nPavel Novak (9:06): Yes, I can't open any of the client folders.\nLin Zhou (9:08): Same here. I need the Hartman contract for a call at ten.\nGrace Owusu (9:09): I've submitted a ticket to IT. They said it's a server problem affecting the whole building.\nDaniel Cruz (9:11): Lin, I downloaded the Hartman contract yesterday. I can e-mail it to you.\nLin Zhou (9:11): You just saved my morning!\nDaniel Cruz (9:12): Sending it now.\nGrace Owusu (9:30): IT says the drive should be back by noon."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0049",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 4,
+      "tags": [
+        "article",
+        "aéroport",
+        "insertion"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Airport Unveils Expanded Terminal",
+          "body": "WESTON (September 12) — Weston International Airport opened its new east terminal on Monday after three years of construction. [[1]] The $480 million expansion adds 14 gates, a larger security checkpoint, and more than 30 shops and restaurants.\n\nAirport director Helen Quist said the project was necessary to keep up with rising passenger numbers. Traffic at the airport has grown by 40 percent over the past decade. [[2]]\n\nTravelers will also notice several new features designed to reduce waiting times, including self-service bag drop machines and a mobile app that shows security wait times in real time. [[3]]\n\nNot everyone is pleased, however. Some residents of nearby neighborhoods have complained about increased noise from additional flights. [[4]] Ms. Quist said the airport is working with the city to study noise-reduction measures."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0050",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 5,
+      "tags": [
+        "chat",
+        "traiteur",
+        "sens implicite"
+      ],
+      "passages": [
+        {
+          "kind": "chat",
+          "body": "Sofia Marino (3:02 P.M.): The caterer for Thursday's client lunch just canceled. Their kitchen failed a health inspection.\nArjun Mehta (3:03 P.M.): Seriously? That's two days away.\nSofia Marino (3:04 P.M.): I know. I've called three other caterers. Two are fully booked.\nArjun Mehta (3:05 P.M.): And the third?\nSofia Marino (3:06 P.M.): They can do it, but they charge almost twice as much.\nHye-jin Park (3:08 P.M.): What about the Italian place downstairs? They did our holiday party.\nSofia Marino (3:09 P.M.): They don't usually cater.\nHye-jin Park (3:10 P.M.): The owner's a friend of mine.\nSofia Marino (3:11 P.M.): Could you give her a call?\nHye-jin Park (3:15 P.M.): Done. She can prepare lunch for 20 people at their usual prices if we pick it up ourselves.\nArjun Mehta (3:16 P.M.): I'll go down and get it at 11:45 on Thursday."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0051",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 5,
+      "tags": [
+        "article",
+        "travail"
+      ],
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Four-Day Workweek Trial Shows Promising Results",
+          "body": "A six-month trial involving 45 companies in the region has found that a four-day workweek can maintain productivity while improving employee well-being. Under the program, employees worked 32 hours per week for the same pay.\n\nAccording to the final report, published yesterday by the Workplace Research Institute, 38 of the 45 companies plan to continue the arrangement. Participating businesses reported fewer sick days and a 15 percent drop in staff turnover. Revenue remained stable on average.\n\n“The results exceeded our expectations,” said lead researcher Dr. Marcus Lindahl. He cautioned, however, that the trial was voluntary. “Companies that signed up were likely already open to flexible work, so we should be careful about generalizing these findings.”\n\nNot all participants were convinced. Several manufacturing firms said the schedule created gaps in production coverage, and two customer service centers returned to a five-day week after customers complained about longer waiting times."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-g0052",
+      "exam": "toeic",
+      "section": "part7",
+      "kind": "single-passage",
+      "difficulty": 5,
+      "tags": [
+        "e-mail",
+        "bénévolat",
+        "insertion"
+      ],
+      "passages": [
+        {
+          "kind": "email",
+          "meta": {
+            "To": "All Volunteers",
+            "From": "Rachel Kim, Volunteer Coordinator, Lakeside Animal Shelter",
+            "Subject": "Changes to weekend shifts"
+          },
+          "body": "Dear Volunteers,\n\nThank you for all your hard work this year. Thanks to you, more than 600 animals found new homes. [[1]]\n\nStarting next month, weekend shifts will be divided into two parts, 8 A.M. to 12 P.M. and 12 P.M. to 4 P.M., instead of a single eight-hour shift. [[2]] Many of you told us that the long shifts were tiring, and we hope this change will allow more people to volunteer.\n\nPlease use the online calendar to sign up for shifts. [[3]] If you have already signed up for a full-day shift in November, you will automatically be assigned to the morning shift. [[4]]\n\nThank you again for your dedication.\n\nRachel Kim"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p7-0109","exam":"toeic","section":"part7","groupId":"toeic-p7-g0031","skill":"p7-idee-principale","difficulty":1,"prompt":"What is the notice mainly about?","options":["A new security policy","A building evacuation","The opening of a freight entrance","Planned elevator maintenance"],"answer":3,"explanation":"L'ascenseur est sera hors service pour une maintenance programmée (« scheduled maintenance »).","trap":"Le monte-charge est cité comme solution de rechange, pas comme nouveauté.","recommendedSeconds":40,"tags":["sujet"]},
+    {"id":"toeic-p7-0110","exam":"toeic","section":"part7","groupId":"toeic-p7-g0031","skill":"p7-details","difficulty":1,"prompt":"According to the notice, who can provide assistance?","options":["The maintenance staff","The Tower A management","The security desk","A visitor center"],"answer":2,"explanation":"« Visitors with mobility needs may contact the security desk for assistance. »","trap":"La signature « Tower B Management » ne signifie pas que la direction aide directement.","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0111","exam":"toeic","section":"part7","groupId":"toeic-p7-g0032","skill":"p7-sens-implicite","difficulty":3,"prompt":"At 8:50 A.M., what does Ms. Sato imply when she writes, “I have a dentist appointment at 12:30, I'm afraid”?","options":["She needs to leave work early today.","She wants to reschedule her appointment.","She cannot work at the reception desk at that time.","She has a toothache."],"answer":2,"explanation":"On lui demande de tenir l'accueil de 12 h à 13 h ; son rendez-vous de 12 h 30 l'en empêche. « I'm afraid » marque le refus poli.","trap":"Prendre le rendez-vous chez le dentiste pour l'information principale.","recommendedSeconds":60,"tags":["refus implicite"]},
+    {"id":"toeic-p7-0112","exam":"toeic","section":"part7","groupId":"toeic-p7-g0032","skill":"p7-details","difficulty":2,"prompt":"What does Ms. Sato offer to do?","options":["Call Kevin","Cancel her appointment","Work at a later time","Take a longer lunch break"],"answer":2,"explanation":"« I can take the 3-to-4 slot if that helps » : elle propose le créneau de 15 h à 16 h.","trap":"C'est M. Ochoa qui demandera à Kevin.","recommendedSeconds":40,"tags":["offre"]},
+    {"id":"toeic-p7-0113","exam":"toeic","section":"part7","groupId":"toeic-p7-g0033","skill":"p7-details","difficulty":2,"prompt":"What is indicated about the coupon?","options":["It can be used twice.","It is valid until the end of April.","It cannot be used to buy gift cards.","It gives 20% off garden tools."],"answer":2,"explanation":"« Not valid on gift cards or garden tools. »","trap":"« Limit one coupon per customer » exclut un double usage ; la promotion se termine le 31 mars.","recommendedSeconds":50,"tags":["conditions"]},
+    {"id":"toeic-p7-0114","exam":"toeic","section":"part7","groupId":"toeic-p7-g0033","skill":"p7-inference","difficulty":3,"prompt":"What is suggested about Garden Gate Nursery?","options":["It will close in April.","It opened in March.","It sells gardening equipment.","It sells only flowers."],"answer":2,"explanation":"Si le bon n'est pas valable sur les outils de jardinage, c'est que la jardinerie en vend.","trap":"Les dates de la promotion ne disent rien d'une ouverture ou d'une fermeture.","recommendedSeconds":50,"tags":["inférence"]},
+    {"id":"toeic-p7-0115","exam":"toeic","section":"part7","groupId":"toeic-p7-g0034","skill":"p7-idee-principale","difficulty":1,"prompt":"Why was the e-mail sent?","options":["To confirm that an item has been sent","To request payment","To announce a sale","To apologize for a delay"],"answer":0,"explanation":"« your order … has shipped » : la commande a été expédiée.","trap":"Les retours sont mentionnés, mais ce n'est pas le but de l'e-mail.","recommendedSeconds":40,"tags":["but"]},
+    {"id":"toeic-p7-0116","exam":"toeic","section":"part7","groupId":"toeic-p7-g0034","skill":"p7-details","difficulty":2,"prompt":"What is indicated about returns?","options":["They are free for 60 days.","They must be made in a store.","They require a tracking number.","They are not accepted for backpacks."],"answer":0,"explanation":"« Returns are free within 60 days. »","trap":"Le numéro de suivi sert à suivre le colis, pas à le retourner.","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0117","exam":"toeic","section":"part7","groupId":"toeic-p7-g0035","skill":"p7-details","difficulty":2,"prompt":"What will Dr. Yusuf speak about?","options":["Hotel management","Networking skills","Membership benefits","Business trends"],"answer":3,"explanation":"« Local Business Trends for the Year Ahead ».","trap":"Le réseautage est le format de l'événement, pas le sujet de l'intervention.","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0118","exam":"toeic","section":"part7","groupId":"toeic-p7-g0035","skill":"p7-inference","difficulty":3,"prompt":"What is suggested about the event?","options":["Attendees may win a prize.","It will take place in the evening.","It is open only to members.","Registration is not required."],"answer":0,"explanation":"Les cartes de visite sont collectées pour un tirage au sort (« prize drawing »).","trap":"Les non-membres sont admis (25 $) et une réponse (RSVP) est demandée.","recommendedSeconds":50,"tags":["inférence"]},
+    {"id":"toeic-p7-0119","exam":"toeic","section":"part7","groupId":"toeic-p7-g0036","skill":"p7-sens-implicite","difficulty":4,"prompt":"At 4:14 P.M., what does Mr. Ferreira mean when he writes, “That's a tall order”?","options":["The slides are too long.","The task will be difficult to finish in time.","The client is demanding about the design.","He needs to place a larger order."],"answer":1,"explanation":"« a tall order » = une tâche difficile. Quarante diapositives à traduire pour vendredi, d'où sa proposition de recourir à une agence.","trap":"Lire « order » au sens de « commande ».","recommendedSeconds":60,"tags":["expression idiomatique"]},
+    {"id":"toeic-p7-0120","exam":"toeic","section":"part7","groupId":"toeic-p7-g0036","skill":"p7-inference","difficulty":3,"prompt":"What will Ms. Novak most likely do next?","options":["Translate the slides herself","Ask the client for more time","Shorten the presentation","Contact a translation agency"],"answer":3,"explanation":"« Good idea. I'll call them now » : elle appelle l'agence engagée au printemps.","trap":"Aucun délai supplémentaire n'est demandé au client.","recommendedSeconds":50,"tags":["action future"]},
+    {"id":"toeic-p7-0121","exam":"toeic","section":"part7","groupId":"toeic-p7-g0037","skill":"p7-details","difficulty":3,"prompt":"What is the benefit of registering the product?","options":["A free recipe book","A discount on a future purchase","Free repairs at HomeWorks","A longer warranty"],"answer":3,"explanation":"L'enregistrement fait passer la garantie d'un an à trois ans.","trap":"Les recettes sont des informations par e-mail, pas un livre offert.","recommendedSeconds":50,"tags":["avantage"]},
+    {"id":"toeic-p7-0122","exam":"toeic","section":"part7","groupId":"toeic-p7-g0037","skill":"p7-inference","difficulty":3,"prompt":"What is suggested about Mr. O'Neill?","options":["He bought the blender online.","He registered after the deadline.","He agreed to receive promotional information.","He works at HomeWorks."],"answer":2,"explanation":"Il a coché la case pour recevoir des informations sur les produits et des recettes.","trap":"HomeWorks est le magasin où il a acheté le mixeur.","recommendedSeconds":50,"tags":["formulaire"]},
+    {"id":"toeic-p7-0123","exam":"toeic","section":"part7","groupId":"toeic-p7-g0038","skill":"p7-details","difficulty":2,"prompt":"What should be done before inserting the new cartridge?","options":["Removing a protective strip","Pulling the orange handle","Turning on the printer","Cleaning the cover"],"answer":0,"explanation":"Étape 4 : « Remove the orange protective strip before inserting the cartridge. »","trap":"La poignée est verte ; c'est la bande de protection qui est orange.","recommendedSeconds":50,"tags":["procédure"]},
+    {"id":"toeic-p7-0124","exam":"toeic","section":"part7","groupId":"toeic-p7-g0038","skill":"p7-details","difficulty":3,"prompt":"What is included in the box?","options":["A green handle","A cleaning cloth","A second cartridge","A return envelope"],"answer":3,"explanation":"« the prepaid envelope included in this box ».","trap":"La poignée verte fait partie de l'ancienne cartouche.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0125","exam":"toeic","section":"part7","groupId":"toeic-p7-g0039","skill":"p7-details","difficulty":2,"prompt":"When would the new employee work?","options":["On weekday afternoons","Only on holidays","In the evenings","On weekends"],"answer":3,"explanation":"« on weekends (Saturday and Sunday, 7 A.M.–2 P.M.) ».","trap":"Les après-midis de semaine sont les horaires de dépôt des candidatures.","recommendedSeconds":40,"tags":["horaires"]},
+    {"id":"toeic-p7-0126","exam":"toeic","section":"part7","groupId":"toeic-p7-g0039","skill":"p7-details","difficulty":2,"prompt":"What is indicated about experience?","options":["At least one year is needed.","It must be in a café.","Students cannot apply.","It is not required."],"answer":3,"explanation":"« No experience is necessary ».","trap":"Les étudiants sont au contraire bienvenus (horaires aménagés pendant les examens).","recommendedSeconds":40,"tags":["condition"]},
+    {"id":"toeic-p7-0127","exam":"toeic","section":"part7","groupId":"toeic-p7-g0039","skill":"p7-details","difficulty":3,"prompt":"How should applicants apply?","options":["By visiting the café","By sending an e-mail","By calling the manager","Through a website"],"answer":0,"explanation":"« Apply in person with your résumé ».","trap":"« in person » signifie qu'il faut se présenter sur place.","recommendedSeconds":40,"tags":["procédure"]},
+    {"id":"toeic-p7-0128","exam":"toeic","section":"part7","groupId":"toeic-p7-g0040","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the purpose of the article?","options":["To review a new novel","To report a store closure","To announce an anniversary celebration","To advertise a café"],"answer":2,"explanation":"La librairie fête ses 50 ans samedi.","trap":"Elle a failli fermer il y a dix ans, mais elle est aujourd'hui prospère.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0129","exam":"toeic","section":"part7","groupId":"toeic-p7-g0040","skill":"p7-details","difficulty":3,"prompt":"According to the article, what helped the store succeed?","options":["Offering new activities and services","Moving to a new location","Selling books online","Lowering its prices"],"answer":0,"explanation":"Café, clubs de lecture, rencontres mensuelles avec des auteurs : de nouvelles activités et de nouveaux services.","trap":"La vente en ligne est la concurrence qui a mis la librairie en difficulté.","recommendedSeconds":60,"tags":["synthèse"]},
+    {"id":"toeic-p7-0130","exam":"toeic","section":"part7","groupId":"toeic-p7-g0040","skill":"p7-vocabulaire","difficulty":3,"prompt":"In paragraph 2, the phrase “turned things around” is closest in meaning to","options":["improved the situation","rearranged the furniture","changed direction","returned the books"],"answer":0,"explanation":"Après avoir presque fermé, les sœurs ont redressé la situation ; les ventes augmentent depuis 2017.","trap":"Interpréter le verbe à particule au sens littéral (tourner, retourner).","recommendedSeconds":50,"tags":["phrasal verb"]},
+    {"id":"toeic-p7-0131","exam":"toeic","section":"part7","groupId":"toeic-p7-g0041","skill":"p7-idee-principale","difficulty":2,"prompt":"Why did Ms. Cho write to Mr. Haddad?","options":["To respond to a problem he reported","To confirm a purchase","To advertise a new lamp","To request a payment"],"answer":0,"explanation":"« Thank you for contacting Lumio Home about your smart lamp … it no longer connects » : elle répond à son signalement.","trap":"La lampe de remplacement est gratuite : aucune vente n'est proposée.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0132","exam":"toeic","section":"part7","groupId":"toeic-p7-g0041","skill":"p7-details","difficulty":3,"prompt":"What is Mr. Haddad asked to provide?","options":["The serial number","A receipt","The original lamp","His shipping address"],"answer":3,"explanation":"« please reply to this e-mail with your shipping address ».","trap":"Il a déjà fourni le numéro de série ; la lampe d'origine ne doit pas être renvoyée.","recommendedSeconds":50,"tags":["demande"]},
+    {"id":"toeic-p7-0133","exam":"toeic","section":"part7","groupId":"toeic-p7-g0041","skill":"p7-insertion-phrase","difficulty":4,"prompt":"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “Our technicians have confirmed that this is a known issue with a small number of units.”","options":["[1]","[2]","[3]","[4]"],"answer":0,"explanation":"« this » renvoie au problème de connexion décrit juste avant [1] ; la phrase prépare l'annonce du remplacement sous garantie.","trap":"En [3], la phrase interromprait les consignes sur le recyclage.","recommendedSeconds":70,"tags":["insertion","référent"]},
+    {"id":"toeic-p7-0134","exam":"toeic","section":"part7","groupId":"toeic-p7-g0042","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the memo mainly about?","options":["Closing stores for the holidays","Preparing for a busy period","A new safety policy","Promoting district managers"],"answer":1,"explanation":"Horaires élargis et embauches saisonnières pour la période des fêtes.","trap":"La formation à la sécurité n'est qu'une condition pour les nouvelles recrues.","recommendedSeconds":50,"tags":["sujet"]},
+    {"id":"toeic-p7-0135","exam":"toeic","section":"part7","groupId":"toeic-p7-g0042","skill":"p7-details","difficulty":3,"prompt":"What must new seasonal employees do before starting work?","options":["Meet the district manager","Complete a training course","Work a trial shift","Submit a staffing plan"],"answer":1,"explanation":"« new hires must complete the online safety training before their first shift ».","trap":"Le plan d'effectifs est rédigé par les responsables de magasin.","recommendedSeconds":50,"tags":["condition"]},
+    {"id":"toeic-p7-0136","exam":"toeic","section":"part7","groupId":"toeic-p7-g0042","skill":"p7-inference","difficulty":4,"prompt":"What must store managers do first?","options":["Post job advertisements","Send their staffing plans","Extend their opening hours","Hire six employees"],"answer":1,"explanation":"Le 7 novembre (plans d'effectifs) précède le 10 novembre (annonces) et le 28 novembre (horaires élargis).","trap":"Suivre l'ordre de présentation du texte plutôt que l'ordre chronologique des dates.","recommendedSeconds":60,"tags":["chronologie"]},
+    {"id":"toeic-p7-0137","exam":"toeic","section":"part7","groupId":"toeic-p7-g0043","skill":"p7-details","difficulty":2,"prompt":"How do riders unlock a bike?","options":["By using a key card","By calling customer service","By scanning a code","By paying at a station machine"],"answer":2,"explanation":"« scan the QR code on any bike ».","trap":"Aucune borne de paiement n'est mentionnée.","recommendedSeconds":40,"tags":["procédure"]},
+    {"id":"toeic-p7-0138","exam":"toeic","section":"part7","groupId":"toeic-p7-g0043","skill":"p7-inference","difficulty":4,"prompt":"How much would a member pay for a 55-minute ride?","options":["$0.00","$2.00","$11.00","$12.00"],"answer":1,"explanation":"Les 45 premières minutes sont incluses ; 10 minutes supplémentaires × 0,20 $ = 2 $.","trap":"12 $ est le prix pour un non-membre (1 $ + 55 × 0,20 $).","recommendedSeconds":70,"tags":["calcul"]},
+    {"id":"toeic-p7-0139","exam":"toeic","section":"part7","groupId":"toeic-p7-g0043","skill":"p7-details","difficulty":3,"prompt":"What is indicated about helmets?","options":["They are available at stations.","They are included in memberships.","They can be rented for $1.","Young riders must wear them."],"answer":3,"explanation":"« riders under 18 are required by law to wear one ».","trap":"Les casques ne sont pas fournis (« No »).","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0140","exam":"toeic","section":"part7","groupId":"toeic-p7-g0044","skill":"p7-details","difficulty":2,"prompt":"What does the reviewer say about the guide?","options":["He was informative and entertaining.","He spoke too quickly.","He arrived late.","He took photos for passengers."],"answer":0,"explanation":"« knowledgeable and funny » : compétent et drôle.","trap":"Les photos sont évoquées à propos du pont bondé, pas du guide.","recommendedSeconds":50,"tags":["paraphrase"]},
+    {"id":"toeic-p7-0141","exam":"toeic","section":"part7","groupId":"toeic-p7-g0044","skill":"p7-inference","difficulty":4,"prompt":"What does the reviewer recommend?","options":["Bringing snacks","Sitting on the lower deck","Taking the morning tour","Choosing a less busy day"],"answer":3,"explanation":"« I recommend booking a weekday tour, when there are fewer passengers ».","trap":"Les en-cas sont vendus à bord ; elle ne conseille pas d'en apporter.","recommendedSeconds":50,"tags":["conseil"]},
+    {"id":"toeic-p7-0142","exam":"toeic","section":"part7","groupId":"toeic-p7-g0044","skill":"p7-details","difficulty":3,"prompt":"What is included in the price of the tour?","options":["Snacks","A beverage","Photos","Hotel pickup"],"answer":1,"explanation":"« The tour includes a drink ».","trap":"Les en-cas sont payants (« available for purchase »).","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0143","exam":"toeic","section":"part7","groupId":"toeic-p7-g0045","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the purpose of the letter?","options":["To announce a price increase","To explain a change in packaging","To introduce new products","To apologize for late deliveries"],"answer":1,"explanation":"Les livraisons se feront désormais dans des caisses isothermes réutilisables.","trap":"La caution de 10 $ est remboursable : ce n'est pas une hausse de prix.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0144","exam":"toeic","section":"part7","groupId":"toeic-p7-g0045","skill":"p7-details","difficulty":3,"prompt":"What will customers pay a deposit for?","options":["A subscription","Reusable boxes","Organic products","Delivery"],"answer":1,"explanation":"La caution est remboursée au retour des caisses : elle couvre les caisses réutilisables.","trap":"La caution est restituée à la résiliation de l'abonnement, mais elle ne le paie pas.","recommendedSeconds":50,"tags":["inférence"]},
+    {"id":"toeic-p7-0145","exam":"toeic","section":"part7","groupId":"toeic-p7-g0045","skill":"p7-insertion-phrase","difficulty":4,"prompt":"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “In fact, we estimate that the new boxes will save more than 200,000 cardboard boxes each year.”","options":["[1]","[2]","[3]","[4]"],"answer":2,"explanation":"« In fact » renforce l'affirmation qui précède [3] : le changement réduira nettement les déchets d'emballage.","trap":"En [2], la phrase couperait l'explication pratique sur la collecte des caisses.","recommendedSeconds":70,"tags":["insertion","in fact"]},
+    {"id":"toeic-p7-0146","exam":"toeic","section":"part7","groupId":"toeic-p7-g0046","skill":"p7-details","difficulty":2,"prompt":"When can people swim laps?","options":["Every afternoon","On weekend evenings","On weekday mornings","On Tuesdays only"],"answer":2,"explanation":"« Lap swimming — Monday–Friday — 6:00–8:00 A.M. »","trap":"« Daily » concerne la baignade libre de l'après-midi.","recommendedSeconds":40,"tags":["tableau"]},
+    {"id":"toeic-p7-0147","exam":"toeic","section":"part7","groupId":"toeic-p7-g0046","skill":"p7-details","difficulty":3,"prompt":"What is required for swim lessons?","options":["A lifeguard certificate","A monthly pass","Advance registration","A swimming test"],"answer":2,"explanation":"« Swim lessons require advance registration at the front desk ».","trap":"Les maîtres-nageurs sont présents ; aucun certificat n'est demandé aux enfants.","recommendedSeconds":40,"tags":["condition"]},
+    {"id":"toeic-p7-0148","exam":"toeic","section":"part7","groupId":"toeic-p7-g0046","skill":"p7-inference","difficulty":4,"prompt":"What can be inferred about July 4?","options":["No pool activities will take place.","Open swim will be extended.","Swim lessons will be free.","Aqua fitness will be held in the morning."],"answer":0,"explanation":"« The pool will be closed on July 4 » : aucune activité ce jour-là.","trap":"Un jour férié n'implique pas d'activités supplémentaires.","recommendedSeconds":50,"tags":["inférence"]},
+    {"id":"toeic-p7-0149","exam":"toeic","section":"part7","groupId":"toeic-p7-g0047","skill":"p7-details","difficulty":2,"prompt":"What is mentioned about the Velo S2?","options":["It has a seat.","It charges in one hour.","It is waterproof.","It is easy to carry."],"answer":3,"explanation":"Pliable en trois secondes, 12 kg : facile à porter dans les transports.","trap":"La durée de charge n'est pas indiquée, seulement l'autonomie (40 km).","recommendedSeconds":40,"tags":["détail"]},
+    {"id":"toeic-p7-0150","exam":"toeic","section":"part7","groupId":"toeic-p7-g0047","skill":"p7-details","difficulty":3,"prompt":"What do buyers receive for a limited time?","options":["A discount on the battery","Free accessories","A free week of rental","Free repairs"],"answer":1,"explanation":"« a free helmet and lock » : des accessoires offerts.","trap":"La location d'une semaine coûte 25 $ ; elle n'est pas gratuite.","recommendedSeconds":40,"tags":["paraphrase"]},
+    {"id":"toeic-p7-0151","exam":"toeic","section":"part7","groupId":"toeic-p7-g0047","skill":"p7-inference","difficulty":4,"prompt":"What is suggested about the rental program?","options":["It lasts one month.","Its cost can count toward a purchase.","It is only for students.","It includes a free helmet."],"answer":1,"explanation":"« the rental fee will be deducted from the purchase price ».","trap":"Le casque gratuit est réservé aux acheteurs, pas aux locataires.","recommendedSeconds":50,"tags":["inférence"]},
+    {"id":"toeic-p7-0152","exam":"toeic","section":"part7","groupId":"toeic-p7-g0048","skill":"p7-idee-principale","difficulty":2,"prompt":"What problem are the writers discussing?","options":["A contract has been lost.","A client call was canceled.","They cannot access shared files.","Their e-mail is not working."],"answer":2,"explanation":"Le lecteur partagé est inaccessible à cause d'un problème de serveur.","trap":"Le contrat n'est pas perdu : il est seulement inaccessible, et M. Cruz en a une copie.","recommendedSeconds":50,"tags":["problème"]},
+    {"id":"toeic-p7-0153","exam":"toeic","section":"part7","groupId":"toeic-p7-g0048","skill":"p7-details","difficulty":3,"prompt":"What has Ms. Owusu done?","options":["Repaired the server","Called a client","Downloaded a contract","Reported the problem"],"answer":3,"explanation":"« I've submitted a ticket to IT. »","trap":"C'est M. Cruz qui a téléchargé le contrat la veille.","recommendedSeconds":50,"tags":["attribution"]},
+    {"id":"toeic-p7-0154","exam":"toeic","section":"part7","groupId":"toeic-p7-g0048","skill":"p7-sens-implicite","difficulty":4,"prompt":"At 9:11, what does Ms. Zhou most likely mean when she writes, “You just saved my morning!”?","options":["Mr. Cruz's offer solves her problem.","She has finished her work early.","She will take the morning off.","She wants Mr. Cruz to join her call."],"answer":0,"explanation":"Elle avait besoin du contrat pour son appel de 10 h ; l'envoi par M. Cruz règle son problème.","trap":"Prendre « saved » au sens de « économiser du temps » ou de « libérer sa matinée ».","recommendedSeconds":60,"tags":["intention","chat"]},
+    {"id":"toeic-p7-0155","exam":"toeic","section":"part7","groupId":"toeic-p7-g0048","skill":"p7-inference","difficulty":3,"prompt":"When will the drive most likely be available again?","options":["At 10:00 A.M.","At 9:30 A.M.","Around midday","Tomorrow morning"],"answer":2,"explanation":"« IT says the drive should be back by noon. »","trap":"9 h 30 est l'heure du message, pas celle du retour du service.","recommendedSeconds":40,"tags":["paraphrase"]},
+    {"id":"toeic-p7-0156","exam":"toeic","section":"part7","groupId":"toeic-p7-g0049","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the article mainly about?","options":["A new airline route","The opening of a new airport terminal","A city noise regulation","The airport's new director"],"answer":1,"explanation":"« Weston International Airport opened its new east terminal on Monday ».","trap":"Le bruit est une conséquence évoquée en fin d'article.","recommendedSeconds":50,"tags":["sujet"]},
+    {"id":"toeic-p7-0157","exam":"toeic","section":"part7","groupId":"toeic-p7-g0049","skill":"p7-details","difficulty":3,"prompt":"According to the article, why was the project necessary?","options":["The old terminal was damaged.","Airlines demanded more shops.","Passenger numbers have increased.","Security rules changed."],"answer":2,"explanation":"« to keep up with rising passenger numbers ».","trap":"Les commerces sont une conséquence du projet, pas sa cause.","recommendedSeconds":50,"tags":["cause"]},
+    {"id":"toeic-p7-0158","exam":"toeic","section":"part7","groupId":"toeic-p7-g0049","skill":"p7-details","difficulty":3,"prompt":"What is NOT mentioned as part of the expansion?","options":["Self-service bag drop machines","A mobile app showing wait times","Free Wi-Fi","Additional gates"],"answer":2,"explanation":"Le Wi-Fi gratuit n'est jamais cité ; les trois autres éléments figurent dans l'article.","trap":"Répondre sans vérifier : le Wi-Fi est un équipement plausible dans un aéroport.","recommendedSeconds":60,"tags":["NOT"]},
+    {"id":"toeic-p7-0159","exam":"toeic","section":"part7","groupId":"toeic-p7-g0049","skill":"p7-insertion-phrase","difficulty":4,"prompt":"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “The airport now handles about 9 million passengers a year.”","options":["[1]","[2]","[3]","[4]"],"answer":1,"explanation":"La phrase complète l'évolution du trafic (+40 % en dix ans) mentionnée juste avant [2].","trap":"En [4], elle interromprait le paragraphe sur les plaintes des riverains.","recommendedSeconds":70,"tags":["insertion"]},
+    {"id":"toeic-p7-0160","exam":"toeic","section":"part7","groupId":"toeic-p7-g0050","skill":"p7-idee-principale","difficulty":2,"prompt":"Why did the original caterer cancel?","options":["It was fully booked.","It failed an inspection.","It raised its prices.","Its owner was ill."],"answer":1,"explanation":"« Their kitchen failed a health inspection. »","trap":"« fully booked » concerne deux autres traiteurs contactés ensuite.","recommendedSeconds":50,"tags":["cause"]},
+    {"id":"toeic-p7-0161","exam":"toeic","section":"part7","groupId":"toeic-p7-g0050","skill":"p7-details","difficulty":3,"prompt":"What is indicated about the third caterer Ms. Marino called?","options":["It is fully booked.","It does not deliver.","It is located downstairs.","It is expensive."],"answer":3,"explanation":"« they charge almost twice as much ».","trap":"Le restaurant du rez-de-chaussée est une autre option, proposée par Mme Park.","recommendedSeconds":50,"tags":["détail"]},
+    {"id":"toeic-p7-0162","exam":"toeic","section":"part7","groupId":"toeic-p7-g0050","skill":"p7-sens-implicite","difficulty":5,"prompt":"At 3:10 P.M., why does Ms. Park write, “The owner's a friend of mine”?","options":["To explain why the food is inexpensive","To recommend the restaurant for a party","To suggest that she can arrange an exception","To admit that she has never eaten there"],"answer":2,"explanation":"Mme Marino objecte que le restaurant ne fait pas traiteur ; Mme Park répond qu'elle peut obtenir une faveur grâce à son amitié avec la propriétaire, ce qui se confirme ensuite.","trap":"Ne pas relier la phrase à l'objection qui la précède (« They don't usually cater »).","recommendedSeconds":70,"tags":["intention","chat"]},
+    {"id":"toeic-p7-0163","exam":"toeic","section":"part7","groupId":"toeic-p7-g0050","skill":"p7-inference","difficulty":4,"prompt":"What will Mr. Mehta do on Thursday?","options":["Call the restaurant owner","Collect the food","Prepare lunch","Cancel the client meeting"],"answer":1,"explanation":"« I'll go down and get it at 11:45 on Thursday » : la commande doit être retirée sur place.","trap":"C'est Mme Park qui a appelé la propriétaire.","recommendedSeconds":50,"tags":["action future"]},
+    {"id":"toeic-p7-0164","exam":"toeic","section":"part7","groupId":"toeic-p7-g0051","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the article mainly about?","options":["A new labor law","The results of a work schedule experiment","A study of manufacturing methods","A salary increase"],"answer":1,"explanation":"Résultats d'un essai de semaine de quatre jours dans 45 entreprises.","trap":"Le salaire reste identique (« for the same pay »).","recommendedSeconds":50,"tags":["sujet"]},
+    {"id":"toeic-p7-0165","exam":"toeic","section":"part7","groupId":"toeic-p7-g0051","skill":"p7-details","difficulty":3,"prompt":"How many companies plan to keep the four-day week?","options":["15","32","38","45"],"answer":2,"explanation":"« 38 of the 45 companies plan to continue the arrangement ».","trap":"45 est le nombre total d'entreprises ; 32 le nombre d'heures ; 15 le pourcentage de baisse du turnover.","recommendedSeconds":50,"tags":["chiffres"]},
+    {"id":"toeic-p7-0166","exam":"toeic","section":"part7","groupId":"toeic-p7-g0051","skill":"p7-vocabulaire","difficulty":4,"prompt":"In paragraph 3, the word “generalizing” is closest in meaning to","options":["applying broadly","simplifying","publishing","criticizing"],"answer":0,"explanation":"Le chercheur met en garde contre l'idée d'étendre ces résultats à toutes les entreprises.","trap":"« simplifying » a un sens voisin en français (« généraliser » peut sembler « simplifier »), mais ce n'est pas le sens ici.","recommendedSeconds":50,"tags":["vocabulaire en contexte"]},
+    {"id":"toeic-p7-0167","exam":"toeic","section":"part7","groupId":"toeic-p7-g0051","skill":"p7-details","difficulty":5,"prompt":"What is NOT mentioned as a result reported by participating companies?","options":["Fewer sick days","Lower staff turnover","Longer customer waiting times","Higher revenue"],"answer":3,"explanation":"Le chiffre d'affaires est resté stable (« remained stable ») : il n'a pas augmenté. Les trois autres résultats sont cités.","trap":"Confondre « stable » avec une hausse, ou oublier que les attentes plus longues ont été signalées par deux centres d'appel.","recommendedSeconds":70,"tags":["NOT"]},
+    {"id":"toeic-p7-0168","exam":"toeic","section":"part7","groupId":"toeic-p7-g0052","skill":"p7-idee-principale","difficulty":2,"prompt":"What is the purpose of the e-mail?","options":["To announce a schedule change","To recruit new volunteers","To report adoption numbers","To announce a fundraising event"],"answer":0,"explanation":"Les créneaux du week-end seront divisés en deux.","trap":"Le nombre d'adoptions n'est qu'un remerciement en introduction.","recommendedSeconds":50,"tags":["but"]},
+    {"id":"toeic-p7-0169","exam":"toeic","section":"part7","groupId":"toeic-p7-g0052","skill":"p7-details","difficulty":3,"prompt":"Why is the change being made?","options":["Volunteers found the long shifts tiring.","The shelter has fewer animals.","The shelter will close earlier.","New staff have been hired."],"answer":0,"explanation":"« Many of you told us that the long shifts were tiring ».","trap":"Les horaires globaux (8 h–16 h) ne changent pas.","recommendedSeconds":50,"tags":["cause"]},
+    {"id":"toeic-p7-0170","exam":"toeic","section":"part7","groupId":"toeic-p7-g0052","skill":"p7-inference","difficulty":4,"prompt":"What will happen to volunteers who signed up for a full day in November?","options":["They will work in the morning.","They will work all day.","They must sign up again.","They will work in the afternoon."],"answer":0,"explanation":"« you will automatically be assigned to the morning shift ».","trap":"« automatically » : aucune nouvelle inscription n'est nécessaire.","recommendedSeconds":50,"tags":["condition"]},
+    {"id":"toeic-p7-0171","exam":"toeic","section":"part7","groupId":"toeic-p7-g0052","skill":"p7-insertion-phrase","difficulty":5,"prompt":"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “If you would prefer the afternoon instead, simply change your booking in the calendar.”","options":["[1]","[2]","[3]","[4]"],"answer":3,"explanation":"« instead » s'oppose à l'affectation automatique au créneau du matin, mentionnée juste avant [4].","trap":"En [3], le créneau du matin n'a pas encore été évoqué : « instead » n'aurait pas de point de comparaison.","recommendedSeconds":70,"tags":["insertion","instead"]}
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part3",
+  "description": "Partie 3 — 16 conversations d'entraînement (dont 2 à trois locuteurs, 2 avec graphique, 4 questions de sens implicite).",
+  "groups": [
+    {
+      "id": "toeic-p3-g0027",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 1,
+      "tags": [
+        "déjeuner"
+      ],
+      "transcript": [
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "Do you want to try the new Thai restaurant on Pine Street for lunch today?"
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "Sure. I heard it's very popular, though. We might have to wait for a table."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "I'll call and reserve one for twelve fifteen."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "Great. I have a conference call until noon, so that works perfectly."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0028",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 2,
+      "tags": [
+        "banque"
+      ],
+      "transcript": [
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "Hi, I'd like to deposit this check into my savings account."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "Certainly. Could you sign the back of the check for me first?"
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "Oh, sorry, I forgot. Here you go."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "Thank you. The money will be available in your account tomorrow morning. Is there anything else I can help you with?"
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "Actually, yes. I'd like to order new checks. I'm moving next week, so they'll need to show my new address."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "No problem. Just fill out this form with the new address, and the checks will be mailed to you within ten days."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0029",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 2,
+      "tags": [
+        "3-locuteurs",
+        "planning"
+      ],
+      "transcript": [
+        {
+          "speaker": "Woman 1",
+          "voice": "UK-F",
+          "text": "OK, everyone, we need to finalize the holiday schedule. The store will open an hour early every day in December."
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "I can take the early shifts. I'm a morning person anyway."
+        },
+        {
+          "speaker": "Woman 2",
+          "voice": "US-F",
+          "text": "That would help me a lot. I take evening classes on Tuesdays and Thursdays, so I can't stay late on those days."
+        },
+        {
+          "speaker": "Woman 1",
+          "voice": "UK-F",
+          "text": "Noted. And remember, the busiest day will probably be the Saturday before the holiday. I need everyone here that day."
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Will we get extra breaks? Last year we were on our feet for ten hours."
+        },
+        {
+          "speaker": "Woman 1",
+          "voice": "UK-F",
+          "text": "Yes. Management has approved two extra fifteen-minute breaks for longer shifts."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0030",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 3,
+      "tags": [
+        "logiciel",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Man",
+          "voice": "AU-M",
+          "text": "Sophie, do you know how to submit an expense report in the new system? I've been trying for twenty minutes."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "There's a step-by-step guide on the intranet. I used it last week."
+        },
+        {
+          "speaker": "Man",
+          "voice": "AU-M",
+          "text": "I looked at it, but the screens don't match what I see."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "Oh, they updated the system again on Monday."
+        },
+        {
+          "speaker": "Man",
+          "voice": "AU-M",
+          "text": "That explains it. I'll call the help desk, then."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "Actually, Ken from finance is giving a short demonstration at three. You could join that."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0031",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 3,
+      "tags": [
+        "immobilier"
+      ],
+      "transcript": [
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "I'm looking for office space for my design studio. We're a team of eight, and we'd like to be close to the subway."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "I have a space on Harbor Avenue that might interest you. It's two minutes from Central Station and gets lots of natural light."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "That sounds ideal. What's the monthly rent?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "Four thousand dollars, including utilities. The building also has a shared rooftop terrace."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "That's a bit above our budget, but I'd like to see it. Are you free tomorrow morning?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "I can show it to you at ten."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0032",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 3,
+      "tags": [
+        "graphique",
+        "traiteur"
+      ],
+      "media": {
+        "type": "table",
+        "title": "Lunch Platters — Price per Person",
+        "headers": [
+          "Platter",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Salad",
+            "$10"
+          ],
+          [
+            "Sandwich",
+            "$12"
+          ],
+          [
+            "Pasta",
+            "$14"
+          ],
+          [
+            "Sushi",
+            "$18"
+          ]
+        ]
+      },
+      "transcript": [
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "Hi, I'd like to order lunch for a team meeting on Wednesday. It's for fifteen people."
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "Certainly. Have you had a chance to look at our platter menu?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "Yes. Last time we had sandwiches, and people said they'd like something different. Several of our team members are vegetarian, too."
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "Our pasta platter includes two vegetarian options, and it's very popular."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "Perfect, we'll go with that. Could you deliver it by eleven forty-five?"
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "No problem at all."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0033",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 1,
+      "tags": [
+        "transport"
+      ],
+      "transcript": [
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Excuse me, is this the train to Oxford?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "UK-F",
+          "text": "It is, but it's been delayed by about twenty minutes because of a signal problem."
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Oh no. I have a job interview at eleven."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "UK-F",
+          "text": "You should still make it. The journey only takes fifty minutes. You could also let them know you might be a few minutes late."
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Good idea. I'll send them an e-mail now."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0034",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 4,
+      "tags": [
+        "salon professionnel",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "Liam, I wanted to talk to you about the trade fair in Singapore next month. We need someone to run our booth."
+        },
+        {
+          "speaker": "Man",
+          "voice": "AU-M",
+          "text": "I'd be interested, but I've never been to Asia."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "Well, you're the one who knows our new product line best."
+        },
+        {
+          "speaker": "Man",
+          "voice": "AU-M",
+          "text": "That's true. But I'd need someone to cover my accounts while I'm away."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "Leave that to me. I'll ask Hana. She's handled your clients before."
+        },
+        {
+          "speaker": "Man",
+          "voice": "AU-M",
+          "text": "In that case, count me in. I'll start preparing the product demonstrations."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0035",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 2,
+      "tags": [
+        "magasin",
+        "réclamation"
+      ],
+      "transcript": [
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "Hi, I bought these headphones here last week, and the left side has already stopped working."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "I'm sorry to hear that. Do you have your receipt?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "Yes, here it is."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "Thanks. Since it's within thirty days, you can either exchange them for the same model or get a full refund."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "I'd rather try a different brand. Do you have anything with better battery life?"
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "These over here last about forty hours on one charge. They're twenty dollars more, but you'd only pay the difference."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0036",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 4,
+      "tags": [
+        "construction",
+        "permis"
+      ],
+      "transcript": [
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "Have we heard back from the city about the building permit for the library project?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "Not yet. Apparently the planning office is short-staffed, so everything is taking longer than usual."
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "That's a problem. The construction crew is scheduled to start on the first of next month."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "I know. I've been thinking: we could ask the crew to start on the parking area first. That part doesn't require the permit."
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "Good idea. That way we won't lose any time. Can you check with the site manager?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "I'll call him right after lunch."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0037",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 4,
+      "tags": [
+        "graphique",
+        "conférence"
+      ],
+      "media": {
+        "type": "table",
+        "title": "Conference Program — Morning",
+        "headers": [
+          "Time",
+          "Session",
+          "Location"
+        ],
+        "rows": [
+          [
+            "9:00",
+            "Opening Remarks",
+            "Hall A"
+          ],
+          [
+            "10:00",
+            "Digital Marketing",
+            "Room 2"
+          ],
+          [
+            "11:00",
+            "Supply Chain Trends",
+            "Room 5"
+          ],
+          [
+            "12:00",
+            "Networking Lunch",
+            "Terrace"
+          ]
+        ]
+      },
+      "transcript": [
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Which session are you going to after the opening remarks?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "UK-F",
+          "text": "I was planning to attend the digital marketing talk, but the speaker canceled this morning."
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Oh, that's too bad. Then why don't you come to the one I'm attending? It's about supply chains, and the speaker is excellent."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "UK-F",
+          "text": "Sure, why not. Shall we meet outside the room ten minutes before it starts?"
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Perfect. And I'll save you a seat if I get there first."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0038",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 3,
+      "tags": [
+        "3-locuteurs",
+        "hôtellerie"
+      ],
+      "transcript": [
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "We just got a request from Brightline Consulting. They want to book thirty rooms for their annual retreat in October."
+        },
+        {
+          "speaker": "Man 1",
+          "voice": "AU-M",
+          "text": "Thirty? That's almost half the hotel. Which dates?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "The ninth through the twelfth."
+        },
+        {
+          "speaker": "Man 2",
+          "voice": "UK-M",
+          "text": "There's a wedding party arriving on the eleventh. They've reserved twenty rooms."
+        },
+        {
+          "speaker": "Man 1",
+          "voice": "AU-M",
+          "text": "Then we'd only have twenty-five rooms available on those last two nights."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "Maybe some of their staff could share rooms. I'll call their event coordinator and ask."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0039",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 4,
+      "tags": [
+        "échéance",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "Did you see the e-mail from Ms. Alvarez? She wants the market analysis by Thursday instead of next week."
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Thursday? We haven't even received the survey data yet."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "I know. The research firm said it would arrive on Wednesday at the earliest."
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Well, I'm not a miracle worker."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "Should I ask her if we can send a preliminary version on Thursday and the full report later?"
+        },
+        {
+          "speaker": "Man",
+          "voice": "CA-M",
+          "text": "Yes, please do. That seems like the only realistic option."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0040",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 2,
+      "tags": [
+        "salle de sport"
+      ],
+      "transcript": [
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "Hi, I'm interested in joining the gym. What kinds of memberships do you offer?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "We have monthly and annual plans. The annual plan works out about twenty percent cheaper."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "Do both include the swimming pool?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "Yes, and group classes as well. If you sign up this week, you also get two free sessions with a personal trainer."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "That's tempting. Could I have a look around first?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "CA-F",
+          "text": "Of course. Let me get someone to give you a tour."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0041",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 3,
+      "tags": [
+        "téléphonie",
+        "formation"
+      ],
+      "transcript": [
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "Did you get the e-mail about the new phone system? It's being installed this weekend."
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "I did. Will we get any training? The old system was so easy to use."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "There's a twenty-minute online video, and the vendor is holding a question-and-answer session on Monday at nine."
+        },
+        {
+          "speaker": "Man",
+          "voice": "US-M",
+          "text": "I have a client call at nine. Will the session be recorded?"
+        },
+        {
+          "speaker": "Woman",
+          "voice": "AU-F",
+          "text": "I'm not sure. I'll ask Mr. Fujita. He's coordinating the installation."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p3-g0042",
+      "exam": "toeic",
+      "section": "part3",
+      "kind": "conversation",
+      "difficulty": 5,
+      "tags": [
+        "négociation",
+        "sens implicite"
+      ],
+      "transcript": [
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "Thanks for meeting with me, Mr. Davies. As I mentioned on the phone, our prices for packaging materials will increase by eight percent starting in January."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "Eight percent is a lot. We've been ordering from you for over ten years."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "I understand, and we value your business. If you commit to a two-year contract, we could limit the increase to four percent."
+        },
+        {
+          "speaker": "Man",
+          "voice": "UK-M",
+          "text": "Hmm. A competitor offered us a similar deal last month, with free delivery."
+        },
+        {
+          "speaker": "Woman",
+          "voice": "US-F",
+          "text": "Let me see what I can do about delivery. I'll talk to my manager and send you a revised proposal by Friday."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p3-0079","exam":"toeic","section":"part3","groupId":"toeic-p3-g0027","skill":"p3-idee-generale","difficulty":1,"prompt":"What are the speakers discussing?","options":["A new client","A conference call schedule","Where to have lunch","A cooking class"],"answer":2,"explanation":"La femme propose d'essayer le nouveau restaurant thaï pour le déjeuner.","trap":"La conférence téléphonique n'est qu'une contrainte d'horaire.","recommendedSeconds":15,"tags":["sujet"]},
+    {"id":"toeic-p3-0080","exam":"toeic","section":"part3","groupId":"toeic-p3-g0027","skill":"p3-details","difficulty":1,"prompt":"What will the woman do?","options":["Cancel a call","Order food online","Make a reservation","Visit a client"],"answer":2,"explanation":"« I'll call and reserve one for twelve fifteen. »","trap":"« call » renvoie ici à l'appel au restaurant, pas à la conférence téléphonique.","recommendedSeconds":15,"tags":["action future"]},
+    {"id":"toeic-p3-0081","exam":"toeic","section":"part3","groupId":"toeic-p3-g0027","skill":"p3-details","difficulty":2,"prompt":"What does the man have until noon?","options":["A lunch meeting","A dentist appointment","A conference call","A training session"],"answer":2,"explanation":"« I have a conference call until noon ».","trap":"Le déjeuner a lieu après midi, à 12 h 15.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p3-0082","exam":"toeic","section":"part3","groupId":"toeic-p3-g0028","skill":"p3-idee-generale","difficulty":1,"prompt":"Where does the conversation most likely take place?","options":["At a post office","At a real estate agency","At a moving company","At a bank"],"answer":3,"explanation":"Dépôt de chèque, compte épargne, chéquier : ils sont dans une banque.","trap":"Le déménagement est mentionné, mais ce n'est pas le lieu de la scène.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p3-0083","exam":"toeic","section":"part3","groupId":"toeic-p3-g0028","skill":"p3-details","difficulty":2,"prompt":"What does the woman ask the man to do first?","options":["Show identification","Open an account","Sign a check","Change his address"],"answer":2,"explanation":"« Could you sign the back of the check for me first? »","trap":"Le changement d'adresse intervient plus tard, pour les nouveaux chèques.","recommendedSeconds":15,"tags":["ordre"]},
+    {"id":"toeic-p3-0084","exam":"toeic","section":"part3","groupId":"toeic-p3-g0028","skill":"p3-details","difficulty":3,"prompt":"Why does the man need new checks?","options":["He lost his checkbook.","He opened a new business.","He is changing addresses.","His name has changed."],"answer":2,"explanation":"« I'm moving next week, so they'll need to show my new address. »","trap":"« moving » se comprend ici comme « déménager ».","recommendedSeconds":15,"tags":["raison"]},
+    {"id":"toeic-p3-0085","exam":"toeic","section":"part3","groupId":"toeic-p3-g0029","skill":"p3-idee-generale","difficulty":2,"prompt":"What is the conversation mainly about?","options":["A holiday party","A work schedule","A training class","A store renovation"],"answer":1,"explanation":"« we need to finalize the holiday schedule » : ils organisent les horaires de travail des fêtes.","trap":"« holiday » évoque une fête, mais il s'agit des horaires de la période des fêtes.","recommendedSeconds":15,"tags":["sujet","3 locuteurs"]},
+    {"id":"toeic-p3-0086","exam":"toeic","section":"part3","groupId":"toeic-p3-g0029","skill":"p3-details","difficulty":2,"prompt":"Why can't the second woman work late on some days?","options":["She has a second job.","She attends classes.","She cares for a relative.","She has a long commute."],"answer":1,"explanation":"« I take evening classes on Tuesdays and Thursdays ».","trap":"Les trois autres raisons sont plausibles mais jamais mentionnées.","recommendedSeconds":15,"tags":["raison"]},
+    {"id":"toeic-p3-0087","exam":"toeic","section":"part3","groupId":"toeic-p3-g0029","skill":"p3-details","difficulty":3,"prompt":"What has management approved?","options":["Higher pay","Shorter shifts","Extra staff","Additional breaks"],"answer":3,"explanation":"« Management has approved two extra fifteen-minute breaks for longer shifts. »","trap":"Les journées restent longues : ce sont les pauses qui augmentent, pas la durée des postes qui diminue.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p3-0088","exam":"toeic","section":"part3","groupId":"toeic-p3-g0030","skill":"p3-details","difficulty":2,"prompt":"What is the man trying to do?","options":["Update the intranet","Install new software","Book a business trip","Submit an expense report"],"answer":3,"explanation":"« do you know how to submit an expense report in the new system? »","trap":"L'intranet contient le guide, il ne doit pas le mettre à jour.","recommendedSeconds":15,"tags":["tâche"]},
+    {"id":"toeic-p3-0089","exam":"toeic","section":"part3","groupId":"toeic-p3-g0030","skill":"p3-sens-implicite","difficulty":4,"prompt":"What does the woman imply when she says, “they updated the system again on Monday”?","options":["The system is now faster.","She was not told about the update.","The guide may be out of date.","The man should have attended a training."],"answer":2,"explanation":"Les écrans ne correspondent plus au guide parce que le système a changé lundi : le guide est sans doute périmé. L'homme le comprend (« That explains it »).","trap":"Retenir seulement le fait technique sans le relier à la remarque précédente.","recommendedSeconds":20,"tags":["sous-entendu"]},
+    {"id":"toeic-p3-0090","exam":"toeic","section":"part3","groupId":"toeic-p3-g0030","skill":"p3-inference","difficulty":3,"prompt":"What does the woman suggest?","options":["Calling the help desk","Waiting until Monday","Asking finance for a refund","Attending a demonstration"],"answer":3,"explanation":"« Ken from finance is giving a short demonstration at three. You could join that. »","trap":"C'est l'homme qui propose d'appeler le support ; la femme suggère autre chose (« Actually… »).","recommendedSeconds":15,"tags":["suggestion","attribution"]},
+    {"id":"toeic-p3-0091","exam":"toeic","section":"part3","groupId":"toeic-p3-g0031","skill":"p3-idee-generale","difficulty":2,"prompt":"Who most likely is the woman?","options":["An architect","A graphic designer","A real estate agent","A building inspector"],"answer":2,"explanation":"Elle propose un local, en donne le loyer et organise une visite : c'est une agente immobilière.","trap":"Le studio de design est l'entreprise de l'homme.","recommendedSeconds":15,"tags":["identité"]},
+    {"id":"toeic-p3-0092","exam":"toeic","section":"part3","groupId":"toeic-p3-g0031","skill":"p3-details","difficulty":2,"prompt":"What does the man want to be close to?","options":["His home","Public transportation","A park","His clients"],"answer":1,"explanation":"« we'd like to be close to the subway » : le métro est un transport public.","trap":"Repérer la généralisation « subway » → « public transportation ».","recommendedSeconds":15,"tags":["paraphrase"]},
+    {"id":"toeic-p3-0093","exam":"toeic","section":"part3","groupId":"toeic-p3-g0031","skill":"p3-details","difficulty":3,"prompt":"What does the man say about the rent?","options":["It does not include utilities.","It is higher than he planned.","It is cheaper than his current rent.","It must be paid in advance."],"answer":1,"explanation":"« That's a bit above our budget » : le loyer dépasse ce qui était prévu.","trap":"Les charges sont incluses (« including utilities »).","recommendedSeconds":15,"tags":["paraphrase"]},
+    {"id":"toeic-p3-0094","exam":"toeic","section":"part3","groupId":"toeic-p3-g0032","skill":"p3-details","difficulty":2,"prompt":"What is the woman ordering food for?","options":["A holiday party","A client visit","A team meeting","A training workshop"],"answer":2,"explanation":"« I'd like to order lunch for a team meeting on Wednesday. »","trap":"Les autres événements sont plausibles mais jamais cités.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p3-0095","exam":"toeic","section":"part3","groupId":"toeic-p3-g0032","skill":"p3-graphique","difficulty":4,"prompt":"Look at the graphic. How much will the woman pay per person?","options":["$10","$12","$14","$18"],"answer":2,"explanation":"Elle choisit le plateau de pâtes (« we'll go with that »), à 14 $ par personne.","trap":"12 $ correspond aux sandwichs, qu'ils ne veulent plus.","recommendedSeconds":20,"tags":["graphique","prix"]},
+    {"id":"toeic-p3-0096","exam":"toeic","section":"part3","groupId":"toeic-p3-g0032","skill":"p3-details","difficulty":3,"prompt":"What does the woman ask about?","options":["A group discount","A delivery time","Vegetarian desserts","Payment methods"],"answer":1,"explanation":"« Could you deliver it by eleven forty-five? »","trap":"Le mot « vegetarian » apparaît, mais pour les plats, pas pour des desserts.","recommendedSeconds":15,"tags":["demande"]},
+    {"id":"toeic-p3-0097","exam":"toeic","section":"part3","groupId":"toeic-p3-g0033","skill":"p3-idee-generale","difficulty":1,"prompt":"Where most likely are the speakers?","options":["At a train station","At an airport","At a bus stop","In an office"],"answer":0,"explanation":"« is this the train to Oxford? » : ils sont dans une gare.","trap":"Les mots « delayed » et « journey » existent aussi pour l'avion, mais le train est nommé.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p3-0098","exam":"toeic","section":"part3","groupId":"toeic-p3-g0033","skill":"p3-details","difficulty":2,"prompt":"Why is the train delayed?","options":["Because of bad weather","Because of a signal problem","Because of a staff shortage","Because of track repairs"],"answer":1,"explanation":"« because of a signal problem ».","trap":"Des travaux sur la voie sont une cause fréquente, mais elle n'est pas citée.","recommendedSeconds":15,"tags":["cause"]},
+    {"id":"toeic-p3-0099","exam":"toeic","section":"part3","groupId":"toeic-p3-g0033","skill":"p3-inference","difficulty":2,"prompt":"What will the man most likely do next?","options":["Send an e-mail","Take a taxi","Cancel his interview","Buy a new ticket"],"answer":0,"explanation":"« I'll send them an e-mail now. »","trap":"Il n'annule rien : il prévient seulement d'un éventuel retard.","recommendedSeconds":15,"tags":["action future"]},
+    {"id":"toeic-p3-0100","exam":"toeic","section":"part3","groupId":"toeic-p3-g0034","skill":"p3-idee-generale","difficulty":2,"prompt":"What are the speakers discussing?","options":["Staffing a trade fair booth","Opening an office in Asia","Launching a product line","Hiring a new employee"],"answer":0,"explanation":"« We need someone to run our booth » au salon de Singapour.","trap":"La gamme de produits existe déjà ; il s'agit de la présenter.","recommendedSeconds":15,"tags":["sujet"]},
+    {"id":"toeic-p3-0101","exam":"toeic","section":"part3","groupId":"toeic-p3-g0034","skill":"p3-sens-implicite","difficulty":4,"prompt":"Why does the woman say, “you're the one who knows our new product line best”?","options":["To criticize his colleagues","To ask him to train Hana","To explain a decline in sales","To encourage the man to accept"],"answer":3,"explanation":"L'homme hésite (« I've never been to Asia ») ; elle souligne qu'il est le plus qualifié pour le convaincre.","trap":"La phrase compare l'homme aux autres, mais son but n'est pas de critiquer.","recommendedSeconds":20,"tags":["intention","persuasion"]},
+    {"id":"toeic-p3-0102","exam":"toeic","section":"part3","groupId":"toeic-p3-g0034","skill":"p3-inference","difficulty":3,"prompt":"What does the woman say she will do?","options":["Book a flight to Singapore","Arrange coverage for the man's clients","Prepare product demonstrations","Contact the fair organizers"],"answer":1,"explanation":"« Leave that to me. I'll ask Hana » : elle organise le remplacement auprès des clients de l'homme.","trap":"Les démonstrations seront préparées par l'homme.","recommendedSeconds":15,"tags":["attribution"]},
+    {"id":"toeic-p3-0103","exam":"toeic","section":"part3","groupId":"toeic-p3-g0035","skill":"p3-idee-generale","difficulty":1,"prompt":"Why did the woman come to the store?","options":["She lost her receipt.","She wants to buy a gift.","A product is defective.","She needs a battery."],"answer":2,"explanation":"« the left side has already stopped working » : le casque est défectueux.","trap":"La batterie est évoquée plus tard, comme critère de choix.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p3-0104","exam":"toeic","section":"part3","groupId":"toeic-p3-g0035","skill":"p3-details","difficulty":3,"prompt":"What does the woman want?","options":["A product from a different brand","A full refund","The same model","A longer warranty"],"answer":0,"explanation":"« I'd rather try a different brand. »","trap":"Le remboursement est proposé par le vendeur, mais elle ne le choisit pas.","recommendedSeconds":15,"tags":["choix"]},
+    {"id":"toeic-p3-0105","exam":"toeic","section":"part3","groupId":"toeic-p3-g0035","skill":"p3-details","difficulty":3,"prompt":"What does the man say about the headphones he recommends?","options":["They are on sale.","They are out of stock.","They cost more.","They include a free case."],"answer":2,"explanation":"« They're twenty dollars more ».","trap":"« you'd only pay the difference » ne signifie pas qu'ils sont en promotion.","recommendedSeconds":15,"tags":["prix"]},
+    {"id":"toeic-p3-0106","exam":"toeic","section":"part3","groupId":"toeic-p3-g0036","skill":"p3-idee-generale","difficulty":2,"prompt":"What are the speakers discussing?","options":["A library membership","A delayed permit","A parking fine","Staff shortages at their company"],"answer":1,"explanation":"Ils attendent toujours le permis de construire de la ville.","trap":"Le manque de personnel concerne le service d'urbanisme de la ville, pas leur entreprise.","recommendedSeconds":15,"tags":["sujet"]},
+    {"id":"toeic-p3-0107","exam":"toeic","section":"part3","groupId":"toeic-p3-g0036","skill":"p3-details","difficulty":3,"prompt":"According to the woman, why is the planning office slow?","options":["It does not have enough employees.","It recently moved.","It changed its rules.","It lost some documents."],"answer":0,"explanation":"« the planning office is short-staffed » = il manque de personnel.","trap":"Il faut connaître l'expression « short-staffed ».","recommendedSeconds":15,"tags":["vocabulaire"]},
+    {"id":"toeic-p3-0108","exam":"toeic","section":"part3","groupId":"toeic-p3-g0036","skill":"p3-inference","difficulty":4,"prompt":"What does the woman suggest?","options":["Hiring a new construction crew","Applying for a second permit","Postponing the whole project","Beginning with a different part of the project"],"answer":3,"explanation":"Commencer par le parking, qui ne nécessite pas de permis.","trap":"Le report de tout le projet est justement ce qu'elle veut éviter.","recommendedSeconds":15,"tags":["suggestion"]},
+    {"id":"toeic-p3-0109","exam":"toeic","section":"part3","groupId":"toeic-p3-g0037","skill":"p3-details","difficulty":2,"prompt":"What problem does the woman mention?","options":["A room is too small.","She missed the opening remarks.","The lunch was moved.","A speaker canceled."],"answer":3,"explanation":"« the speaker canceled this morning ».","trap":"Le déjeuner figure au programme mais n'est pas évoqué.","recommendedSeconds":15,"tags":["problème"]},
+    {"id":"toeic-p3-0110","exam":"toeic","section":"part3","groupId":"toeic-p3-g0037","skill":"p3-graphique","difficulty":4,"prompt":"Look at the graphic. Where will the speakers meet?","options":["Hall A","Room 2","Room 5","Terrace"],"answer":2,"explanation":"Ils iront à la séance sur les chaînes d'approvisionnement (« Supply Chain Trends »), en salle 5, et se retrouveront devant cette salle.","trap":"La salle 2 accueillait la séance de marketing digital, annulée.","recommendedSeconds":20,"tags":["graphique","lieu"]},
+    {"id":"toeic-p3-0111","exam":"toeic","section":"part3","groupId":"toeic-p3-g0037","skill":"p3-inference","difficulty":2,"prompt":"What does the man offer to do?","options":["Introduce the speaker","Buy lunch","Save a seat","Print a program"],"answer":2,"explanation":"« I'll save you a seat if I get there first. »","trap":"Il fait l'éloge de l'intervenant, mais ne propose pas de le présenter.","recommendedSeconds":15,"tags":["offre"]},
+    {"id":"toeic-p3-0112","exam":"toeic","section":"part3","groupId":"toeic-p3-g0038","skill":"p3-idee-generale","difficulty":2,"prompt":"Where do the speakers most likely work?","options":["At a consulting firm","At a hotel","At a wedding venue","At a travel agency"],"answer":1,"explanation":"Réservation de chambres, « almost half the hotel » : ils travaillent dans un hôtel.","trap":"Brightline Consulting est le client qui réserve.","recommendedSeconds":15,"tags":["lieu de travail","3 locuteurs"]},
+    {"id":"toeic-p3-0113","exam":"toeic","section":"part3","groupId":"toeic-p3-g0038","skill":"p3-details","difficulty":3,"prompt":"What problem do the speakers discuss?","options":["Not enough rooms are available.","The requested dates are incorrect.","A wedding was canceled.","A client wants a discount."],"answer":0,"explanation":"Avec le mariage, il ne reste que 25 chambres les deux dernières nuits, pour 30 demandées.","trap":"Le mariage n'est pas annulé : c'est lui qui occupe des chambres.","recommendedSeconds":15,"tags":["problème","calcul"]},
+    {"id":"toeic-p3-0114","exam":"toeic","section":"part3","groupId":"toeic-p3-g0038","skill":"p3-inference","difficulty":3,"prompt":"What will the woman probably do next?","options":["Contact a client's event coordinator","Cancel a wedding reservation","Offer a discount","Change the retreat dates"],"answer":0,"explanation":"« I'll call their event coordinator and ask. »","trap":"Changer les dates serait une solution possible, mais elle n'est pas proposée.","recommendedSeconds":15,"tags":["action future"]},
+    {"id":"toeic-p3-0115","exam":"toeic","section":"part3","groupId":"toeic-p3-g0039","skill":"p3-details","difficulty":2,"prompt":"What did Ms. Alvarez ask for?","options":["More survey data","A meeting on Thursday","A new research firm","An earlier deadline"],"answer":3,"explanation":"Elle veut l'analyse jeudi au lieu de la semaine prochaine : l'échéance est avancée.","trap":"Jeudi est la nouvelle échéance, pas une réunion.","recommendedSeconds":15,"tags":["paraphrase"]},
+    {"id":"toeic-p3-0116","exam":"toeic","section":"part3","groupId":"toeic-p3-g0039","skill":"p3-sens-implicite","difficulty":4,"prompt":"What does the man imply when he says, “I'm not a miracle worker”?","options":["He needs an assistant.","He disagrees with the survey results.","The new deadline is unrealistic.","He has already finished the report."],"answer":2,"explanation":"Sans les données, qui arriveront au mieux mercredi, finir pour jeudi est impossible : il juge l'échéance irréaliste.","trap":"Prendre l'expression au pied de la lettre.","recommendedSeconds":20,"tags":["expression idiomatique"]},
+    {"id":"toeic-p3-0117","exam":"toeic","section":"part3","groupId":"toeic-p3-g0039","skill":"p3-inference","difficulty":3,"prompt":"What will the woman probably do next?","options":["Propose sending a partial report","Contact the research firm","Cancel the analysis","Work over the weekend"],"answer":0,"explanation":"Elle propose de demander à Mme Alvarez d'accepter une version préliminaire jeudi ; l'homme approuve.","trap":"« preliminary version » est paraphrasé par « partial report ».","recommendedSeconds":15,"tags":["action future","paraphrase"]},
+    {"id":"toeic-p3-0118","exam":"toeic","section":"part3","groupId":"toeic-p3-g0040","skill":"p3-idee-generale","difficulty":1,"prompt":"Where are the speakers?","options":["At a fitness center","At a swimming competition","At a sports store","At a hotel"],"answer":0,"explanation":"« I'm interested in joining the gym » : ils sont dans une salle de sport.","trap":"La piscine fait partie des équipements de la salle.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p3-0119","exam":"toeic","section":"part3","groupId":"toeic-p3-g0040","skill":"p3-details","difficulty":2,"prompt":"What is offered to people who sign up this week?","options":["A free month","A discount on swimwear","A free towel","Free personal training sessions"],"answer":3,"explanation":"« you also get two free sessions with a personal trainer ».","trap":"La réduction de 20 % concerne la formule annuelle, quelle que soit la semaine.","recommendedSeconds":15,"tags":["offre"]},
+    {"id":"toeic-p3-0120","exam":"toeic","section":"part3","groupId":"toeic-p3-g0040","skill":"p3-inference","difficulty":2,"prompt":"What does the man want to do?","options":["Tour the facility","Sign up immediately","Meet a trainer","Try a group class"],"answer":0,"explanation":"« Could I have a look around first? » : il veut visiter avant de s'inscrire.","trap":"« That's tempting » n'est pas une inscription.","recommendedSeconds":15,"tags":["demande"]},
+    {"id":"toeic-p3-0121","exam":"toeic","section":"part3","groupId":"toeic-p3-g0041","skill":"p3-idee-generale","difficulty":2,"prompt":"What is the conversation about?","options":["A client complaint","A software license","A weekend schedule","A new phone system"],"answer":3,"explanation":"« the new phone system … being installed this weekend ».","trap":"Le week-end est le moment de l'installation, pas le sujet.","recommendedSeconds":15,"tags":["sujet"]},
+    {"id":"toeic-p3-0122","exam":"toeic","section":"part3","groupId":"toeic-p3-g0041","skill":"p3-details","difficulty":3,"prompt":"Why can't the man attend the session on Monday?","options":["He will be on vacation.","He is installing software.","He is meeting Mr. Fujita.","He has a call with a client."],"answer":3,"explanation":"« I have a client call at nine. »","trap":"M. Fujita coordonne l'installation ; l'homme n'a pas rendez-vous avec lui.","recommendedSeconds":15,"tags":["raison"]},
+    {"id":"toeic-p3-0123","exam":"toeic","section":"part3","groupId":"toeic-p3-g0041","skill":"p3-inference","difficulty":3,"prompt":"What will the woman ask Mr. Fujita about?","options":["When the system will be installed","How long the video lasts","Whether a session will be recorded","Who the vendor is"],"answer":2,"explanation":"Elle ne sait pas si la séance sera enregistrée et va le lui demander.","trap":"La date d'installation et la durée de la vidéo sont déjà connues.","recommendedSeconds":15,"tags":["action future"]},
+    {"id":"toeic-p3-0124","exam":"toeic","section":"part3","groupId":"toeic-p3-g0042","skill":"p3-idee-generale","difficulty":2,"prompt":"What is the purpose of the meeting?","options":["To introduce a new product","To sign a delivery contract","To resolve a billing error","To discuss a price increase"],"answer":3,"explanation":"« our prices for packaging materials will increase by eight percent ».","trap":"Le contrat de deux ans n'est qu'une proposition en cours de négociation.","recommendedSeconds":15,"tags":["but"]},
+    {"id":"toeic-p3-0125","exam":"toeic","section":"part3","groupId":"toeic-p3-g0042","skill":"p3-sens-implicite","difficulty":5,"prompt":"Why does the man say, “We've been ordering from you for over ten years”?","options":["To complain about product quality","To announce that he is changing suppliers","To celebrate a business anniversary","To ask for better terms as a loyal customer"],"answer":3,"explanation":"Il rappelle sa fidélité pour contester la hausse ; la vendeuse répond aussitôt par une offre plus avantageuse.","trap":"Lire la phrase comme une simple information chronologique.","recommendedSeconds":20,"tags":["négociation","intention"]},
+    {"id":"toeic-p3-0126","exam":"toeic","section":"part3","groupId":"toeic-p3-g0042","skill":"p3-inference","difficulty":4,"prompt":"What does the woman say she will do?","options":["Cancel the price increase","Contact the competitor","Provide product samples","Send a revised offer"],"answer":3,"explanation":"« I'll talk to my manager and send you a revised proposal by Friday. »","trap":"Elle ne promet pas d'annuler la hausse, seulement de revoir la livraison.","recommendedSeconds":15,"tags":["action future"]}
+  ]
+}
