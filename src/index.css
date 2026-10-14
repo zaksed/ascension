@@ -21,14 +21,18 @@
   --ok-soft: #dcf5e3;
   --bad: #b91c1c;
   --bad-soft: #fde4e4;
-  --toeic: #0369a1;
-  --toeic-soft: #dbeefb;
-  --tm: #6d28d9;
-  --tm-soft: #ece4fd;
+  /* Couleurs des examens : TOEIC = cyan glacier, TAGE MAGE = violet (séparation vérifiée par script). */
+  --toeic: #0e7490;
+  --toeic-soft: #d6f3f8;
+  --on-toeic: #ffffff;
+  --tm: #7c3aed;
+  --tm-soft: #ede5fe;
+  --on-tm: #ffffff;
+  --logo: #0e7490;
   --frozen: #0284c7;
   /* Graphiques (validés par script : contraste >= 3:1, séparation daltonisme, rampe ordinale). */
-  --viz-toeic: #0369a1;
-  --viz-tm: #6d28d9;
+  --viz-toeic: #0e7490;
+  --viz-tm: #7c3aed;
   --heat-1: #68b2c4;
   --heat-2: #0e7490;
   --grid: #e6eaf2;
@@ -54,18 +58,32 @@
   --ok-soft: #10301f;
   --bad: #f87171;
   --bad-soft: #3a1717;
-  --toeic: #4cc3f7;
-  --toeic-soft: #0f2c40;
-  --tm: #b39bfb;
-  --tm-soft: #241a43;
+  --toeic: #22b8cf;
+  --toeic-soft: #123643;
+  --on-toeic: #04202a;
+  --tm: #a78bfa;
+  --tm-soft: #261b47;
+  --on-tm: #1e1048;
+  --logo: #22b8cf;
   --frozen: #7dd3fc;
-  --viz-toeic: #2f8fd6;
-  --viz-tm: #8f74ea;
+  --viz-toeic: #22b8cf;
+  --viz-tm: #a78bfa;
   --heat-1: #1d6b7c;
   --heat-2: #4fd1e3;
   --grid: #222c41;
   --axis: #34405a;
   color-scheme: dark;
+}
+
+/* L'interface prend la couleur de l'examen affiché : cyan (TOEIC, couleur par défaut) ou violet. */
+:root[data-exam="tagemage"] {
+  --brand: var(--tm);
+  --brand-strong: #5b21b6;
+  --brand-soft: var(--tm-soft);
+  --on-brand: var(--on-tm);
+}
+:root.dark[data-exam="tagemage"] {
+  --brand-strong: #c4b5fd;
 }
 
 @theme inline {
@@ -90,6 +108,8 @@
   --color-toeic-soft: var(--toeic-soft);
   --color-tm: var(--tm);
   --color-tm-soft: var(--tm-soft);
+  --color-on-toeic: var(--on-toeic);
+  --color-on-tm: var(--on-tm);
   --color-frozen: var(--frozen);
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   --font-serif: Georgia, "Times New Roman", serif;

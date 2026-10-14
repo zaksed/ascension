@@ -1,4 +1,5 @@
 /** Structure de page : en-tête (série, XP) et barre de navigation (bas d'écran sur mobile). */
+import { useEffect } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { Logo } from './Logo';
@@ -24,6 +25,13 @@ export function Layout() {
   const today = useToday();
   const days = useLiveQuery(() => db.days.toArray(), []);
   const streak = days ? computeStreak(new Map(days.map((d) => [d.day, d])), today, settings.autoFreeze) : null;
+  // Couleur de l'interface : celle de l'examen de la page (leçon, examen…), sinon de l'examen choisi.
+  const exam = /\/(toeic|tagemage)(\/|-|$)/.exec(location.pathname)?.[1] ?? settings.activeExam;
+  useEffect(() => {
+    document.documentElement.dataset.exam = exam;
+    const color = getComputedStyle(document.documentElement).getPropertyValue('--brand').trim();
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', color || '#0e7490');
+  }, [exam, settings.theme]);
 
   return (
     <div className={`min-h-dvh flex flex-col ${settings.animations ? '' : 'reduce-motion'}`}>
@@ -32,6 +40,7 @@ export function Layout() {
       </a>
       {!immersive && (
         <header className="pt-safe sticky top-0 z-20 bg-canvas/90 backdrop-blur border-b border-line">
+          <div className="h-1 bg-brand" aria-hidden="true" />
           <div className="max-w-3xl mx-auto px-4 h-14 flex items-center gap-3">
             <NavLink to="/" aria-label="Accueil Ascension">
               <Logo size={30} withText />

@@ -40,7 +40,7 @@ export default function CoursePage() {
           <li key={u.unit.id}>
             <section aria-labelledby={`unit-${u.unit.id}`} className={`rounded-2xl border border-line bg-surface p-4 ${u.unlocked ? '' : 'opacity-70'}`}>
               <header className="flex items-start gap-3">
-                <div className={`grid place-items-center h-11 w-11 rounded-xl shrink-0 ${u.unlocked ? (exam === 'toeic' ? 'bg-toeic text-white' : 'bg-tm text-white') : 'bg-surface-2 text-muted'}`}>
+                <div className={`grid place-items-center h-11 w-11 rounded-xl shrink-0 ${u.unlocked ? (exam === 'toeic' ? 'bg-toeic text-on-toeic' : 'bg-tm text-on-tm') : 'bg-surface-2 text-muted'}`}>
                   {u.unlocked ? <IconMountain /> : <IconLock />}
                 </div>
                 <div className="flex-1 min-w-0">
@@ -75,7 +75,7 @@ export default function CoursePage() {
                           : l.crowns >= 5
                             ? 'bg-accent-bright border-accent text-[#2b1700]'
                             : l.crowns > 0
-                              ? `${exam === 'toeic' ? 'bg-toeic border-toeic' : 'bg-tm border-tm'} text-white`
+                              ? `${exam === 'toeic' ? 'bg-toeic border-toeic text-on-toeic' : 'bg-tm border-tm text-on-tm'}`
                               : 'bg-surface border-brand text-brand hover:scale-105'
                       }`}
                     >

@@ -115,12 +115,12 @@ export function HomePage() {
           <p className="text-sm text-muted">Questions courtes, chrono</p>
         </Link>
         <Link to="/entrainement" className="rounded-2xl border border-line bg-surface p-4 hover:border-brand">
-          <IconTarget className="text-tm" />
+          <IconTarget className="text-brand" />
           <p className="font-bold mt-1">Entraînement</p>
           <p className="text-sm text-muted">Par partie, compétence, faiblesses</p>
         </Link>
         <Link to="/examens" className="rounded-2xl border border-line bg-surface p-4 hover:border-brand">
-          <IconClipboard className="text-toeic" />
+          <IconClipboard className="text-brand" />
           <p className="font-bold mt-1">Examens blancs</p>
           <p className="text-sm text-muted">Format et chrono officiels</p>
         </Link>

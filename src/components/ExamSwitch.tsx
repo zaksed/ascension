@@ -19,8 +19,9 @@ export function ExamSwitch({ value, onChange }: { value?: ExamId; onChange?: (e:
           role="tab"
           aria-selected={current === e}
           onClick={() => set(e)}
-          className={`px-4 py-1.5 rounded-lg transition-colors ${current === e ? (e === 'toeic' ? 'bg-toeic text-white' : 'bg-tm text-white') : 'text-muted hover:text-ink'}`}
+          className={`inline-flex items-center justify-center gap-1.5 px-4 py-1.5 rounded-lg transition-colors ${current === e ? (e === 'toeic' ? 'bg-toeic text-on-toeic' : 'bg-tm text-on-tm') : 'text-muted hover:text-ink'}`}
         >
+          {current !== e && <span aria-hidden="true" className={`h-2 w-2 rounded-full ${e === 'toeic' ? 'bg-toeic' : 'bg-tm'}`} />}
           {e === 'toeic' ? 'TOEIC' : 'TAGE MAGE'}
         </button>
       ))}
