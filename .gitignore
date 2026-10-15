@@ -4,3 +4,8 @@ dist/
 *.log
 # Configuration locale de Piper (chemins propres à votre ordinateur)
 scripts/piper-voices.json
+# Service de notifications : dépendances, état local et clé privée VAPID
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars
+worker/.vapid.json

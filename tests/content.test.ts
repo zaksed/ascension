@@ -76,3 +76,19 @@ describe('banque de questions', () => {
     }
   });
 });
+
+describe('fiches « notion à connaître »', () => {
+  it('sont valides, uniques et rattachées à des compétences existantes', async () => {
+    const { readFileSync } = await import('node:fs');
+    const { NotionsFile } = await import('../src/features/notions/notions');
+    const file = NotionsFile.parse(JSON.parse(readFileSync(new URL('../public/notions.json', import.meta.url), 'utf8')));
+    const ids = file.cards.map((c) => c.id);
+    expect(new Set(ids).size).toBe(ids.length);
+    for (const exam of ['toeic', 'tagemage'] as const) {
+      const cards = file.cards.filter((c) => c.exam === exam);
+      expect(cards.length, exam).toBeGreaterThanOrEqual(30);
+      const skills = testBank(exam).curriculum.skills;
+      for (const c of cards) if (c.skill) expect(skills[c.skill], `${c.id} : ${c.skill}`).toBeDefined();
+    }
+  });
+});

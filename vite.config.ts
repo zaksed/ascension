@@ -42,6 +42,8 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,webmanifest,json,mp3,ogg}'],
         maximumFileSizeToCacheInBytes: 20 * 1024 * 1024,
         navigateFallback: 'index.html',
+        // Gestion des notifications (rappels, notions du jour) : public/push-sw.js.
+        importScripts: ['push-sw.js'],
         cleanupOutdatedCaches: true,
       },
       devOptions: { enabled: false },

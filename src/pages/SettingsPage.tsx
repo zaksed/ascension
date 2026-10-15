@@ -4,26 +4,18 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db, TABLES, type Settings } from '../db/db';
 import { useApp } from '../store/app';
 import { useToday } from '../hooks';
-import type { ExamId, Voice } from '../content/schema';
+import type { ExamId } from '../content/schema';
 import { EXAM_LABEL, APP_NAME } from '../content/exams';
 import { DAILY_GOALS } from '../features/gamification/xp';
 import { freezeDay } from '../features/session/record';
 import { backupFileName, downloadJson, exportData, importData, parseBackup } from '../features/settings/backup';
-import { englishVoices, loadVoices, playListening, speechSupported } from '../features/audio/tts';
+import { englishVoices, loadVoices, speechSupported } from '../features/audio/tts';
+import { VoicePicker } from '../features/audio/VoicePicker';
+import { NotificationSettings } from '../features/notifications/NotificationSettings';
 import { Button, Card, Modal, PageTitle, Toggle } from '../components/ui';
 import { IconDownload, IconSnow, IconUpload } from '../components/icons';
 import { formatDayFr } from '../lib/date';
 
-const VOICES: { id: Voice; label: string }[] = [
-  { id: 'US-F', label: 'Américaine (F)' },
-  { id: 'US-M', label: 'Américain (H)' },
-  { id: 'UK-F', label: 'Britannique (F)' },
-  { id: 'UK-M', label: 'Britannique (H)' },
-  { id: 'AU-F', label: 'Australienne (F)' },
-  { id: 'AU-M', label: 'Australien (H)' },
-  { id: 'CA-F', label: 'Canadienne (F)' },
-  { id: 'CA-M', label: 'Canadien (H)' },
-];
 
 function Section({ id, title, children }: { id?: string; title: string; children: ReactNode }) {
   return (
@@ -94,6 +86,9 @@ export default function SettingsPage() {
       </Section>
 
       <StreakSettings settings={settings} set={set} />
+      <Section id="notifications" title="Notifications">
+        <NotificationSettings />
+      </Section>
       <AudioSettings settings={settings} set={set} />
 
       <Section title="Parcours et banque de questions">
@@ -215,9 +210,6 @@ function AudioSettings({ settings, set }: { settings: Settings; set: (p: Partial
   useEffect(() => {
     void loadVoices().then(() => setVoices(englishVoices()));
   }, []);
-  const test = (v: Voice) =>
-    void playListening('voice-test', [{ voice: v, text: 'Good morning. Your meeting with the sales team has been moved to three thirty.' }], { rate: settings.speechRate, voicePrefs: settings.voicePrefs });
-
   return (
     <Section title="Audio du Listening">
       {!supported ? (
@@ -244,37 +236,13 @@ function AudioSettings({ settings, set }: { settings: Settings; set: (p: Partial
         label="Afficher le texte des Parties 1 et 2 avant de répondre"
         description="Mode facile pour l’entraînement ; jamais en examen blanc."
       />
-      {supported && voices.length > 0 && (
-        <details className="mt-2">
-          <summary className="cursor-pointer font-medium">Choisir les voix par accent</summary>
-          <div className="space-y-2 mt-3">
-            {VOICES.map((v) => (
-              <div key={v.id} className="flex flex-wrap items-center gap-2">
-                <label className="text-sm w-36" htmlFor={`voice-${v.id}`}>
-                  {v.label}
-                </label>
-                <select
-                  id={`voice-${v.id}`}
-                  value={settings.voicePrefs[v.id] ?? ''}
-                  onChange={(e) => set({ voicePrefs: { ...settings.voicePrefs, [v.id]: e.target.value || undefined } })}
-                  className="flex-1 min-w-40 rounded-lg border border-line bg-surface px-2 py-1.5 text-sm"
-                >
-                  <option value="">Automatique</option>
-                  {voices.map((x) => (
-                    <option key={x.voiceURI} value={x.voiceURI}>
-                      {x.name} ({x.lang}){x.localService ? '' : ' · en ligne'}
-                    </option>
-                  ))}
-                </select>
-                <Button size="sm" variant="ghost" onClick={() => test(v.id)}>
-                  Tester
-                </Button>
-              </div>
-            ))}
-          </div>
-          <p className="text-xs text-muted mt-2">Les voix marquées « en ligne » dépendent d’un service du navigateur : préférez les voix locales pour un usage hors ligne.</p>
-        </details>
-      )}
+      <details className="mt-2" open={!settings.voicesChosen}>
+        <summary className="cursor-pointer font-medium">Choisir les voix (4 accents)</summary>
+        <div className="mt-3">
+          <VoicePicker prefs={settings.voicePrefs} onChange={(voicePrefs) => set({ voicePrefs, voicesChosen: true })} rate={settings.speechRate} />
+        </div>
+        <p className="text-xs text-muted mt-2">Les voix marquées « en ligne » dépendent d’un service du navigateur : préférez les voix locales pour un usage hors ligne.</p>
+      </details>
     </Section>
   );
 }

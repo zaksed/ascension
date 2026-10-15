@@ -1,0 +1,18 @@
+# Service d'envoi des notifications d'Ascension. Voir worker/README.md.
+name = "ascension-push"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+# Toutes les 5 minutes : envoi des notions et rappels dont l'heure est arrivée.
+[triggers]
+crons = ["*/5 * * * *"]
+
+[[kv_namespaces]]
+binding = "SUBS"
+id = "A_REMPLACER_PAR_L_ID_DU_NAMESPACE"
+
+[vars]
+ALLOWED_ORIGINS = "https://zaksed.github.io,http://localhost:4173,http://localhost:5173"
+VAPID_SUBJECT = "https://zaksed.github.io/ascension/"
+VAPID_PUBLIC_KEY = "BN7YaPmEwLmVYe_bCBvsnZS9KOmKp8U9bx-FDgJJQCtODKFF5Uo9hu23pW_aeIlQtI9HUbOJkVQf6IFcNuBK11o"
+# Secret (jamais dans ce fichier) : VAPID_PRIVATE_JWK, défini avec « wrangler secret put ».

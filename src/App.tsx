@@ -17,6 +17,8 @@ const ExamRunnerPage = lazy(() => import('./pages/ExamRunnerPage'));
 const ExamReportPage = lazy(() => import('./pages/ExamReportPage'));
 const StatsPage = lazy(() => import('./pages/StatsPage'));
 const SettingsPage = lazy(() => import('./pages/SettingsPage'));
+const WelcomePage = lazy(() => import('./pages/WelcomePage'));
+const NotionPage = lazy(() => import('./pages/NotionPage'));
 
 export function App() {
   const ready = useApp((s) => s.ready);
@@ -31,6 +33,7 @@ export function App() {
     <HashRouter>
       <Suspense fallback={<Spinner />}>
         <Routes>
+          <Route path="bienvenue" element={<WelcomePage />} />
           <Route element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path="parcours" element={<CoursePage />} />
@@ -46,6 +49,8 @@ export function App() {
             <Route path="rapport/:attemptId" element={<ExamReportPage />} />
             <Route path="stats" element={<StatsPage />} />
             <Route path="reglages" element={<SettingsPage />} />
+            <Route path="notion" element={<NotionPage />} />
+            <Route path="notion/:id" element={<NotionPage />} />
             <Route path="*" element={<HomePage />} />
           </Route>
         </Routes>

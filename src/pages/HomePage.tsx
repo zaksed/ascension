@@ -1,5 +1,8 @@
 /** Accueil : objectif du jour, série, prochaine leçon, révisions dues, raccourcis. */
+import { useEffect, useState } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
+import { loadNotions, notionOfTheDay, type NotionCard } from '../features/notions/notions';
+import type { ExamId } from '../content/schema';
 import { Link } from 'react-router-dom';
 import { useApp } from '../store/app';
 import { db } from '../db/db';
@@ -103,6 +106,8 @@ export function HomePage() {
         </Card>
       )}
 
+      <NotionOfTheDay exam={exam} day={today} />
+
       <div className="grid grid-cols-2 gap-3">
         <Link to={`/revision/seance/${exam}`} className="rounded-2xl border border-line bg-surface p-4 hover:border-brand">
           <IconRefresh className="text-brand" />
@@ -141,5 +146,25 @@ export function HomePage() {
         </Link>
       </Card>
     </div>
+  );
+}
+
+/** Carte « Notion du jour » : une fiche différente chaque jour, ouverte en un toucher. */
+function NotionOfTheDay({ exam, day }: { exam: ExamId; day: string }) {
+  const [card, setCard] = useState<NotionCard | undefined>();
+  useEffect(() => {
+    let alive = true;
+    loadNotions().then((cards) => alive && setCard(notionOfTheDay(cards, exam, day)), () => undefined);
+    return () => {
+      alive = false;
+    };
+  }, [exam, day]);
+  if (!card) return null;
+  return (
+    <Link to={`/notion/${card.id}`} className="block rounded-2xl border border-line bg-surface p-4 hover:border-brand">
+      <p className="text-xs font-semibold uppercase tracking-wide text-accent">Notion du jour</p>
+      <p className="font-bold mt-1">{card.front}</p>
+      <p className="text-sm text-brand font-semibold mt-1">Voir la réponse →</p>
+    </Link>
   );
 }

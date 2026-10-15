@@ -9,16 +9,25 @@
  */
 import type { SpokenLine, Voice } from '../../content/schema';
 
-const LANG: Record<string, string[]> = {
+export type Accent = 'US' | 'UK' | 'AU' | 'CA';
+
+export const ACCENT_LANGS: Record<Accent, string[]> = {
   US: ['en-US'],
   UK: ['en-GB'],
   AU: ['en-AU', 'en-NZ'],
   CA: ['en-CA'],
 };
 
-// Indices de genre d'après les noms de voix courants (Windows, macOS/iOS, Android, Chrome).
-const FEMALE = /(female|woman|zira|hazel|susan|samantha|karen|moira|tessa|victoria|allison|ava|serena|fiona|kate|libby|sonia|natasha|clara|jenny|aria|emma|amy|linda|catherine|heera|nicky|joanna|salli|kimberly|olivia|ruby|sarah|isabella|mia|zoe|google uk english female|google us english)/i;
-const MALE = /(male|man|david|mark|george|daniel|alex|fred|ryan|guy|william|james|liam|thomas|arthur|oliver|aaron|gordon|lee|rishi|tom|brian|matthew|justin|joey|russell|google uk english male)/i;
+const LANG: Record<string, string[]> = ACCENT_LANGS;
+
+// Voix « fantaisie » d'iOS et de macOS (effets sonores, voix robotiques) : jamais proposées.
+const NOVELTY = /\b(albert|bad news|bahh|bells|boing|bubbles|cellos|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|deranged|hysterical|junior|ralph|kathy|princess|eddy|flo|grandma|grandpa|reed|rocko|sandy|shelley)\b/i;
+// Voix de meilleure qualité, à privilégier quand elles sont installées.
+const QUALITY = /(enhanced|premium|neural|natural|améliorée|siri)/i;
+
+// Indices de genre d'après les noms de voix courants (mots entiers : « Samantha » ne contient pas « man ») (Windows, macOS/iOS, Android, Chrome).
+const FEMALE = /\b(female|woman|zira|hazel|susan|samantha|karen|moira|tessa|victoria|allison|ava|serena|fiona|kate|libby|sonia|natasha|clara|jenny|aria|emma|amy|linda|catherine|heera|nicky|joanna|salli|kimberly|olivia|ruby|sarah|isabella|mia|zoe|martha|noelle|joelle|stephanie|evelyn|google uk english female|google us english)\b/i;
+const MALE = /\b(male|man|david|mark|george|daniel|alex|fred|ryan|guy|william|james|liam|thomas|arthur|oliver|aaron|gordon|lee|rishi|tom|brian|matthew|justin|joey|russell|evan|nathan|jamie|oskar|malcolm|google uk english male)\b/i;
 
 export interface SpeakOptions {
   rate: number;
@@ -50,7 +59,29 @@ export function loadVoices(): Promise<SpeechSynthesisVoice[]> {
 }
 
 export function englishVoices(): SpeechSynthesisVoice[] {
-  return voicesCache.filter((v) => v.lang.toLowerCase().startsWith('en'));
+  return voicesCache.filter((v) => v.lang.toLowerCase().startsWith('en') && !NOVELTY.test(v.name));
+}
+
+const langOf = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-').toLowerCase();
+
+/** Voix anglaises de l'appareil correspondant à un accent, les meilleures d'abord. */
+export function voicesForAccent(accent: Accent): SpeechSynthesisVoice[] {
+  const langs = ACCENT_LANGS[accent].map((l) => l.toLowerCase());
+  return englishVoices()
+    .filter((v) => langs.includes(langOf(v)))
+    .sort((a, b) => Number(QUALITY.test(b.name)) - Number(QUALITY.test(a.name)) || Number(b.localService) - Number(a.localService) || a.name.localeCompare(b.name));
+}
+
+/** Genre probable d'une voix d'après son nom (null si inconnu). */
+export function voiceGender(v: SpeechSynthesisVoice): 'F' | 'M' | null {
+  if (FEMALE.test(v.name) && !/\bmale\b/i.test(v.name)) return 'F';
+  if (MALE.test(v.name)) return 'M';
+  return null;
+}
+
+/** Nom lisible d'une voix (sans le préfixe « Microsoft » ni les mentions techniques). */
+export function voiceLabel(v: SpeechSynthesisVoice): string {
+  return v.name.replace(/^(Microsoft|Google)\s+/i, '').replace(/\s*-\s*English.*$/i, '').replace(/\s*\(.*?\)\s*$/, '') + (QUALITY.test(v.name) ? ' (qualité supérieure)' : '');
 }
 
 export function accentOf(v: Voice): string {
@@ -73,6 +104,7 @@ export function pickVoice(v: Voice, prefs: Partial<Record<Voice, string>> = {}, 
     else if (lang.toLowerCase().startsWith('en')) s += 2;
     if (genderOk(x)) s += 4;
     if (x.localService) s += 3;
+    if (QUALITY.test(x.name)) s += 2;
     if (!used.has(x.voiceURI)) s += 1;
     return s;
   };

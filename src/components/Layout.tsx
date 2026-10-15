@@ -1,6 +1,6 @@
 /** Structure de page : en-tête (série, XP) et barre de navigation (bas d'écran sur mobile). */
 import { useEffect } from 'react';
-import { NavLink, Outlet, useLocation } from 'react-router-dom';
+import { Navigate, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { Logo } from './Logo';
 import { IconChart, IconClipboard, IconFlame, IconHome, IconMap, IconSettings, IconSnow, IconTarget } from './icons';
@@ -32,6 +32,9 @@ export function Layout() {
     const color = getComputedStyle(document.documentElement).getPropertyValue('--brand').trim();
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', color || '#0e7490');
   }, [exam, settings.theme]);
+
+  // Premier lancement : écran de bienvenue (choix des voix) avant tout le reste.
+  if (!settings.voicesChosen) return <Navigate to="/bienvenue" replace />;
 
   return (
     <div className={`min-h-dvh flex flex-col ${settings.animations ? '' : 'reduce-motion'}`}>

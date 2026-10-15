@@ -1,0 +1,14 @@
+{
+  "name": "ascension-push",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Service d'envoi des notifications d'Ascension (Cloudflare Workers).",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --test-scheduled"
+  },
+  "devDependencies": {
+    "wrangler": "^4.40.0"
+  }
+}

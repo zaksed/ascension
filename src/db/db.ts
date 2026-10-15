@@ -79,6 +79,8 @@ export interface Settings {
   autoFreeze: boolean;
   speechRate: number;
   voicePrefs: Partial<Record<Voice, string>>;
+  /** Voix choisies à l'écran de bienvenue (affiché tant que ce n'est pas fait). */
+  voicesChosen: boolean;
   /** Mode facile : afficher le texte des options des Parties 1 et 2 avant de répondre. */
   showListeningText: boolean;
   includeMockQuestions: boolean;
@@ -87,6 +89,16 @@ export interface Settings {
   showLegacyTmScore: boolean;
   targets: Record<ExamId, { score: number; date?: string }>;
   activeExam: ExamId;
+  /** Rappels : 1 à 3 notions par jour aux heures choisies, et rappel de série. */
+  notifications: NotificationSettings;
+}
+
+export interface NotificationSettings {
+  enabled: boolean;
+  /** Heures (HH:MM, heure locale) des notions du jour ; 1 à 3 valeurs. */
+  times: string[];
+  streak: boolean;
+  streakTime: string;
 }
 
 export interface Profile {
@@ -107,12 +119,14 @@ export const DEFAULT_SETTINGS: Settings = {
   autoFreeze: true,
   speechRate: 1,
   voicePrefs: {},
+  voicesChosen: false,
   showListeningText: false,
   includeMockQuestions: false,
   unlockAll: false,
   showLegacyTmScore: false,
   targets: { toeic: { score: 850 }, tagemage: { score: 400 } },
   activeExam: 'toeic',
+  notifications: { enabled: false, times: ['08:30'], streak: true, streakTime: '20:30' },
 };
 
 export const DEFAULT_PROFILE: Profile = {
