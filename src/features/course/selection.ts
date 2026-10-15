@@ -89,6 +89,18 @@ export function unitItems(bank: Bank, unit: Unit, av: Availability): Item[] {
   );
 }
 
+/**
+ * Répartit les items d'une unité entre ses leçons, pour que chaque leçon ait ses propres
+ * questions : tri par difficulté puis distribution en alternance (chaque leçon couvre ainsi
+ * toute la gamme de difficulté, et les couronnes suivantes y puisent les questions plus dures).
+ */
+export function lessonBuckets(items: Item[], lessons: number): Item[][] {
+  const sorted = items.slice().sort((a, b) => itemDifficulty(a) - itemDifficulty(b) || a.key.localeCompare(b.key));
+  const buckets: Item[][] = Array.from({ length: Math.max(1, lessons) }, () => []);
+  sorted.forEach((it, i) => buckets[i % buckets.length].push(it));
+  return buckets;
+}
+
 export function buildLessonItems(
   bank: Bank,
   unit: Unit,
@@ -100,8 +112,11 @@ export function buildLessonItems(
 ): Item[] {
   const band = difficultyBand(crowns);
   const r = rng(seedFrom(`${unit.id}#${lessonIndex}#${crowns}#${salt}`));
-  const candidates = unitItems(bank, unit, av);
-  return pick(candidates, (it) => bandWeight(it, band) * noveltyWeight(it, stats), r, LESSON_MIN, LESSON_MAX);
+  const all = unitItems(bank, unit, av);
+  const own = new Set(lessonBuckets(all, unit.lessons)[lessonIndex] ?? []);
+  // Les questions des autres leçons ne servent qu'en complément, si la leçon en manque.
+  const candidates = countQuestions([...own]) >= LESSON_MIN ? [...own] : all;
+  return pick(candidates, (it) => bandWeight(it, band) * noveltyWeight(it, stats) * (own.has(it) ? 1 : 0.1), r, LESSON_MIN, LESSON_MAX);
 }
 
 export interface TrainingFilter {

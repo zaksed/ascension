@@ -77,12 +77,23 @@
 
 /* L'interface prend la couleur de l'examen affiché : cyan (TOEIC, couleur par défaut) ou violet. */
 :root[data-exam="tagemage"] {
+  /* TAGE MAGE : toute la page bascule dans une gamme violette (fonds, cartes, bordures, accents). */
+  --canvas: #f3effd;
+  --surface: #fdfcff;
+  --surface-2: #ebe4fc;
+  --line: #d9cff5;
+  --muted: #574e72;
   --brand: var(--tm);
   --brand-strong: #5b21b6;
   --brand-soft: var(--tm-soft);
   --on-brand: var(--on-tm);
 }
 :root.dark[data-exam="tagemage"] {
+  --canvas: #100b1e;
+  --surface: #19132e;
+  --surface-2: #241b40;
+  --line: #3a2d5f;
+  --muted: #b3a9cf;
   --brand-strong: #c4b5fd;
 }
 

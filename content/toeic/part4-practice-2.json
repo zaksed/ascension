@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "exam": "toeic",
+  "section": "part4",
+  "description": "Partie 4 — entraînement, série 2 : 6 exposés (g0027-g0032, questions 0079-0096).",
+  "groups": [
+    {
+      "id": "toeic-p4-g0027",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "bulletin de circulation",
+        "radio"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "Good morning, this is Rachel Moore with your eight o'clock traffic update. Traffic on Highway 9 is moving slowly this morning because of road work near the Elm Street exit, and drivers heading downtown should expect delays of about twenty minutes. If possible, take Riverside Drive instead."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-F",
+          "text": "Also, a reminder that the Harbor Bridge will be closed this weekend for its annual inspection, so please plan your trips accordingly. I'll be back with another update in fifteen minutes."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0028",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 2,
+      "tags": [
+        "annonce en magasin",
+        "promotion"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "Attention, shoppers. Thank you for shopping at Greenway Market. For the next hour only, all fresh bakery items are twenty percent off. You'll find our bakery at the back of the store, next to the dairy section."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-M",
+          "text": "And don't forget to sign up for our loyalty card at the customer service desk. Card members receive a free coffee every Monday, as well as exclusive weekly coupons. The store closes at nine o'clock tonight."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0029",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "message vocal",
+        "commande"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "AU-F",
+          "text": "Hi, this is Karen from Brightline Printing, calling for Mr. Alvarez about your order of five hundred business cards. Unfortunately, the cream linen paper you selected is out of stock and won't be available for another two weeks."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "AU-F",
+          "text": "We do have a very similar ivory paper that we could use instead, at no extra charge, and we could deliver the cards by Thursday. Please call me back at 555-0148 to let me know which option you prefer."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0030",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 3,
+      "tags": [
+        "visite guidée",
+        "usine"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "Good afternoon, everyone, and welcome to the Hartley Chocolate Factory. My name is Ben, and I'll be your guide today. The tour lasts about forty-five minutes. We'll start in the roasting room, where the cocoa beans are prepared, and finish in our tasting room, where you'll be able to sample five of our best-selling chocolates."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "CA-M",
+          "text": "For safety reasons, please wear the hairnets we handed out at the entrance, and stay behind the yellow lines at all times. Photos are allowed everywhere except in the packaging area."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0031",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 4,
+      "tags": [
+        "réunion",
+        "service client"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "Before we finish, I'd like to share some good news. Our customer satisfaction score for the third quarter came in at ninety-two percent, the highest in the company's history. Much of that improvement is thanks to the online chat service that the support team launched in July."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "UK-M",
+          "text": "Starting next month, we'll extend the chat hours until ten P.M. on weekdays. To make that possible, we'll be hiring four new support agents, so if you know anyone who might be interested, please encourage them to apply through our careers page."
+        }
+      ]
+    },
+    {
+      "id": "toeic-p4-g0032",
+      "exam": "toeic",
+      "section": "part4",
+      "kind": "talk",
+      "difficulty": 4,
+      "tags": [
+        "publicité",
+        "radio"
+      ],
+      "transcript": [
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Are you tired of spending your weekends cleaning? Let SparkleHome do it for you! Our trained and insured cleaners can handle everything from kitchens to windows, and we use only eco-friendly products."
+        },
+        {
+          "speaker": "Speaker",
+          "voice": "US-F",
+          "text": "Book online before the end of the month and get your first cleaning at half price. And if you're not completely satisfied, we'll come back and do it again for free. SparkleHome: because your free time matters."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id":"toeic-p4-0079","exam":"toeic","section":"part4","groupId":"toeic-p4-g0027","skill":"p4-idee-generale","difficulty":1,"prompt":"What is the purpose of the report?","options":["To announce a new highway","To describe traffic conditions","To advertise a car service","To give a weather warning"],"answer":1,"explanation":"« your eight o'clock traffic update » : il s'agit d'un point sur la circulation.","trap":"« Highway 9 » est cité, mais aucune nouvelle autoroute n'est annoncée.","recommendedSeconds":15,"tags":["objet du message"]},
+    {"id":"toeic-p4-0080","exam":"toeic","section":"part4","groupId":"toeic-p4-g0027","skill":"p4-details","difficulty":2,"prompt":"What does the speaker recommend?","options":["Leaving home earlier","Using public transportation","Avoiding the downtown area","Taking Riverside Drive"],"answer":3,"explanation":"« If possible, take Riverside Drive instead. »","trap":"Les automobilistes vont bien vers le centre-ville : il ne leur est pas conseillé de l'éviter.","recommendedSeconds":15,"tags":["conseil"]},
+    {"id":"toeic-p4-0081","exam":"toeic","section":"part4","groupId":"toeic-p4-g0027","skill":"p4-inference","difficulty":2,"prompt":"What will happen this weekend?","options":["Road work will be completed.","A bridge will be closed.","A festival will take place.","A new exit will open."],"answer":1,"explanation":"« the Harbor Bridge will be closed this weekend for its annual inspection ».","trap":"Les travaux concernent la sortie Elm Street aujourd'hui ; rien n'indique qu'ils se terminent ce week-end.","recommendedSeconds":15,"tags":["événement à venir"]},
+    {"id":"toeic-p4-0082","exam":"toeic","section":"part4","groupId":"toeic-p4-g0028","skill":"p4-idee-generale","difficulty":1,"prompt":"Where is the announcement being made?","options":["At a bakery supplier","At a café","At a dairy farm","At a supermarket"],"answer":3,"explanation":"« Attention, shoppers… Greenway Market » : l'annonce est faite dans un supermarché.","trap":"« bakery » et « dairy » sont des rayons du magasin, pas le lieu de l'annonce.","recommendedSeconds":15,"tags":["lieu"]},
+    {"id":"toeic-p4-0083","exam":"toeic","section":"part4","groupId":"toeic-p4-g0028","skill":"p4-details","difficulty":2,"prompt":"How long will the discount last?","options":["Until nine o'clock","All week","For one hour","Every Monday"],"answer":2,"explanation":"« For the next hour only, all fresh bakery items are twenty percent off. »","trap":"« nine o'clock » est l'heure de fermeture du magasin, pas la fin de la promotion.","recommendedSeconds":15,"tags":["durée"]},
+    {"id":"toeic-p4-0084","exam":"toeic","section":"part4","groupId":"toeic-p4-g0028","skill":"p4-details","difficulty":3,"prompt":"What can listeners get at the customer service desk?","options":["A refund","A free coffee","A loyalty card","A store map"],"answer":2,"explanation":"« sign up for our loyalty card at the customer service desk ».","trap":"Le café gratuit est un avantage de la carte, offert le lundi : ce n'est pas ce qu'on obtient au guichet.","recommendedSeconds":15,"tags":["détail"]},
+    {"id":"toeic-p4-0085","exam":"toeic","section":"part4","groupId":"toeic-p4-g0029","skill":"p4-idee-generale","difficulty":2,"prompt":"Why is the speaker calling?","options":["To confirm a delivery address","To report a problem with an order","To request a payment","To advertise a new service"],"answer":1,"explanation":"Le papier choisi pour les cartes de visite est en rupture de stock : elle signale un problème de commande.","trap":"La livraison est évoquée (« by Thursday ») mais l'adresse n'est jamais en question.","recommendedSeconds":15,"tags":["objet de l'appel"]},
+    {"id":"toeic-p4-0086","exam":"toeic","section":"part4","groupId":"toeic-p4-g0029","skill":"p4-details","difficulty":3,"prompt":"What does the speaker offer to do?","options":["Give a discount on the next order","Ship the order by express mail","Issue a full refund","Use a different type of paper"],"answer":3,"explanation":"« a very similar ivory paper that we could use instead, at no extra charge ».","trap":"« no extra charge » signifie « sans supplément », pas « avec une réduction ».","recommendedSeconds":15,"tags":["proposition"]},
+    {"id":"toeic-p4-0087","exam":"toeic","section":"part4","groupId":"toeic-p4-g0029","skill":"p4-inference","difficulty":2,"prompt":"What does the speaker ask the listener to do?","options":["Return her call","Visit the print shop","Send a new design","Pay a deposit"],"answer":0,"explanation":"« Please call me back at 555-0148 ».","trap":"Rien n'indique qu'il faille se déplacer : tout se règle par téléphone.","recommendedSeconds":15,"tags":["demande"]},
+    {"id":"toeic-p4-0088","exam":"toeic","section":"part4","groupId":"toeic-p4-g0030","skill":"p4-idee-generale","difficulty":2,"prompt":"Who most likely is the speaker?","options":["A shop owner","A safety inspector","A tour guide","A photographer"],"answer":2,"explanation":"« I'll be your guide today » : il guide la visite de l'usine.","trap":"Les consignes de sécurité font partie de la visite ; il n'est pas inspecteur.","recommendedSeconds":15,"tags":["identité du locuteur"]},
+    {"id":"toeic-p4-0089","exam":"toeic","section":"part4","groupId":"toeic-p4-g0030","skill":"p4-details","difficulty":3,"prompt":"Where will the tour end?","options":["In the tasting room","In the roasting room","In the packaging area","At the entrance"],"answer":0,"explanation":"« We'll start in the roasting room… and finish in our tasting room ».","trap":"La salle de torréfaction est le point de départ, pas d'arrivée.","recommendedSeconds":15,"tags":["déroulement"]},
+    {"id":"toeic-p4-0090","exam":"toeic","section":"part4","groupId":"toeic-p4-g0030","skill":"p4-inference","difficulty":3,"prompt":"What are listeners asked not to do in the packaging area?","options":["Wear hairnets","Taste samples","Ask questions","Take photos"],"answer":3,"explanation":"« Photos are allowed everywhere except in the packaging area. »","trap":"Les charlottes (« hairnets ») sont obligatoires, pas interdites.","recommendedSeconds":15,"tags":["interdiction","except"]},
+    {"id":"toeic-p4-0091","exam":"toeic","section":"part4","groupId":"toeic-p4-g0031","skill":"p4-idee-generale","difficulty":3,"prompt":"What is the main topic of the talk?","options":["A drop in sales","Changes to employee benefits","Improved customer satisfaction","A new office location"],"answer":2,"explanation":"Le taux de satisfaction client atteint 92 %, un record : c'est la « good news » annoncée.","trap":"Les recrutements sont une conséquence évoquée en fin d'exposé, pas le sujet principal.","recommendedSeconds":15,"tags":["sujet principal"]},
+    {"id":"toeic-p4-0092","exam":"toeic","section":"part4","groupId":"toeic-p4-g0031","skill":"p4-details","difficulty":3,"prompt":"What does the speaker credit for the improvement?","options":["Lower prices","A new chat service","A training program","Longer store hours"],"answer":1,"explanation":"« thanks to the online chat service that the support team launched in July ».","trap":"L'extension des horaires concerne le chat et n'interviendra que le mois prochain.","recommendedSeconds":15,"tags":["cause"]},
+    {"id":"toeic-p4-0093","exam":"toeic","section":"part4","groupId":"toeic-p4-g0031","skill":"p4-inference","difficulty":4,"prompt":"What are listeners asked to do?","options":["Work extra hours","Complete a survey","Recommend potential candidates","Test the chat service"],"answer":2,"explanation":"« if you know anyone who might be interested, please encourage them to apply ».","trap":"Allonger les horaires du chat ne signifie pas que les auditeurs travailleront plus : de nouveaux agents seront recrutés.","recommendedSeconds":15,"tags":["demande","reformulation"]},
+    {"id":"toeic-p4-0094","exam":"toeic","section":"part4","groupId":"toeic-p4-g0032","skill":"p4-idee-generale","difficulty":2,"prompt":"What is being advertised?","options":["A hardware store","A window manufacturer","A cleaning service","A recycling program"],"answer":2,"explanation":"SparkleHome propose des agents d'entretien : c'est un service de ménage.","trap":"« windows » et « eco-friendly products » sont des détails, pas l'objet de la publicité.","recommendedSeconds":15,"tags":["objet de la publicité"]},
+    {"id":"toeic-p4-0095","exam":"toeic","section":"part4","groupId":"toeic-p4-g0032","skill":"p4-details","difficulty":3,"prompt":"How can listeners receive a discount?","options":["By booking online before the end of the month","By recommending a friend","By buying eco-friendly products","By signing a yearly contract"],"answer":0,"explanation":"« Book online before the end of the month and get your first cleaning at half price. »","trap":"Les produits écologiques sont utilisés par l'entreprise, pas achetés par le client.","recommendedSeconds":15,"tags":["condition"]},
+    {"id":"toeic-p4-0096","exam":"toeic","section":"part4","groupId":"toeic-p4-g0032","skill":"p4-inference","difficulty":4,"prompt":"What does the company promise if a customer is not satisfied?","options":["A free repeat cleaning","A full refund","A gift card","A visit from a manager"],"answer":0,"explanation":"« we'll come back and do it again for free » : le ménage est refait gratuitement.","trap":"« for free » ne veut pas dire « remboursé » : le service est refait, il n'est pas remboursé.","recommendedSeconds":15,"tags":["garantie","reformulation"]}
+  ]
+}

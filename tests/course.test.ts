@@ -101,6 +101,24 @@ describe('sélection des questions', () => {
     });
   }
 
+  for (const exam of ['toeic', 'tagemage'] as const) {
+    it(`${exam} : les leçons d'une même unité n'ont aucune question en commun`, () => {
+      const bank = testBank(exam);
+      for (const unit of bank.curriculum.units) {
+        const seen = new Map<string, number>();
+        for (let i = 0; i < unit.lessons; i++) {
+          for (const it of buildLessonItems(bank, unit, i, 0, new Map(), PRACTICE_ONLY)) {
+            for (const q of it.questions) {
+              const other = seen.get(q.id);
+              expect(other === undefined || other === i, `${unit.id} : ${q.id} dans les leçons ${other} et ${i}`).toBe(true);
+              seen.set(q.id, i);
+            }
+          }
+        }
+      }
+    });
+  }
+
   it('entraînement par compétence : uniquement la compétence demandée', () => {
     const bank = testBank('tagemage');
     const items = buildTrainingItems(bank, { skill: 'cm-arithmetique' }, new Map(), EVERYTHING, 's');
