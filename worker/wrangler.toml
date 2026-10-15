@@ -9,7 +9,7 @@ crons = ["*/5 * * * *"]
 
 [[kv_namespaces]]
 binding = "SUBS"
-id = "A_REMPLACER_PAR_L_ID_DU_NAMESPACE"
+id = "45b5943b94874e349198f0b16489d7f7"
 
 [vars]
 ALLOWED_ORIGINS = "https://zaksed.github.io,http://localhost:4173,http://localhost:5173"
